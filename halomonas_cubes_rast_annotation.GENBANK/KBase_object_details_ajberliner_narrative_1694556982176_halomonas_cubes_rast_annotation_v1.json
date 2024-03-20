@@ -1,0 +1,147 @@
+{
+    "metadata": [
+        [
+            5,
+            "halomonas_cubes_rast_annotation",
+            "KBaseGenomes.Genome-11.1",
+            "2023-09-12T22:31:12+0000",
+            1,
+            "ajberliner",
+            156634,
+            "ajberliner:narrative_1694556982176",
+            "069d3a397680f6be125d59e56dc3e914",
+            10491401,
+            {
+                "Assembly Object": "156634/2/1",
+                "Domain": "B",
+                "GC content": "0.6",
+                "Genetic code": "11",
+                "MD5": "815013e3fa5fe75ca76b3c8e2fa3f621",
+                "Name": "Unknown species",
+                "Number contigs": "2",
+                "Number of CDS": "3396",
+                "Number of Genome Level Warnings": "1",
+                "Number of Protein Encoding Genes": "3396",
+                "Size": "3668006",
+                "Source": "KBase",
+                "Source ID": "halomonas_cubes_rast_annotation",
+                "Taxonomy": "Unconfirmed Organism"
+            }
+        ]
+    ],
+    "provenance": [
+        {
+            "copy_source_inaccessible": 0,
+            "created": "2023-09-12T22:31:11+0000",
+            "creator": "ajberliner",
+            "epoch": 1694557871613,
+            "extracted_ids": {},
+            "info": [
+                5,
+                "halomonas_cubes_rast_annotation",
+                "KBaseGenomes.Genome-11.1",
+                "2023-09-12T22:31:12+0000",
+                1,
+                "ajberliner",
+                156634,
+                "ajberliner:narrative_1694556982176",
+                "069d3a397680f6be125d59e56dc3e914",
+                10491401,
+                {
+                    "Assembly Object": "156634/2/1",
+                    "Domain": "B",
+                    "GC content": "0.6",
+                    "Genetic code": "11",
+                    "MD5": "815013e3fa5fe75ca76b3c8e2fa3f621",
+                    "Name": "Unknown species",
+                    "Number contigs": "2",
+                    "Number of CDS": "3396",
+                    "Number of Genome Level Warnings": "1",
+                    "Number of Protein Encoding Genes": "3396",
+                    "Size": "3668006",
+                    "Source": "KBase",
+                    "Source ID": "halomonas_cubes_rast_annotation",
+                    "Taxonomy": "Unconfirmed Organism"
+                }
+            ],
+            "orig_wsid": 156634,
+            "path": [
+                "156634/5/1"
+            ],
+            "provenance": [
+                {
+                    "custom": {},
+                    "description": "KBase SDK method run via the KBase Execution Engine",
+                    "epoch": 1694557405000,
+                    "external_data": [],
+                    "input_ws_objects": [
+                        "156634/2/1"
+                    ],
+                    "intermediate_incoming": [],
+                    "intermediate_outgoing": [],
+                    "method": "rast_genome_assembly",
+                    "method_params": [
+                        {
+                            "create_report": "1",
+                            "domain": "B",
+                            "genetic_code": "11",
+                            "ncbi_taxon_id": null,
+                            "object_ref": "156634/2/1",
+                            "output_genome_name": "halomonas_cubes_rast_annotation",
+                            "output_workspace": "ajberliner:narrative_1694556982176",
+                            "relation_engine_timestamp_ms": 1694557396626
+                        }
+                    ],
+                    "resolved_ws_objects": [
+                        "156634/2/1"
+                    ],
+                    "service": "RAST_SDK",
+                    "service_ver": "d990a538acf4ea7f271834832897b13940a41c50",
+                    "subactions": [
+                        {
+                            "code_url": "https://github.com/kbaseapps/RAST_SDK",
+                            "commit": "d990a538acf4ea7f271834832897b13940a41c50",
+                            "name": "RAST_SDK",
+                            "ver": "d990a538acf4ea7f271834832897b13940a41c50"
+                        },
+                        {
+                            "code_url": "https://github.com/kbaseapps/AssemblyUtil",
+                            "commit": "59855bcb24014c3030e146b98c8d3e70abac1fa1",
+                            "name": "AssemblyUtil",
+                            "ver": "release"
+                        },
+                        {
+                            "code_url": "https://github.com/kbaseapps/DataFileUtil",
+                            "commit": "ee7670582db65adee442f052a52444a0d84a52a0",
+                            "name": "DataFileUtil",
+                            "ver": "release"
+                        },
+                        {
+                            "code_url": "https://github.com/kbaseapps/cb_annotation_ontology_api",
+                            "commit": "8e1af9ca91a0ccb9c3cd29c8686d7865a5bbc7b4",
+                            "name": "cb_annotation_ontology_api",
+                            "ver": "release"
+                        },
+                        {
+                            "code_url": "https://github.com/kbaseapps/GenomeFileUtil",
+                            "commit": "c8c6948e0bebb9f0a6e95abe057af62b3ca57195",
+                            "name": "GenomeFileUtil",
+                            "ver": "release"
+                        },
+                        {
+                            "code_url": "https://github.com/kbaseapps/WsLargeDataIO",
+                            "commit": "2a754eccec87112905cad0c6c69feecd95f6894d",
+                            "name": "WsLargeDataIO",
+                            "ver": "beta"
+                        }
+                    ],
+                    "time": "2023-09-12T22:23:25+0000"
+                }
+            ],
+            "refs": [
+                "12570/1/1",
+                "156634/2/1"
+            ]
+        }
+    ]
+}
