@@ -1,0 +1,107 @@
+;;;      ---  Parse Results for Halomonas  ---
+;;;
+;;; This report summarizes the findings of the PathoLogic parser for
+;;; the annotation files for all new genetic elements.
+;;; Through inspection of this report, the user can tell whether features of major
+;;; importance were not recognized, possibly due to syntax errors or other
+;;; problems in the annotation files.
+;;;
+;;; If you want to change annotation file(s) to improve their parsability, 
+;;; update the annotation files.
+;;; Then, reinitialize the KB, and re-run the Build.  If you want
+;;; to avoid having to reinitialize in the future, use the Trial Parse 
+;;; command until you are satisfied with the parse results, and only then
+;;; Build.
+
+
+;;; -----------------------------------------------------------
+
+;;; Parsing results for annotation file:
+;;;        /Users/aaronberliner/ptools-local/pgdbs/user/halomonas_cubes_take2cyc/1.0/input/KBase_derived_halomonas_cubes_rast_annotation.gbff
+
+
+;;; contig_1
+;;;
+;;; The annotation file used by the parser is:
+;;; /Users/aaronberliner/ptools-local/pgdbs/user/halomonas_cubes_take2cyc/1.0/input/KBase_derived_halomonas_cubes_rast_annotation.gbff
+
+;;; This section of the report summarizes the frequency with which different information
+;;; fields were encountered in the annotation file.
+gene-IDs :                      6746
+gene-name :                        0
+gene-startbase :                6746
+gene-endbase :                  6746
+gene-product-type :             3373
+  gene-Proteins :                 3373
+  gene-Pseudogene :                  0
+  gene-tRNAs :                       0
+  gene-rRNAs :                       0
+  gene-snRNAs :                      0
+  gene-snoRNAs :                     0
+  gene-miscRNAs :                    0
+product-IDs :                      0 [cannot be supplied in Genbank files]
+product-accessions :               0 [cannot be supplied in Genbank files]
+product-names :                 6746
+product-synonyms :                 0 [cannot be supplied in Genbank files]
+total EC numbers :              2056
+  genes with an EC number :       1886
+  genes with >1 EC numbers :       150
+total supplied MetaCyc reaction ids :       0
+  genes with a supplied MetaCyc reaction id :       0
+  genes with >1 supplied MetaCyc reaction id :       0
+total GO terms linked to reactions :       0
+  genes with a GO term linked to reactions :       0
+  genes with >1 GO terms linked to reactions :       0
+gene-products:
+  hypothetical :                   592
+  predicted :                       18
+  putative :                        52
+genes with synonyms :              0
+
+;;; contig_2
+;;;
+;;; The annotation file used by the parser is:
+;;; /Users/aaronberliner/ptools-local/pgdbs/user/halomonas_cubes_take2cyc/1.0/input/KBase_derived_halomonas_cubes_rast_annotation.gbff
+
+;;; This section of the report summarizes the frequency with which different information
+;;; fields were encountered in the annotation file.
+gene-IDs :                        46
+gene-name :                        0
+gene-startbase :                  46
+gene-endbase :                    46
+gene-product-type :               23
+  gene-Proteins :                   23
+  gene-Pseudogene :                  0
+  gene-tRNAs :                       0
+  gene-rRNAs :                       0
+  gene-snRNAs :                      0
+  gene-snoRNAs :                     0
+  gene-miscRNAs :                    0
+product-IDs :                      0 [cannot be supplied in Genbank files]
+product-accessions :               0 [cannot be supplied in Genbank files]
+product-names :                   46
+product-synonyms :                 0 [cannot be supplied in Genbank files]
+total EC numbers :                24
+  genes with an EC number :         22
+  genes with >1 EC numbers :         2
+total supplied MetaCyc reaction ids :       0
+  genes with a supplied MetaCyc reaction id :       0
+  genes with >1 supplied MetaCyc reaction id :       0
+total GO terms linked to reactions :       0
+  genes with a GO term linked to reactions :       0
+  genes with >1 GO terms linked to reactions :       0
+gene-products:
+  hypothetical :                     2
+  predicted :                        0
+  putative :                         0
+genes with synonyms :              0
+
+;;;; :::::::: Ignored gene features and qualifiers ::::::::
+
+The Annotation file contains these additional features,
+which have not been processed:
+(rna mRNA repeat)
+The Annotation file contains these additional feature qualifiers,
+which have not been processed:
+(/translation=)
+

@@ -1,0 +1,1333 @@
+##	Complex Inference Report: The results of computationally predicting protein complexes.
+##	
+##	For HALOMONAS_CUBES_TAKE2 version 1.0  'Halomonas'  on Wed Sep 13, 2023
+##	
+##	
+##	
+####	Summary Statistics
+##	
+CPLX-COUNT-TOTAL-INF	Total count of complexes inferred and newly created	206
+CPLX-COUNT-RXN-BASED	Complexes inferred, created by SHARED REACTIONS	48
+CPLX-COUNT-HYBRID	Complexes created by SHARED REACTIONS and augmented by NAME STRING ANALYSIS	61
+CPLX-COUNT-NAME-BASED	Complexes inferred, created by NAME STRING ANALYSIS	39
+CPLX-COUNT-ABC	Complexes created by ABC TRANSPORTER ANALYSIS	57
+CPLX-COUNT-PRE-EXISTING	Complexes that pre-existed in the PGDB	25
+PP-COUNT-OF-INF-CPLXS	Total count of polypeptides (monomers) in the inferred complexes	529
+PP-LONELY	Polypeptides containing subunit-related words, but with no matching sibling subunits	0
+PP-NOT-RECOGNIZED	Unique polypeptides, NOT recognized as subunit candidates	5866
+PP-INPUT-COUNT	Polypeptide count of the input to complex-inference	6606
+##	
+####	Complexes created, inferred by SHARED REACTIONS
+##	
+##	This first mechanism for inference of protein complexes focuses on multiple polypeptides that
+##	catalyze a common reaction.  A complex is inferred for each set of subunits that catalyze the
+##	same reaction(s), contain subunit-related words in their names, and whose genes are near one
+##	another in the genome. After the complex inference, the reactions are marked as catalyzed
+##	by the complexes instead of by the polypeptides.
+##	
+CPLX-BY-SHARED-RXNS	2-oxoglutarate dehydrogenase E1	CPLX2R0Y-61
+SUBUNIT-OF-CPLX	2-oxoglutarate dehydrogenase E1 component	G2R0Y-4473-MONOMER
+SUBUNIT-OF-CPLX	2-oxoglutarate dehydrogenase E1 component	G2R0Y-4474-MONOMER
+##	
+CPLX-BY-SHARED-RXNS	ATP phosphoribosyltransferase regulatory	CPLX2R0Y-110
+SUBUNIT-OF-CPLX	ATP phosphoribosyltransferase regulatory subunit	G2R0Y-2527-MONOMER
+SUBUNIT-OF-CPLX	ATP phosphoribosyltransferase regulatory subunit	G2R0Y-2528-MONOMER
+##	
+CPLX-BY-SHARED-RXNS	ATP-dependent protease	CPLX2R0Y-133
+SUBUNIT-OF-CPLX	ATP-dependent protease subunit HslV	G2R0Y-5497-MONOMER
+SUBUNIT-OF-CPLX	ATP-dependent protease subunit HslV	G2R0Y-5498-MONOMER
+##	
+CPLX-BY-SHARED-RXNS	Aerobic cobaltochelatase	CPLX2R0Y-60
+SUBUNIT-OF-CPLX	Aerobic cobaltochelatase CobN subunit	G2R0Y-3919-MONOMER
+SUBUNIT-OF-CPLX	Aerobic cobaltochelatase CobN subunit	G2R0Y-3920-MONOMER
+##	
+CPLX-BY-SHARED-RXNS	Anthranilate synthase, ami	CPLX2R0Y-130
+SUBUNIT-OF-CPLX	Anthranilate synthase, amidotransferase component	G2R0Y-2833-MONOMER
+SUBUNIT-OF-CPLX	Anthranilate synthase, amidotransferase component	G2R0Y-2834-MONOMER
+SUBUNIT-OF-CPLX	Anthranilate synthase, aminase component	G2R0Y-2835-MONOMER
+SUBUNIT-OF-CPLX	Anthranilate synthase, aminase component	G2R0Y-2836-MONOMER
+##	
+CPLX-BY-SHARED-RXNS	Anthranilate synthase, amidotransferase component; Para-aminobenzoate synthase, amidotransferase	CPLX2R0Y-128
+SUBUNIT-OF-CPLX	Anthranilate synthase, amidotransferase component; Para-aminobenzoate synthase, amidotransferase component	G2R0Y-4265-MONOMER
+SUBUNIT-OF-CPLX	Anthranilate synthase, amidotransferase component; Para-aminobenzoate synthase, amidotransferase component	G2R0Y-4266-MONOMER
+##	
+CPLX-BY-SHARED-RXNS	Aspartyl-tRNA(Asn) amidotransferase	CPLX2R0Y-116
+SUBUNIT-OF-CPLX	Aspartyl-tRNA(Asn) amidotransferase subunit A; Glutamyl-tRNA(Gln) amidotransferase subunit A	G2R0Y-2557-MONOMER
+SUBUNIT-OF-CPLX	Aspartyl-tRNA(Asn) amidotransferase subunit A; Glutamyl-tRNA(Gln) amidotransferase subunit A	G2R0Y-2558-MONOMER
+SUBUNIT-OF-CPLX	Aspartyl-tRNA(Asn) amidotransferase subunit B; Glutamyl-tRNA(Gln) amidotransferase subunit B	G2R0Y-2555-MONOMER
+SUBUNIT-OF-CPLX	Aspartyl-tRNA(Asn) amidotransferase subunit B; Glutamyl-tRNA(Gln) amidotransferase subunit B	G2R0Y-2556-MONOMER
+SUBUNIT-OF-CPLX	Aspartyl-tRNA(Asn) amidotransferase subunit C; Glutamyl-tRNA(Gln) amidotransferase subunit C	G2R0Y-2559-MONOMER
+SUBUNIT-OF-CPLX	Aspartyl-tRNA(Asn) amidotransferase subunit C; Glutamyl-tRNA(Gln) amidotransferase subunit C	G2R0Y-2560-MONOMER
+##	
+CPLX-BY-SHARED-RXNS	Assimilatory nitrate reductase large	CPLX2R0Y-103
+SUBUNIT-OF-CPLX	Assimilatory nitrate reductase large subunit	G2R0Y-4913-MONOMER
+SUBUNIT-OF-CPLX	Assimilatory nitrate reductase large subunit	G2R0Y-4914-MONOMER
+##	
+CPLX-BY-SHARED-RXNS	Branched-chain acyl-CoA dehydrogenase	CPLX2R0Y-106
+SUBUNIT-OF-CPLX	Branched-chain acyl-CoA dehydrogenase	G2R0Y-2873-MONOMER
+SUBUNIT-OF-CPLX	Branched-chain acyl-CoA dehydrogenase	G2R0Y-2874-MONOMER
+##	
+CPLX-BY-SHARED-RXNS	Branched-chain alpha-keto acid dehydrogenase, E1	CPLX2R0Y-68
+SUBUNIT-OF-CPLX	Branched-chain alpha-keto acid dehydrogenase, E1 component, alpha subunit	G2R0Y-3429-MONOMER
+SUBUNIT-OF-CPLX	Branched-chain alpha-keto acid dehydrogenase, E1 component, alpha subunit	G2R0Y-3430-MONOMER
+SUBUNIT-OF-CPLX	Branched-chain alpha-keto acid dehydrogenase, E1 component, beta subunit	G2R0Y-3427-MONOMER
+SUBUNIT-OF-CPLX	Branched-chain alpha-keto acid dehydrogenase, E1 component, beta subunit	G2R0Y-3428-MONOMER
+##	
+CPLX-BY-SHARED-RXNS	Branched-chain amino acid aminotransferase	CPLX2R0Y-98
+SUBUNIT-OF-CPLX	Branched-chain amino acid aminotransferase	G2R0Y-1067-MONOMER
+SUBUNIT-OF-CPLX	Branched-chain amino acid aminotransferase	G2R0Y-1068-MONOMER
+##	
+CPLX-BY-SHARED-RXNS	Cellulose synthase catalytic	CPLX2R0Y-119
+SUBUNIT-OF-CPLX	Cellulose synthase catalytic subunit [UDP-forming]	G2R0Y-1941-MONOMER
+SUBUNIT-OF-CPLX	Cellulose synthase catalytic subunit [UDP-forming]	G2R0Y-1942-MONOMER
+SUBUNIT-OF-CPLX	Cellulose synthase catalytic subunit [UDP-forming]	G2R0Y-1949-MONOMER
+SUBUNIT-OF-CPLX	Cellulose synthase catalytic subunit [UDP-forming]	G2R0Y-1950-MONOMER
+##	
+CPLX-BY-SHARED-RXNS	Cytochrome c oxidase	CPLX2R0Y-132
+SUBUNIT-OF-CPLX	Cytochrome c oxidase polypeptide I	G2R0Y-3495-MONOMER
+SUBUNIT-OF-CPLX	Cytochrome c oxidase polypeptide I	G2R0Y-3496-MONOMER
+SUBUNIT-OF-CPLX	Cytochrome c oxidase polypeptide II	G2R0Y-3497-MONOMER
+SUBUNIT-OF-CPLX	Cytochrome c oxidase polypeptide II	G2R0Y-3498-MONOMER
+SUBUNIT-OF-CPLX	Cytochrome c oxidase polypeptide III	G2R0Y-3491-MONOMER
+SUBUNIT-OF-CPLX	Cytochrome c oxidase polypeptide III	G2R0Y-3492-MONOMER
+##	
+CPLX-BY-SHARED-RXNS	DNA polymerase III delta prime	CPLX2R0Y-87
+SUBUNIT-OF-CPLX	DNA polymerase III delta prime subunit	G2R0Y-2743-MONOMER
+SUBUNIT-OF-CPLX	DNA polymerase III delta prime subunit	G2R0Y-2744-MONOMER
+##	
+CPLX-BY-SHARED-RXNS	Dihydrolipoamide acetyltransferase component of pyruvate dehydrogenase	CPLX2R0Y-153
+SUBUNIT-OF-CPLX	Dihydrolipoamide acetyltransferase component of pyruvate dehydrogenase complex	G2R0Y-5439-MONOMER
+SUBUNIT-OF-CPLX	Dihydrolipoamide acetyltransferase component of pyruvate dehydrogenase complex	G2R0Y-5440-MONOMER
+SUBUNIT-OF-CPLX	Pyruvate dehydrogenase E1 component	G2R0Y-5441-MONOMER
+SUBUNIT-OF-CPLX	Pyruvate dehydrogenase E1 component	G2R0Y-5442-MONOMER
+##	
+CPLX-BY-SHARED-RXNS	Dihydrolipoamide acetyltransferase component of pyruvate dehydrogenase	CPLX2R0Y-151
+SUBUNIT-OF-CPLX	Dihydrolipoamide acetyltransferase component of pyruvate dehydrogenase complex	G2R0Y-5439-MONOMER
+SUBUNIT-OF-CPLX	Dihydrolipoamide acetyltransferase component of pyruvate dehydrogenase complex	G2R0Y-5440-MONOMER
+##	
+CPLX-BY-SHARED-RXNS	Dihydrolipoamide succinyltransferase component (E2) of 2-oxoglutarate dehydrogenase	CPLX2R0Y-62
+SUBUNIT-OF-CPLX	2-oxoglutarate dehydrogenase E1 component	G2R0Y-4473-MONOMER
+SUBUNIT-OF-CPLX	2-oxoglutarate dehydrogenase E1 component	G2R0Y-4474-MONOMER
+SUBUNIT-OF-CPLX	Dihydrolipoamide succinyltransferase component (E2) of 2-oxoglutarate dehydrogenase complex	G2R0Y-4471-MONOMER
+SUBUNIT-OF-CPLX	Dihydrolipoamide succinyltransferase component (E2) of 2-oxoglutarate dehydrogenase complex	G2R0Y-4472-MONOMER
+##	
+CPLX-BY-SHARED-RXNS	GMP synthase [glutamine-hydrolyzing], amidotransferase subunit; GMP synthase [glutamine-hydrolyzing], ATP pyrophosphatase	CPLX2R0Y-56
+SUBUNIT-OF-CPLX	GMP synthase [glutamine-hydrolyzing], amidotransferase subunit; GMP synthase [glutamine-hydrolyzing], ATP pyrophosphatase subunit	G2R0Y-1461-MONOMER
+SUBUNIT-OF-CPLX	GMP synthase [glutamine-hydrolyzing], amidotransferase subunit; GMP synthase [glutamine-hydrolyzing], ATP pyrophosphatase subunit	G2R0Y-1462-MONOMER
+##	
+CPLX-BY-SHARED-RXNS	Imidazole glycerol phosphate synthase cyclase	CPLX2R0Y-112
+SUBUNIT-OF-CPLX	Imidazole glycerol phosphate synthase cyclase subunit	G2R0Y-799-MONOMER
+SUBUNIT-OF-CPLX	Imidazole glycerol phosphate synthase cyclase subunit	G2R0Y-800-MONOMER
+##	
+CPLX-BY-SHARED-RXNS	L-serine dehydratase, beta subunit; L-serine dehydratase	CPLX2R0Y-156
+SUBUNIT-OF-CPLX	L-serine dehydratase, beta subunit; L-serine dehydratase, alpha subunit	G2R0Y-6049-MONOMER
+SUBUNIT-OF-CPLX	L-serine dehydratase, beta subunit; L-serine dehydratase, alpha subunit	G2R0Y-6050-MONOMER
+##	
+CPLX-BY-SHARED-RXNS	Long chain acyl-CoA dehydrogenase	CPLX2R0Y-159
+SUBUNIT-OF-CPLX	Long chain acyl-CoA dehydrogenase [fadN-fadA-fadE operon]	G2R0Y-4125-MONOMER
+SUBUNIT-OF-CPLX	Long chain acyl-CoA dehydrogenase [fadN-fadA-fadE operon]	G2R0Y-4126-MONOMER
+##	
+CPLX-BY-SHARED-RXNS	Long-chain-fatty-acid--CoA ligase	CPLX2R0Y-102
+SUBUNIT-OF-CPLX	Long-chain-fatty-acid--CoA ligase	G2R0Y-5820-MONOMER
+SUBUNIT-OF-CPLX	Long-chain-fatty-acid--CoA ligase	G2R0Y-5819-MONOMER
+##	
+CPLX-BY-SHARED-RXNS	Long-chain-fatty-acid--CoA ligase	CPLX2R0Y-101
+SUBUNIT-OF-CPLX	Long-chain-fatty-acid--CoA ligase	G2R0Y-4174-MONOMER
+SUBUNIT-OF-CPLX	Long-chain-fatty-acid--CoA ligase	G2R0Y-4173-MONOMER
+##	
+CPLX-BY-SHARED-RXNS	Long-chain-fatty-acid--CoA ligase; Long-chain fatty-acid-CoA ligase, Mycobacterial subgroup FadD35	CPLX2R0Y-100
+SUBUNIT-OF-CPLX	Long-chain-fatty-acid--CoA ligase; Long-chain fatty-acid-CoA ligase, Mycobacterial subgroup FadD35	G2R0Y-2860-MONOMER
+SUBUNIT-OF-CPLX	Long-chain-fatty-acid--CoA ligase; Long-chain fatty-acid-CoA ligase, Mycobacterial subgroup FadD35	G2R0Y-2859-MONOMER
+##	
+CPLX-BY-SHARED-RXNS	Methylcrotonyl-CoA carboxylase	CPLX2R0Y-105
+SUBUNIT-OF-CPLX	Methylcrotonyl-CoA carboxylase biotin-containing subunit	G2R0Y-2863-MONOMER
+SUBUNIT-OF-CPLX	Methylcrotonyl-CoA carboxylase biotin-containing subunit	G2R0Y-2864-MONOMER
+SUBUNIT-OF-CPLX	Methylcrotonyl-CoA carboxylase carboxyl transferase subunit	G2R0Y-2867-MONOMER
+SUBUNIT-OF-CPLX	Methylcrotonyl-CoA carboxylase carboxyl transferase subunit	G2R0Y-2868-MONOMER
+##	
+CPLX-BY-SHARED-RXNS	Molybdopterin synthase catalytic	CPLX2R0Y-96
+SUBUNIT-OF-CPLX	Molybdopterin synthase catalytic subunit MoaE	G2R0Y-3589-MONOMER
+SUBUNIT-OF-CPLX	Molybdopterin synthase catalytic subunit MoaE	G2R0Y-3590-MONOMER
+##	
+CPLX-BY-SHARED-RXNS	NAD synthetase; Glutamine amidotransferase chain of NAD synthetase	CPLX2R0Y-57
+SUBUNIT-OF-CPLX	NAD synthetase; Glutamine amidotransferase chain of NAD synthetase	G2R0Y-5637-MONOMER
+SUBUNIT-OF-CPLX	NAD synthetase; Glutamine amidotransferase chain of NAD synthetase	G2R0Y-5638-MONOMER
+##	
+CPLX-BY-SHARED-RXNS	NAD(P) transhydrogenase	CPLX2R0Y-155
+SUBUNIT-OF-CPLX	NAD(P) transhydrogenase N-domain of subunit alpha; NAD(P) transhydrogenase C-domain of subunit alpha	G2R0Y-6045-MONOMER
+SUBUNIT-OF-CPLX	NAD(P) transhydrogenase N-domain of subunit alpha; NAD(P) transhydrogenase C-domain of subunit alpha	G2R0Y-6046-MONOMER
+SUBUNIT-OF-CPLX	NAD(P) transhydrogenase subunit beta	G2R0Y-6043-MONOMER
+SUBUNIT-OF-CPLX	NAD(P) transhydrogenase subunit beta	G2R0Y-6044-MONOMER
+##	
+CPLX-BY-SHARED-RXNS	NADH dehydrogenase	CPLX2R0Y-126
+SUBUNIT-OF-CPLX	NADH dehydrogenase, subunit 5	G2R0Y-6747-MONOMER
+SUBUNIT-OF-CPLX	NADH dehydrogenase, subunit 5	G2R0Y-6748-MONOMER
+##	
+CPLX-BY-SHARED-RXNS	NADH dehydrogenase	CPLX2R0Y-125
+SUBUNIT-OF-CPLX	NADH dehydrogenase, subunit 5	G2R0Y-6707-MONOMER
+SUBUNIT-OF-CPLX	NADH dehydrogenase, subunit 5	G2R0Y-6708-MONOMER
+##	
+CPLX-BY-SHARED-RXNS	Na(+) H(+) antiporter	CPLX2R0Y-144
+SUBUNIT-OF-CPLX	Na(+) H(+) antiporter subunit A; Na(+) H(+) antiporter subunit B	G2R0Y-2480-MONOMER
+SUBUNIT-OF-CPLX	Na(+) H(+) antiporter subunit A; Na(+) H(+) antiporter subunit B	G2R0Y-2479-MONOMER
+SUBUNIT-OF-CPLX	Na(+) H(+) antiporter subunit C	G2R0Y-2477-MONOMER
+SUBUNIT-OF-CPLX	Na(+) H(+) antiporter subunit C	G2R0Y-2478-MONOMER
+SUBUNIT-OF-CPLX	Na(+) H(+) antiporter subunit D	G2R0Y-2475-MONOMER
+SUBUNIT-OF-CPLX	Na(+) H(+) antiporter subunit D	G2R0Y-2476-MONOMER
+SUBUNIT-OF-CPLX	Na(+) H(+) antiporter subunit E	G2R0Y-2473-MONOMER
+SUBUNIT-OF-CPLX	Na(+) H(+) antiporter subunit E	G2R0Y-2474-MONOMER
+SUBUNIT-OF-CPLX	Na(+) H(+) antiporter subunit F	G2R0Y-2471-MONOMER
+SUBUNIT-OF-CPLX	Na(+) H(+) antiporter subunit F	G2R0Y-2472-MONOMER
+SUBUNIT-OF-CPLX	Na(+) H(+) antiporter subunit G	G2R0Y-2469-MONOMER
+SUBUNIT-OF-CPLX	Na(+) H(+) antiporter subunit G	G2R0Y-2470-MONOMER
+##	
+CPLX-BY-SHARED-RXNS	Nitrilotriacetate monooxygenase	CPLX2R0Y-99
+SUBUNIT-OF-CPLX	Nitrilotriacetate monooxygenase component B	G2R0Y-1679-MONOMER
+SUBUNIT-OF-CPLX	Nitrilotriacetate monooxygenase component B	G2R0Y-1680-MONOMER
+##	
+CPLX-BY-SHARED-RXNS	PTS system, N-acetylglucosamine-specific II	CPLX2R0Y-81
+SUBUNIT-OF-CPLX	PTS system, N-acetylglucosamine-specific IIA component; Phosphotransferase system, phosphocarrier protein HPr; Phosphoenolpyruvate-protein phosphotransferase of PTS system	G2R0Y-4451-MONOMER
+SUBUNIT-OF-CPLX	PTS system, N-acetylglucosamine-specific IIA component; Phosphotransferase system, phosphocarrier protein HPr; Phosphoenolpyruvate-protein phosphotransferase of PTS system	G2R0Y-4452-MONOMER
+SUBUNIT-OF-CPLX	PTS system, N-acetylglucosamine-specific IIC component; PTS system, N-acetylglucosamine-specific IIB component; PTS system, inactive IIB catalytic domain	G2R0Y-4449-MONOMER
+SUBUNIT-OF-CPLX	PTS system, N-acetylglucosamine-specific IIC component; PTS system, N-acetylglucosamine-specific IIB component; PTS system, inactive IIB catalytic domain	G2R0Y-4450-MONOMER
+##	
+CPLX-BY-SHARED-RXNS	PTS system, N-acetylglucosamine-specific IIA component; Phosphotransferase system, phosphocarrier protein HPr; Phosphoenolpyruvate-protein phosphotransferase	CPLX2R0Y-80
+SUBUNIT-OF-CPLX	PTS system, N-acetylglucosamine-specific IIA component; Phosphotransferase system, phosphocarrier protein HPr; Phosphoenolpyruvate-protein phosphotransferase of PTS system	G2R0Y-4451-MONOMER
+SUBUNIT-OF-CPLX	PTS system, N-acetylglucosamine-specific IIA component; Phosphotransferase system, phosphocarrier protein HPr; Phosphoenolpyruvate-protein phosphotransferase of PTS system	G2R0Y-4452-MONOMER
+##	
+CPLX-BY-SHARED-RXNS	PTS system, fructose-specific II	CPLX2R0Y-117
+SUBUNIT-OF-CPLX	PTS system, fructose-specific IIA component; Phosphotransferase system, phosphocarrier protein HPr; Phosphoenolpyruvate-protein phosphotransferase of PTS system	G2R0Y-4019-MONOMER
+SUBUNIT-OF-CPLX	PTS system, fructose-specific IIA component; Phosphotransferase system, phosphocarrier protein HPr; Phosphoenolpyruvate-protein phosphotransferase of PTS system	G2R0Y-4020-MONOMER
+SUBUNIT-OF-CPLX	PTS system, fructose-specific IIB component; PTS system, fructose-specific IIB component; PTS system, fructose-specific IIC component	G2R0Y-4023-MONOMER
+SUBUNIT-OF-CPLX	PTS system, fructose-specific IIB component; PTS system, fructose-specific IIB component; PTS system, fructose-specific IIC component	G2R0Y-4024-MONOMER
+##	
+CPLX-BY-SHARED-RXNS	PTS system, fructose-specific IIA component; Phosphotransferase system, phosphocarrier protein HPr; Phosphoenolpyruvate-protein phosphotransferase	CPLX2R0Y-79
+SUBUNIT-OF-CPLX	PTS system, fructose-specific IIA component; Phosphotransferase system, phosphocarrier protein HPr; Phosphoenolpyruvate-protein phosphotransferase of PTS system	G2R0Y-4019-MONOMER
+SUBUNIT-OF-CPLX	PTS system, fructose-specific IIA component; Phosphotransferase system, phosphocarrier protein HPr; Phosphoenolpyruvate-protein phosphotransferase of PTS system	G2R0Y-4020-MONOMER
+##	
+CPLX-BY-SHARED-RXNS	Para-aminobenzoate synthase, aminase	CPLX2R0Y-127
+SUBUNIT-OF-CPLX	Para-aminobenzoate synthase, aminase component	G2R0Y-4241-MONOMER
+SUBUNIT-OF-CPLX	Para-aminobenzoate synthase, aminase component	G2R0Y-4242-MONOMER
+##	
+CPLX-BY-SHARED-RXNS	Peptide	CPLX2R0Y-97
+SUBUNIT-OF-CPLX	Peptide chain release factor N(5)-glutamine methyltransferase	G2R0Y-4337-MONOMER
+SUBUNIT-OF-CPLX	Peptide chain release factor N(5)-glutamine methyltransferase	G2R0Y-4338-MONOMER
+##	
+CPLX-BY-SHARED-RXNS	Phosphoribosylformylglycinamidine synthase, synthetase subunit; Phosphoribosylformylglycinamidine synthase, glutamine amidotransferase	CPLX2R0Y-140
+SUBUNIT-OF-CPLX	Phosphoribosylformylglycinamidine synthase, synthetase subunit; Phosphoribosylformylglycinamidine synthase, glutamine amidotransferase subunit	G2R0Y-5477-MONOMER
+SUBUNIT-OF-CPLX	Phosphoribosylformylglycinamidine synthase, synthetase subunit; Phosphoribosylformylglycinamidine synthase, glutamine amidotransferase subunit	G2R0Y-5478-MONOMER
+##	
+CPLX-BY-SHARED-RXNS	Ribonuclease	CPLX2R0Y-82
+SUBUNIT-OF-CPLX	Ribonuclease P protein component	G2R0Y-119-MONOMER
+SUBUNIT-OF-CPLX	Ribonuclease P protein component	G2R0Y-120-MONOMER
+##	
+CPLX-BY-SHARED-RXNS	Sulfate adenylyltransferase subunit 1; Adenylylsulfate kinase	CPLX2R0Y-76
+SUBUNIT-OF-CPLX	Sulfate adenylyltransferase subunit 1; Adenylylsulfate kinase	G2R0Y-2013-MONOMER
+SUBUNIT-OF-CPLX	Sulfate adenylyltransferase subunit 1; Adenylylsulfate kinase	G2R0Y-2014-MONOMER
+##	
+CPLX-BY-SHARED-RXNS	Sulfate adenylyltransferase subunit 1; Adenylylsulfate kinase	CPLX2R0Y-75
+SUBUNIT-OF-CPLX	Sulfate adenylyltransferase subunit 1; Adenylylsulfate kinase	G2R0Y-5711-MONOMER
+SUBUNIT-OF-CPLX	Sulfate adenylyltransferase subunit 1; Adenylylsulfate kinase	G2R0Y-5712-MONOMER
+##	
+CPLX-BY-SHARED-RXNS	Sulfite reductase [NADPH] hemoprotein beta-component	CPLX2R0Y-157
+SUBUNIT-OF-CPLX	Sulfite reductase [NADPH] hemoprotein beta-component	G2R0Y-3329-MONOMER
+SUBUNIT-OF-CPLX	Sulfite reductase [NADPH] hemoprotein beta-component	G2R0Y-3330-MONOMER
+##	
+CPLX-BY-SHARED-RXNS	Type	CPLX2R0Y-124
+SUBUNIT-OF-CPLX	Type I restriction-modification system, DNA-methyltransferase subunit M	G2R0Y-5091-MONOMER
+SUBUNIT-OF-CPLX	Type I restriction-modification system, DNA-methyltransferase subunit M	G2R0Y-5092-MONOMER
+##	
+CPLX-BY-SHARED-RXNS	Type	CPLX2R0Y-123
+SUBUNIT-OF-CPLX	Type I restriction-modification system, restriction subunit R	G2R0Y-5083-MONOMER
+SUBUNIT-OF-CPLX	Type I restriction-modification system, restriction subunit R	G2R0Y-5084-MONOMER
+##	
+CPLX-BY-SHARED-RXNS	Ubiquinol-cytochrome C reductase	CPLX2R0Y-104
+SUBUNIT-OF-CPLX	Ubiquinol-cytochrome C reductase iron-sulfur subunit	G2R0Y-2630-MONOMER
+SUBUNIT-OF-CPLX	Ubiquinol-cytochrome C reductase iron-sulfur subunit	G2R0Y-2629-MONOMER
+SUBUNIT-OF-CPLX	Ubiquinol-cytochrome C reductase, cytochrome B subunit	G2R0Y-2632-MONOMER
+SUBUNIT-OF-CPLX	Ubiquinol-cytochrome C reductase, cytochrome B subunit	G2R0Y-2631-MONOMER
+##	
+CPLX-BY-SHARED-RXNS	Xanthine dehydrogenase	CPLX2R0Y-122
+SUBUNIT-OF-CPLX	Xanthine dehydrogenase iron-sulfur subunit; Xanthine dehydrogenase, FAD binding subunit	G2R0Y-3509-MONOMER
+SUBUNIT-OF-CPLX	Xanthine dehydrogenase iron-sulfur subunit; Xanthine dehydrogenase, FAD binding subunit	G2R0Y-3510-MONOMER
+SUBUNIT-OF-CPLX	Xanthine dehydrogenase, molybdenum binding subunit	G2R0Y-3511-MONOMER
+SUBUNIT-OF-CPLX	Xanthine dehydrogenase, molybdenum binding subunit	G2R0Y-3512-MONOMER
+##	
+CPLX-BY-SHARED-RXNS	Xanthine dehydrogenase, molybdenum binding	CPLX2R0Y-70
+SUBUNIT-OF-CPLX	Xanthine dehydrogenase, molybdenum binding subunit	G2R0Y-3511-MONOMER
+SUBUNIT-OF-CPLX	Xanthine dehydrogenase, molybdenum binding subunit	G2R0Y-3512-MONOMER
+##	
+##	
+####	Complexes created by SHARED REACTIONS and augmented by NAME STRING ANALYSIS
+##	
+##	After complexes were created by shared reactions, sometimes the inference
+##	by name analysis may also find matches with one of the previously created complexes,
+##	given that all polypeptide name strings are analyzed, even of those polypeptides that are
+##	already in a complex.  In such a match, additional polypeptides will be added to the complex
+##	that was based merely on shared reactions, instead of creating a separate but partial complex.
+##	
+CPLX-HYBRID	3-isopropylmalate dehydratase	CPLX2R0Y-58
+SUBUNIT-OF-CPLX	3-isopropylmalate dehydratase large subunit	G2R0Y-3687-MONOMER
+SUBUNIT-OF-CPLX	3-isopropylmalate dehydratase large subunit	G2R0Y-3688-MONOMER
+SUBUNIT-OF-CPLX	3-isopropylmalate dehydratase small subunit	G2R0Y-3685-MONOMER
+SUBUNIT-OF-CPLX	3-isopropylmalate dehydratase small subunit	G2R0Y-3686-MONOMER
+##	
+CPLX-HYBRID	3-oxoadipate CoA-transferase	CPLX2R0Y-84
+SUBUNIT-OF-CPLX	3-oxoadipate CoA-transferase subunit A	G2R0Y-6543-MONOMER
+SUBUNIT-OF-CPLX	3-oxoadipate CoA-transferase subunit A	G2R0Y-6544-MONOMER
+SUBUNIT-OF-CPLX	3-oxoadipate CoA-transferase subunit B	G2R0Y-6541-MONOMER
+SUBUNIT-OF-CPLX	3-oxoadipate CoA-transferase subunit B	G2R0Y-6542-MONOMER
+##	
+CPLX-HYBRID	ATP synthase	CPLX2R0Y-72
+SUBUNIT-OF-CPLX	ATP synthase beta chain	G2R0Y-6789-MONOMER
+SUBUNIT-OF-CPLX	ATP synthase beta chain	G2R0Y-6790-MONOMER
+SUBUNIT-OF-CPLX	ATP synthase epsilon chain	G2R0Y-6787-MONOMER
+SUBUNIT-OF-CPLX	ATP synthase epsilon chain	G2R0Y-6788-MONOMER
+SUBUNIT-OF-CPLX	ATP synthase gamma chain	G2R0Y-6791-MONOMER
+SUBUNIT-OF-CPLX	ATP synthase gamma chain	G2R0Y-6792-MONOMER
+##	
+CPLX-HYBRID	ATP synthase	CPLX2R0Y-222
+SUBUNIT-OF-CPLX	ATP synthase alpha chain	G2R0Y-51-MONOMER
+SUBUNIT-OF-CPLX	ATP synthase alpha chain	G2R0Y-52-MONOMER
+SUBUNIT-OF-CPLX	ATP synthase beta chain	G2R0Y-47-MONOMER
+SUBUNIT-OF-CPLX	ATP synthase beta chain	G2R0Y-48-MONOMER
+SUBUNIT-OF-CPLX	ATP synthase delta chain	G2R0Y-53-MONOMER
+SUBUNIT-OF-CPLX	ATP synthase delta chain	G2R0Y-54-MONOMER
+SUBUNIT-OF-CPLX	ATP synthase epsilon chain	G2R0Y-45-MONOMER
+SUBUNIT-OF-CPLX	ATP synthase epsilon chain	G2R0Y-46-MONOMER
+SUBUNIT-OF-CPLX	ATP synthase gamma chain	G2R0Y-49-MONOMER
+SUBUNIT-OF-CPLX	ATP synthase gamma chain	G2R0Y-50-MONOMER
+##	
+CPLX-HYBRID	ATP-dependent Clp protease	CPLX2R0Y-143
+SUBUNIT-OF-CPLX	ATP-dependent Clp protease ATP-binding subunit ClpX	G2R0Y-3453-MONOMER
+SUBUNIT-OF-CPLX	ATP-dependent Clp protease ATP-binding subunit ClpX	G2R0Y-3454-MONOMER
+SUBUNIT-OF-CPLX	ATP-dependent Clp protease proteolytic subunit ClpP	G2R0Y-3455-MONOMER
+SUBUNIT-OF-CPLX	ATP-dependent Clp protease proteolytic subunit ClpP	G2R0Y-3456-MONOMER
+##	
+CPLX-HYBRID	ATP-dependent Clp protease	CPLX2R0Y-142
+SUBUNIT-OF-CPLX	ATP-dependent Clp protease ATP-binding subunit ClpA	G2R0Y-2191-MONOMER
+SUBUNIT-OF-CPLX	ATP-dependent Clp protease ATP-binding subunit ClpA	G2R0Y-2192-MONOMER
+##	
+CPLX-HYBRID	Acetolactate synthase	CPLX2R0Y-59
+SUBUNIT-OF-CPLX	Acetolactate synthase large subunit	G2R0Y-5623-MONOMER
+SUBUNIT-OF-CPLX	Acetolactate synthase large subunit	G2R0Y-5624-MONOMER
+SUBUNIT-OF-CPLX	Acetolactate synthase small subunit	G2R0Y-5621-MONOMER
+SUBUNIT-OF-CPLX	Acetolactate synthase small subunit	G2R0Y-5622-MONOMER
+##	
+CPLX-HYBRID	Acetyl-coenzyme A carboxyl transferase	CPLX2R0Y-67
+SUBUNIT-OF-CPLX	Acetyl-coenzyme A carboxyl transferase beta chain	G2R0Y-3663-MONOMER
+SUBUNIT-OF-CPLX	Acetyl-coenzyme A carboxyl transferase beta chain	G2R0Y-3664-MONOMER
+##	
+CPLX-HYBRID	Acetyl-coenzyme A carboxyl transferase	CPLX2R0Y-66
+SUBUNIT-OF-CPLX	Acetyl-coenzyme A carboxyl transferase alpha chain	G2R0Y-1005-MONOMER
+SUBUNIT-OF-CPLX	Acetyl-coenzyme A carboxyl transferase alpha chain	G2R0Y-1006-MONOMER
+##	
+CPLX-HYBRID	Allophanate hydrolase 2	CPLX2R0Y-154
+SUBUNIT-OF-CPLX	Allophanate hydrolase 2 subunit 1	G2R0Y-6029-MONOMER
+SUBUNIT-OF-CPLX	Allophanate hydrolase 2 subunit 1	G2R0Y-6030-MONOMER
+SUBUNIT-OF-CPLX	Allophanate hydrolase 2 subunit 2	G2R0Y-6031-MONOMER
+SUBUNIT-OF-CPLX	Allophanate hydrolase 2 subunit 2	G2R0Y-6032-MONOMER
+##	
+CPLX-HYBRID	Arginine N-succinyltransferase	CPLX2R0Y-93
+SUBUNIT-OF-CPLX	Arginine N-succinyltransferase, alpha subunit	G2R0Y-1615-MONOMER
+SUBUNIT-OF-CPLX	Arginine N-succinyltransferase, alpha subunit	G2R0Y-1616-MONOMER
+SUBUNIT-OF-CPLX	Arginine N-succinyltransferase, beta subunit	G2R0Y-1617-MONOMER
+SUBUNIT-OF-CPLX	Arginine N-succinyltransferase, beta subunit	G2R0Y-1618-MONOMER
+##	
+CPLX-HYBRID	Branched-chain alpha-keto acid dehydrogenase, E1	CPLX2R0Y-152
+SUBUNIT-OF-CPLX	Branched-chain alpha-keto acid dehydrogenase, E1 component, alpha subunit	G2R0Y-3429-MONOMER
+SUBUNIT-OF-CPLX	Branched-chain alpha-keto acid dehydrogenase, E1 component, alpha subunit	G2R0Y-3430-MONOMER
+SUBUNIT-OF-CPLX	Branched-chain alpha-keto acid dehydrogenase, E1 component, beta subunit	G2R0Y-3427-MONOMER
+SUBUNIT-OF-CPLX	Branched-chain alpha-keto acid dehydrogenase, E1 component, beta subunit	G2R0Y-3428-MONOMER
+SUBUNIT-OF-CPLX	Dihydrolipoamide acyltransferase component of branched-chain alpha-keto acid dehydrogenase complex	G2R0Y-3425-MONOMER
+SUBUNIT-OF-CPLX	Dihydrolipoamide acyltransferase component of branched-chain alpha-keto acid dehydrogenase complex	G2R0Y-3426-MONOMER
+##	
+CPLX-HYBRID	Carbamoyl-phosphate synthase	CPLX2R0Y-139
+SUBUNIT-OF-CPLX	Carbamoyl-phosphate synthase large chain	G2R0Y-653-MONOMER
+SUBUNIT-OF-CPLX	Carbamoyl-phosphate synthase large chain	G2R0Y-654-MONOMER
+SUBUNIT-OF-CPLX	Carbamoyl-phosphate synthase small chain	G2R0Y-651-MONOMER
+SUBUNIT-OF-CPLX	Carbamoyl-phosphate synthase small chain	G2R0Y-652-MONOMER
+##	
+CPLX-HYBRID	Cytochrome O ubiquinol oxidase	CPLX2R0Y-131
+SUBUNIT-OF-CPLX	Cytochrome O ubiquinol oxidase subunit I	G2R0Y-4823-MONOMER
+SUBUNIT-OF-CPLX	Cytochrome O ubiquinol oxidase subunit I	G2R0Y-4824-MONOMER
+SUBUNIT-OF-CPLX	Cytochrome O ubiquinol oxidase subunit II	G2R0Y-4825-MONOMER
+SUBUNIT-OF-CPLX	Cytochrome O ubiquinol oxidase subunit II	G2R0Y-4826-MONOMER
+SUBUNIT-OF-CPLX	Cytochrome O ubiquinol oxidase subunit III	G2R0Y-4821-MONOMER
+SUBUNIT-OF-CPLX	Cytochrome O ubiquinol oxidase subunit III	G2R0Y-4822-MONOMER
+SUBUNIT-OF-CPLX	Cytochrome O ubiquinol oxidase subunit IV	G2R0Y-4819-MONOMER
+SUBUNIT-OF-CPLX	Cytochrome O ubiquinol oxidase subunit IV	G2R0Y-4820-MONOMER
+##	
+CPLX-HYBRID	Cytochrome d ubiquinol oxidase	CPLX2R0Y-78
+SUBUNIT-OF-CPLX	Cytochrome d ubiquinol oxidase subunit I	G2R0Y-6201-MONOMER
+SUBUNIT-OF-CPLX	Cytochrome d ubiquinol oxidase subunit I	G2R0Y-6202-MONOMER
+SUBUNIT-OF-CPLX	Cytochrome d ubiquinol oxidase subunit II	G2R0Y-6203-MONOMER
+SUBUNIT-OF-CPLX	Cytochrome d ubiquinol oxidase subunit II	G2R0Y-6204-MONOMER
+##	
+CPLX-HYBRID	Cytochrome d ubiquinol oxidase	CPLX2R0Y-77
+SUBUNIT-OF-CPLX	Cytochrome d ubiquinol oxidase subunit I	G2R0Y-3527-MONOMER
+SUBUNIT-OF-CPLX	Cytochrome d ubiquinol oxidase subunit I	G2R0Y-3528-MONOMER
+SUBUNIT-OF-CPLX	Cytochrome d ubiquinol oxidase subunit II	G2R0Y-3525-MONOMER
+SUBUNIT-OF-CPLX	Cytochrome d ubiquinol oxidase subunit II	G2R0Y-3526-MONOMER
+##	
+CPLX-HYBRID	DNA gyrase	CPLX2R0Y-53
+SUBUNIT-OF-CPLX	DNA gyrase subunit A	G2R0Y-3131-MONOMER
+SUBUNIT-OF-CPLX	DNA gyrase subunit A	G2R0Y-3132-MONOMER
+##	
+CPLX-HYBRID	DNA gyrase	CPLX2R0Y-52
+SUBUNIT-OF-CPLX	DNA gyrase subunit B	G2R0Y-129-MONOMER
+SUBUNIT-OF-CPLX	DNA gyrase subunit B	G2R0Y-130-MONOMER
+##	
+CPLX-HYBRID	DNA polymerase III	CPLX2R0Y-149
+SUBUNIT-OF-CPLX	DNA polymerase III subunits gamma and tau	G2R0Y-4197-MONOMER
+SUBUNIT-OF-CPLX	DNA polymerase III subunits gamma and tau	G2R0Y-4198-MONOMER
+##	
+CPLX-HYBRID	DNA polymerase III	CPLX2R0Y-91
+SUBUNIT-OF-CPLX	DNA polymerase III delta subunit	G2R0Y-3715-MONOMER
+SUBUNIT-OF-CPLX	DNA polymerase III delta subunit	G2R0Y-3716-MONOMER
+##	
+CPLX-HYBRID	DNA polymerase III	CPLX2R0Y-90
+SUBUNIT-OF-CPLX	DNA polymerase III epsilon subunit	G2R0Y-3393-MONOMER
+SUBUNIT-OF-CPLX	DNA polymerase III epsilon subunit	G2R0Y-3394-MONOMER
+##	
+CPLX-HYBRID	DNA polymerase III	CPLX2R0Y-89
+SUBUNIT-OF-CPLX	DNA polymerase III epsilon subunit	G2R0Y-3375-MONOMER
+SUBUNIT-OF-CPLX	DNA polymerase III epsilon subunit	G2R0Y-3376-MONOMER
+##	
+CPLX-HYBRID	DNA polymerase III	CPLX2R0Y-88
+SUBUNIT-OF-CPLX	DNA polymerase III epsilon subunit	G2R0Y-3101-MONOMER
+SUBUNIT-OF-CPLX	DNA polymerase III epsilon subunit	G2R0Y-3102-MONOMER
+##	
+CPLX-HYBRID	DNA polymerase III	CPLX2R0Y-86
+SUBUNIT-OF-CPLX	DNA polymerase III chi subunit	G2R0Y-1065-MONOMER
+SUBUNIT-OF-CPLX	DNA polymerase III chi subunit	G2R0Y-1066-MONOMER
+##	
+CPLX-HYBRID	DNA polymerase III	CPLX2R0Y-148
+SUBUNIT-OF-CPLX	DNA polymerase III alpha subunit	G2R0Y-1003-MONOMER
+SUBUNIT-OF-CPLX	DNA polymerase III alpha subunit	G2R0Y-1004-MONOMER
+##	
+CPLX-HYBRID	DNA polymerase III	CPLX2R0Y-147
+SUBUNIT-OF-CPLX	DNA polymerase III beta subunit	G2R0Y-125-MONOMER
+SUBUNIT-OF-CPLX	DNA polymerase III beta subunit	G2R0Y-126-MONOMER
+##	
+CPLX-HYBRID	DNA topoisomerase IV	CPLX2R0Y-92
+SUBUNIT-OF-CPLX	DNA topoisomerase IV subunit A	G2R0Y-2463-MONOMER
+SUBUNIT-OF-CPLX	DNA topoisomerase IV subunit A	G2R0Y-2464-MONOMER
+SUBUNIT-OF-CPLX	DNA topoisomerase IV subunit B	G2R0Y-2459-MONOMER
+SUBUNIT-OF-CPLX	DNA topoisomerase IV subunit B	G2R0Y-2460-MONOMER
+##	
+CPLX-HYBRID	DNA-directed RNA polymerase	CPLX2R0Y-109
+SUBUNIT-OF-CPLX	DNA-directed RNA polymerase omega subunit	G2R0Y-6619-MONOMER
+SUBUNIT-OF-CPLX	DNA-directed RNA polymerase omega subunit	G2R0Y-6620-MONOMER
+##	
+CPLX-HYBRID	DNA-directed RNA polymerase	CPLX2R0Y-108
+SUBUNIT-OF-CPLX	DNA-directed RNA polymerase alpha subunit	G2R0Y-471-MONOMER
+SUBUNIT-OF-CPLX	DNA-directed RNA polymerase alpha subunit	G2R0Y-472-MONOMER
+##	
+CPLX-HYBRID	DNA-directed RNA polymerase	CPLX2R0Y-107
+SUBUNIT-OF-CPLX	DNA-directed RNA polymerase beta subunit	G2R0Y-409-MONOMER
+SUBUNIT-OF-CPLX	DNA-directed RNA polymerase beta subunit	G2R0Y-410-MONOMER
+SUBUNIT-OF-CPLX	DNA-directed RNA polymerase beta' subunit	G2R0Y-411-MONOMER
+SUBUNIT-OF-CPLX	DNA-directed RNA polymerase beta' subunit	G2R0Y-412-MONOMER
+##	
+CPLX-HYBRID	Ethanolamine ammonia-lyase	CPLX2R0Y-95
+SUBUNIT-OF-CPLX	Ethanolamine ammonia-lyase heavy chain	G2R0Y-1139-MONOMER
+SUBUNIT-OF-CPLX	Ethanolamine ammonia-lyase heavy chain	G2R0Y-1140-MONOMER
+SUBUNIT-OF-CPLX	Ethanolamine ammonia-lyase light chain	G2R0Y-1141-MONOMER
+SUBUNIT-OF-CPLX	Ethanolamine ammonia-lyase light chain	G2R0Y-1142-MONOMER
+##	
+CPLX-HYBRID	Excinuclease ABC	CPLX2R0Y-115
+SUBUNIT-OF-CPLX	Excinuclease ABC subunit C	G2R0Y-4209-MONOMER
+SUBUNIT-OF-CPLX	Excinuclease ABC subunit C	G2R0Y-4210-MONOMER
+##	
+CPLX-HYBRID	Excinuclease ABC	CPLX2R0Y-114
+SUBUNIT-OF-CPLX	Excinuclease ABC subunit B	G2R0Y-3229-MONOMER
+SUBUNIT-OF-CPLX	Excinuclease ABC subunit B	G2R0Y-3230-MONOMER
+##	
+CPLX-HYBRID	Excinuclease ABC	CPLX2R0Y-113
+SUBUNIT-OF-CPLX	Excinuclease ABC subunit A	G2R0Y-337-MONOMER
+SUBUNIT-OF-CPLX	Excinuclease ABC subunit A	G2R0Y-338-MONOMER
+##	
+CPLX-HYBRID	Exodeoxyribonuclease V	CPLX2R0Y-94
+SUBUNIT-OF-CPLX	Exodeoxyribonuclease V alpha chain	G2R0Y-1793-MONOMER
+SUBUNIT-OF-CPLX	Exodeoxyribonuclease V alpha chain	G2R0Y-1794-MONOMER
+SUBUNIT-OF-CPLX	Exodeoxyribonuclease V beta chain	G2R0Y-1795-MONOMER
+SUBUNIT-OF-CPLX	Exodeoxyribonuclease V beta chain	G2R0Y-1796-MONOMER
+SUBUNIT-OF-CPLX	Exodeoxyribonuclease V gamma chain	G2R0Y-1801-MONOMER
+SUBUNIT-OF-CPLX	Exodeoxyribonuclease V gamma chain	G2R0Y-1802-MONOMER
+##	
+CPLX-HYBRID	Exodeoxyribonuclease VII	CPLX2R0Y-121
+SUBUNIT-OF-CPLX	Exodeoxyribonuclease VII small subunit	G2R0Y-6315-MONOMER
+SUBUNIT-OF-CPLX	Exodeoxyribonuclease VII small subunit	G2R0Y-6316-MONOMER
+##	
+CPLX-HYBRID	Exodeoxyribonuclease VII	CPLX2R0Y-120
+SUBUNIT-OF-CPLX	Exodeoxyribonuclease VII large subunit	G2R0Y-1455-MONOMER
+SUBUNIT-OF-CPLX	Exodeoxyribonuclease VII large subunit	G2R0Y-1456-MONOMER
+##	
+CPLX-HYBRID	Formate dehydrogenase-O	CPLX2R0Y-118
+SUBUNIT-OF-CPLX	Formate dehydrogenase -O, gamma subunit	G2R0Y-5829-MONOMER
+SUBUNIT-OF-CPLX	Formate dehydrogenase -O, gamma subunit	G2R0Y-5830-MONOMER
+SUBUNIT-OF-CPLX	Formate dehydrogenase-O, iron-sulfur subunit; Putative formate dehydrogenase iron-sulfur subunit	G2R0Y-5831-MONOMER
+SUBUNIT-OF-CPLX	Formate dehydrogenase-O, iron-sulfur subunit; Putative formate dehydrogenase iron-sulfur subunit	G2R0Y-5832-MONOMER
+SUBUNIT-OF-CPLX	Formate dehydrogenase-O, major subunit	G2R0Y-5833-MONOMER
+SUBUNIT-OF-CPLX	Formate dehydrogenase-O, major subunit	G2R0Y-5834-MONOMER
+##	
+CPLX-HYBRID	Glutamate synthase [NADPH]	CPLX2R0Y-137
+SUBUNIT-OF-CPLX	Glutamate synthase [NADPH] large chain	G2R0Y-6691-MONOMER
+SUBUNIT-OF-CPLX	Glutamate synthase [NADPH] large chain	G2R0Y-6692-MONOMER
+##	
+CPLX-HYBRID	Glutamate synthase [NADPH]	CPLX2R0Y-136
+SUBUNIT-OF-CPLX	Glutamate synthase [NADPH] large chain	G2R0Y-3857-MONOMER
+SUBUNIT-OF-CPLX	Glutamate synthase [NADPH] large chain	G2R0Y-3858-MONOMER
+##	
+CPLX-HYBRID	Glutamate synthase [NADPH]	CPLX2R0Y-135
+SUBUNIT-OF-CPLX	Glutamate synthase [NADPH] large chain	G2R0Y-2305-MONOMER
+SUBUNIT-OF-CPLX	Glutamate synthase [NADPH] large chain	G2R0Y-2306-MONOMER
+##	
+CPLX-HYBRID	Glutamate synthase [NADPH]	CPLX2R0Y-134
+SUBUNIT-OF-CPLX	Glutamate synthase [NADPH] large chain	G2R0Y-1363-MONOMER
+SUBUNIT-OF-CPLX	Glutamate synthase [NADPH] large chain	G2R0Y-1364-MONOMER
+SUBUNIT-OF-CPLX	Glutamate synthase [NADPH] small chain	G2R0Y-1365-MONOMER
+SUBUNIT-OF-CPLX	Glutamate synthase [NADPH] small chain	G2R0Y-1366-MONOMER
+##	
+CPLX-HYBRID	Glycolate dehydrogenase	CPLX2R0Y-158
+SUBUNIT-OF-CPLX	Glycolate dehydrogenase, FAD-binding subunit GlcE	G2R0Y-5397-MONOMER
+SUBUNIT-OF-CPLX	Glycolate dehydrogenase, FAD-binding subunit GlcE	G2R0Y-5398-MONOMER
+SUBUNIT-OF-CPLX	Glycolate dehydrogenase, iron-sulfur subunit GlcF	G2R0Y-5399-MONOMER
+SUBUNIT-OF-CPLX	Glycolate dehydrogenase, iron-sulfur subunit GlcF	G2R0Y-5400-MONOMER
+SUBUNIT-OF-CPLX	Glycolate dehydrogenase, subunit GlcD	G2R0Y-5393-MONOMER
+SUBUNIT-OF-CPLX	Glycolate dehydrogenase, subunit GlcD	G2R0Y-5394-MONOMER
+##	
+CPLX-HYBRID	Glycyl-tRNA synthetase	CPLX2R0Y-85
+SUBUNIT-OF-CPLX	Glycyl-tRNA synthetase alpha chain	G2R0Y-135-MONOMER
+SUBUNIT-OF-CPLX	Glycyl-tRNA synthetase alpha chain	G2R0Y-136-MONOMER
+SUBUNIT-OF-CPLX	Glycyl-tRNA synthetase beta chain	G2R0Y-133-MONOMER
+SUBUNIT-OF-CPLX	Glycyl-tRNA synthetase beta chain	G2R0Y-134-MONOMER
+##	
+CPLX-HYBRID	NAD-dependent dihydropyrimidine dehydrogenase	CPLX2R0Y-138
+SUBUNIT-OF-CPLX	NAD-dependent dihydropyrimidine dehydrogenase subunit PreA	G2R0Y-5867-MONOMER
+SUBUNIT-OF-CPLX	NAD-dependent dihydropyrimidine dehydrogenase subunit PreA	G2R0Y-5868-MONOMER
+SUBUNIT-OF-CPLX	NAD-dependent dihydropyrimidine dehydrogenase subunit PreT	G2R0Y-5865-MONOMER
+SUBUNIT-OF-CPLX	NAD-dependent dihydropyrimidine dehydrogenase subunit PreT	G2R0Y-5866-MONOMER
+##	
+CPLX-HYBRID	Na(+) H(+) antiporter	CPLX2R0Y-145
+SUBUNIT-OF-CPLX	Na(+) H(+) antiporter subunit A	G2R0Y-2937-MONOMER
+SUBUNIT-OF-CPLX	Na(+) H(+) antiporter subunit A	G2R0Y-2938-MONOMER
+SUBUNIT-OF-CPLX	Na(+) H(+) antiporter subunit B	G2R0Y-2939-MONOMER
+SUBUNIT-OF-CPLX	Na(+) H(+) antiporter subunit B	G2R0Y-2940-MONOMER
+SUBUNIT-OF-CPLX	Na(+) H(+) antiporter subunit C	G2R0Y-2941-MONOMER
+SUBUNIT-OF-CPLX	Na(+) H(+) antiporter subunit C	G2R0Y-2942-MONOMER
+SUBUNIT-OF-CPLX	Na(+) H(+) antiporter subunit D	G2R0Y-2943-MONOMER
+SUBUNIT-OF-CPLX	Na(+) H(+) antiporter subunit D	G2R0Y-2944-MONOMER
+SUBUNIT-OF-CPLX	Na(+) H(+) antiporter subunit E	G2R0Y-2945-MONOMER
+SUBUNIT-OF-CPLX	Na(+) H(+) antiporter subunit E	G2R0Y-2946-MONOMER
+SUBUNIT-OF-CPLX	Na(+) H(+) antiporter subunit F	G2R0Y-2947-MONOMER
+SUBUNIT-OF-CPLX	Na(+) H(+) antiporter subunit F	G2R0Y-2948-MONOMER
+SUBUNIT-OF-CPLX	Na(+) H(+) antiporter subunit G	G2R0Y-2949-MONOMER
+SUBUNIT-OF-CPLX	Na(+) H(+) antiporter subunit G	G2R0Y-2950-MONOMER
+##	
+CPLX-HYBRID	Na(+) H(+) antiporter	CPLX2R0Y-146
+SUBUNIT-OF-CPLX	Na(+) H(+) antiporter subunit C	G2R0Y-2477-MONOMER
+SUBUNIT-OF-CPLX	Na(+) H(+) antiporter subunit C	G2R0Y-2478-MONOMER
+SUBUNIT-OF-CPLX	Na(+) H(+) antiporter subunit D	G2R0Y-2475-MONOMER
+SUBUNIT-OF-CPLX	Na(+) H(+) antiporter subunit D	G2R0Y-2476-MONOMER
+SUBUNIT-OF-CPLX	Na(+) H(+) antiporter subunit E	G2R0Y-2473-MONOMER
+SUBUNIT-OF-CPLX	Na(+) H(+) antiporter subunit E	G2R0Y-2474-MONOMER
+SUBUNIT-OF-CPLX	Na(+) H(+) antiporter subunit F	G2R0Y-2471-MONOMER
+SUBUNIT-OF-CPLX	Na(+) H(+) antiporter subunit F	G2R0Y-2472-MONOMER
+SUBUNIT-OF-CPLX	Na(+) H(+) antiporter subunit G	G2R0Y-2469-MONOMER
+SUBUNIT-OF-CPLX	Na(+) H(+) antiporter subunit G	G2R0Y-2470-MONOMER
+##	
+CPLX-HYBRID	Na(+)-translocating NADH-quinone reductase	CPLX2R0Y-55
+SUBUNIT-OF-CPLX	Na(+)-translocating NADH-quinone reductase subunit A	G2R0Y-3733-MONOMER
+SUBUNIT-OF-CPLX	Na(+)-translocating NADH-quinone reductase subunit A	G2R0Y-3734-MONOMER
+SUBUNIT-OF-CPLX	Na(+)-translocating NADH-quinone reductase subunit B	G2R0Y-3731-MONOMER
+SUBUNIT-OF-CPLX	Na(+)-translocating NADH-quinone reductase subunit B	G2R0Y-3732-MONOMER
+SUBUNIT-OF-CPLX	Na(+)-translocating NADH-quinone reductase subunit C	G2R0Y-3729-MONOMER
+SUBUNIT-OF-CPLX	Na(+)-translocating NADH-quinone reductase subunit C	G2R0Y-3730-MONOMER
+SUBUNIT-OF-CPLX	Na(+)-translocating NADH-quinone reductase subunit D	G2R0Y-3727-MONOMER
+SUBUNIT-OF-CPLX	Na(+)-translocating NADH-quinone reductase subunit D	G2R0Y-3728-MONOMER
+SUBUNIT-OF-CPLX	Na(+)-translocating NADH-quinone reductase subunit E	G2R0Y-3725-MONOMER
+SUBUNIT-OF-CPLX	Na(+)-translocating NADH-quinone reductase subunit E	G2R0Y-3726-MONOMER
+SUBUNIT-OF-CPLX	Na(+)-translocating NADH-quinone reductase subunit F	G2R0Y-3723-MONOMER
+SUBUNIT-OF-CPLX	Na(+)-translocating NADH-quinone reductase subunit F	G2R0Y-3724-MONOMER
+##	
+CPLX-HYBRID	Nitrite reductase [NAD(P)H]	CPLX2R0Y-111
+SUBUNIT-OF-CPLX	Nitrite reductase [NAD(P)H] large subunit	G2R0Y-4917-MONOMER
+SUBUNIT-OF-CPLX	Nitrite reductase [NAD(P)H] large subunit	G2R0Y-4918-MONOMER
+SUBUNIT-OF-CPLX	Nitrite reductase [NAD(P)H] large subunit	G2R0Y-4919-MONOMER
+SUBUNIT-OF-CPLX	Nitrite reductase [NAD(P)H] large subunit	G2R0Y-4920-MONOMER
+SUBUNIT-OF-CPLX	Nitrite reductase [NAD(P)H] small subunit	G2R0Y-4921-MONOMER
+SUBUNIT-OF-CPLX	Nitrite reductase [NAD(P)H] small subunit	G2R0Y-4922-MONOMER
+##	
+CPLX-HYBRID	Oxaloacetate decarboxylase Na(+) pump	CPLX2R0Y-54
+SUBUNIT-OF-CPLX	Oxaloacetate decarboxylase Na(+) pump, alpha chain	G2R0Y-1393-MONOMER
+SUBUNIT-OF-CPLX	Oxaloacetate decarboxylase Na(+) pump, alpha chain	G2R0Y-1394-MONOMER
+SUBUNIT-OF-CPLX	Oxaloacetate decarboxylase Na(+) pump, beta chain	G2R0Y-1395-MONOMER
+SUBUNIT-OF-CPLX	Oxaloacetate decarboxylase Na(+) pump, beta chain	G2R0Y-1396-MONOMER
+SUBUNIT-OF-CPLX	Oxaloacetate decarboxylase Na(+) pump, gamma chain	G2R0Y-1391-MONOMER
+SUBUNIT-OF-CPLX	Oxaloacetate decarboxylase Na(+) pump, gamma chain	G2R0Y-1392-MONOMER
+##	
+CPLX-HYBRID	Phenylalanyl-tRNA synthetase	CPLX2R0Y-141
+SUBUNIT-OF-CPLX	Phenylalanyl-tRNA synthetase alpha chain	G2R0Y-3469-MONOMER
+SUBUNIT-OF-CPLX	Phenylalanyl-tRNA synthetase alpha chain	G2R0Y-3470-MONOMER
+SUBUNIT-OF-CPLX	Phenylalanyl-tRNA synthetase beta chain	G2R0Y-3467-MONOMER
+SUBUNIT-OF-CPLX	Phenylalanyl-tRNA synthetase beta chain	G2R0Y-3468-MONOMER
+##	
+CPLX-HYBRID	Protocatechuate 3,4-dioxygenase	CPLX2R0Y-69
+SUBUNIT-OF-CPLX	Protocatechuate 3,4-dioxygenase alpha chain	G2R0Y-6533-MONOMER
+SUBUNIT-OF-CPLX	Protocatechuate 3,4-dioxygenase alpha chain	G2R0Y-6534-MONOMER
+SUBUNIT-OF-CPLX	Protocatechuate 3,4-dioxygenase beta chain	G2R0Y-6535-MONOMER
+SUBUNIT-OF-CPLX	Protocatechuate 3,4-dioxygenase beta chain	G2R0Y-6536-MONOMER
+##	
+CPLX-HYBRID	Ribonucleotide reductase of class Ib (aerobic)	CPLX2R0Y-71
+SUBUNIT-OF-CPLX	Ribonucleotide reductase of class Ib (aerobic), alpha subunit	G2R0Y-2767-MONOMER
+SUBUNIT-OF-CPLX	Ribonucleotide reductase of class Ib (aerobic), alpha subunit	G2R0Y-2768-MONOMER
+SUBUNIT-OF-CPLX	Ribonucleotide reductase of class Ib (aerobic), beta subunit	G2R0Y-2769-MONOMER
+SUBUNIT-OF-CPLX	Ribonucleotide reductase of class Ib (aerobic), beta subunit	G2R0Y-2770-MONOMER
+##	
+CPLX-HYBRID	Sarcosine oxidase	CPLX2R0Y-150
+SUBUNIT-OF-CPLX	Sarcosine oxidase alpha subunit	G2R0Y-6055-MONOMER
+SUBUNIT-OF-CPLX	Sarcosine oxidase alpha subunit	G2R0Y-6056-MONOMER
+SUBUNIT-OF-CPLX	Sarcosine oxidase beta subunit	G2R0Y-6059-MONOMER
+SUBUNIT-OF-CPLX	Sarcosine oxidase beta subunit	G2R0Y-6060-MONOMER
+SUBUNIT-OF-CPLX	Sarcosine oxidase delta subunit	G2R0Y-6057-MONOMER
+SUBUNIT-OF-CPLX	Sarcosine oxidase delta subunit	G2R0Y-6058-MONOMER
+SUBUNIT-OF-CPLX	Sarcosine oxidase gamma subunit	G2R0Y-6053-MONOMER
+SUBUNIT-OF-CPLX	Sarcosine oxidase gamma subunit	G2R0Y-6054-MONOMER
+##	
+CPLX-HYBRID	Succinyl-CoA ligase [ADP-forming]	CPLX2R0Y-65
+SUBUNIT-OF-CPLX	Succinyl-CoA ligase [ADP-forming] alpha chain	G2R0Y-4465-MONOMER
+SUBUNIT-OF-CPLX	Succinyl-CoA ligase [ADP-forming] alpha chain	G2R0Y-4466-MONOMER
+SUBUNIT-OF-CPLX	Succinyl-CoA ligase [ADP-forming] beta chain	G2R0Y-4467-MONOMER
+SUBUNIT-OF-CPLX	Succinyl-CoA ligase [ADP-forming] beta chain	G2R0Y-4468-MONOMER
+##	
+CPLX-HYBRID	Succinyl-CoA:3-ketoacid-coenzyme A transferase	CPLX2R0Y-83
+SUBUNIT-OF-CPLX	Succinyl-CoA:3-ketoacid-coenzyme A transferase subunit A	G2R0Y-3192-MONOMER
+SUBUNIT-OF-CPLX	Succinyl-CoA:3-ketoacid-coenzyme A transferase subunit A	G2R0Y-3191-MONOMER
+SUBUNIT-OF-CPLX	Succinyl-CoA:3-ketoacid-coenzyme A transferase subunit B	G2R0Y-3194-MONOMER
+SUBUNIT-OF-CPLX	Succinyl-CoA:3-ketoacid-coenzyme A transferase subunit B	G2R0Y-3193-MONOMER
+##	
+CPLX-HYBRID	Sulfate adenylyltransferase	CPLX2R0Y-74
+SUBUNIT-OF-CPLX	Sulfate adenylyltransferase subunit 1	G2R0Y-2439-MONOMER
+SUBUNIT-OF-CPLX	Sulfate adenylyltransferase subunit 1	G2R0Y-2440-MONOMER
+SUBUNIT-OF-CPLX	Sulfate adenylyltransferase subunit 2	G2R0Y-2435-MONOMER
+SUBUNIT-OF-CPLX	Sulfate adenylyltransferase subunit 2	G2R0Y-2436-MONOMER
+##	
+CPLX-HYBRID	Sulfate adenylyltransferase	CPLX2R0Y-73
+SUBUNIT-OF-CPLX	Sulfate adenylyltransferase subunit 1; Adenylylsulfate kinase	G2R0Y-2013-MONOMER
+SUBUNIT-OF-CPLX	Sulfate adenylyltransferase subunit 1; Adenylylsulfate kinase	G2R0Y-2014-MONOMER
+SUBUNIT-OF-CPLX	Sulfate adenylyltransferase subunit 2	G2R0Y-2011-MONOMER
+SUBUNIT-OF-CPLX	Sulfate adenylyltransferase subunit 2	G2R0Y-2012-MONOMER
+##	
+CPLX-HYBRID	Tryptophan synthase	CPLX2R0Y-64
+SUBUNIT-OF-CPLX	Tryptophan synthase alpha chain	G2R0Y-3665-MONOMER
+SUBUNIT-OF-CPLX	Tryptophan synthase alpha chain	G2R0Y-3666-MONOMER
+SUBUNIT-OF-CPLX	Tryptophan synthase beta chain	G2R0Y-3667-MONOMER
+SUBUNIT-OF-CPLX	Tryptophan synthase beta chain	G2R0Y-3668-MONOMER
+##	
+CPLX-HYBRID	Tryptophan synthase	CPLX2R0Y-63
+SUBUNIT-OF-CPLX	Tryptophan synthase alpha chain	G2R0Y-1735-MONOMER
+SUBUNIT-OF-CPLX	Tryptophan synthase alpha chain	G2R0Y-1736-MONOMER
+SUBUNIT-OF-CPLX	Tryptophan synthase alpha chain	G2R0Y-1741-MONOMER
+SUBUNIT-OF-CPLX	Tryptophan synthase alpha chain	G2R0Y-1742-MONOMER
+SUBUNIT-OF-CPLX	Tryptophan synthase beta chain	G2R0Y-1733-MONOMER
+SUBUNIT-OF-CPLX	Tryptophan synthase beta chain	G2R0Y-1734-MONOMER
+##	
+CPLX-HYBRID	Urease	CPLX2R0Y-129
+SUBUNIT-OF-CPLX	Urease alpha subunit	G2R0Y-6251-MONOMER
+SUBUNIT-OF-CPLX	Urease alpha subunit	G2R0Y-6252-MONOMER
+SUBUNIT-OF-CPLX	Urease beta subunit	G2R0Y-6253-MONOMER
+SUBUNIT-OF-CPLX	Urease beta subunit	G2R0Y-6254-MONOMER
+SUBUNIT-OF-CPLX	Urease gamma subunit	G2R0Y-6255-MONOMER
+SUBUNIT-OF-CPLX	Urease gamma subunit	G2R0Y-6256-MONOMER
+##	
+##	
+####	Complexes created, inferred by NAME STRING ANALYSIS
+##	
+##	This third mechanism for inference of protein complexes analyzes shared subunit-related
+##	words in the names of several polypeptides. First, polypeptides are grouped together by
+##	shared 'core strings.' A core string aims to capture the core function of a polypeptide
+##	and is derived from a polypeptide name by removing subunit-related words and other
+##	extraneous markup (for example, the core string for 'tryptophan synthase, subunit alpha'
+##	is simply 'tryptophan synthase'). Next, a complex is created for each such a polypeptide
+##	grouping unless all polypeptides have identical names.
+##	
+CPLX-BY-CORE-STRINGS	ATP synthase F0	CPLX2R0Y-211
+SUBUNIT-OF-CPLX	ATP synthase F0 sector subunit a	G2R0Y-59-MONOMER
+SUBUNIT-OF-CPLX	ATP synthase F0 sector subunit a	G2R0Y-60-MONOMER
+SUBUNIT-OF-CPLX	ATP synthase F0 sector subunit b	G2R0Y-55-MONOMER
+SUBUNIT-OF-CPLX	ATP synthase F0 sector subunit b	G2R0Y-56-MONOMER
+SUBUNIT-OF-CPLX	ATP synthase F0 sector subunit c	G2R0Y-57-MONOMER
+SUBUNIT-OF-CPLX	ATP synthase F0 sector subunit c	G2R0Y-58-MONOMER
+##	
+CPLX-BY-CORE-STRINGS	Curli production assembly/transport	CPLX2R0Y-212
+SUBUNIT-OF-CPLX	Curli production assembly/transport component CsgF	G2R0Y-99-MONOMER
+SUBUNIT-OF-CPLX	Curli production assembly/transport component CsgF	G2R0Y-100-MONOMER
+SUBUNIT-OF-CPLX	Curli production assembly/transport component CsgG	G2R0Y-97-MONOMER
+SUBUNIT-OF-CPLX	Curli production assembly/transport component CsgG	G2R0Y-98-MONOMER
+##	
+CPLX-BY-CORE-STRINGS	Cytochrome c heme lyase	CPLX2R0Y-201
+SUBUNIT-OF-CPLX	Cytochrome c heme lyase subunit CcmF	G2R0Y-1411-MONOMER
+SUBUNIT-OF-CPLX	Cytochrome c heme lyase subunit CcmF	G2R0Y-1412-MONOMER
+SUBUNIT-OF-CPLX	Cytochrome c heme lyase subunit CcmH	G2R0Y-1417-MONOMER
+SUBUNIT-OF-CPLX	Cytochrome c heme lyase subunit CcmH	G2R0Y-1418-MONOMER
+SUBUNIT-OF-CPLX	Cytochrome c heme lyase subunit CcmL	G2R0Y-1415-MONOMER
+SUBUNIT-OF-CPLX	Cytochrome c heme lyase subunit CcmL	G2R0Y-1416-MONOMER
+##	
+CPLX-BY-CORE-STRINGS	Electron transport complex	CPLX2R0Y-213
+SUBUNIT-OF-CPLX	Electron transport complex protein RnfA	G2R0Y-3119-MONOMER
+SUBUNIT-OF-CPLX	Electron transport complex protein RnfA	G2R0Y-3120-MONOMER
+SUBUNIT-OF-CPLX	Electron transport complex protein RnfB	G2R0Y-3117-MONOMER
+SUBUNIT-OF-CPLX	Electron transport complex protein RnfB	G2R0Y-3118-MONOMER
+SUBUNIT-OF-CPLX	Electron transport complex protein RnfC	G2R0Y-3115-MONOMER
+SUBUNIT-OF-CPLX	Electron transport complex protein RnfC	G2R0Y-3116-MONOMER
+SUBUNIT-OF-CPLX	Electron transport complex protein RnfD	G2R0Y-3113-MONOMER
+SUBUNIT-OF-CPLX	Electron transport complex protein RnfD	G2R0Y-3114-MONOMER
+SUBUNIT-OF-CPLX	Electron transport complex protein RnfE	G2R0Y-3109-MONOMER
+SUBUNIT-OF-CPLX	Electron transport complex protein RnfE	G2R0Y-3110-MONOMER
+SUBUNIT-OF-CPLX	Electron transport complex protein RnfG	G2R0Y-3111-MONOMER
+SUBUNIT-OF-CPLX	Electron transport complex protein RnfG	G2R0Y-3112-MONOMER
+##	
+CPLX-BY-CORE-STRINGS	Integration host factor	CPLX2R0Y-225
+SUBUNIT-OF-CPLX	Integration host factor beta subunit	G2R0Y-4219-MONOMER
+SUBUNIT-OF-CPLX	Integration host factor beta subunit	G2R0Y-4220-MONOMER
+##	
+CPLX-BY-CORE-STRINGS	Integration host factor	CPLX2R0Y-224
+SUBUNIT-OF-CPLX	Integration host factor alpha subunit	G2R0Y-3465-MONOMER
+SUBUNIT-OF-CPLX	Integration host factor alpha subunit	G2R0Y-3466-MONOMER
+##	
+CPLX-BY-CORE-STRINGS	Protein translocase	CPLX2R0Y-230
+SUBUNIT-OF-CPLX	Protein translocase subunit SecA	G2R0Y-2683-MONOMER
+SUBUNIT-OF-CPLX	Protein translocase subunit SecA	G2R0Y-2684-MONOMER
+##	
+CPLX-BY-CORE-STRINGS	Protein translocase	CPLX2R0Y-229
+SUBUNIT-OF-CPLX	Protein translocase subunit SecD	G2R0Y-1235-MONOMER
+SUBUNIT-OF-CPLX	Protein translocase subunit SecD	G2R0Y-1236-MONOMER
+SUBUNIT-OF-CPLX	Protein translocase subunit SecF	G2R0Y-1233-MONOMER
+SUBUNIT-OF-CPLX	Protein translocase subunit SecF	G2R0Y-1234-MONOMER
+SUBUNIT-OF-CPLX	Protein translocase subunit YajC	G2R0Y-1237-MONOMER
+SUBUNIT-OF-CPLX	Protein translocase subunit YajC	G2R0Y-1238-MONOMER
+##	
+CPLX-BY-CORE-STRINGS	Protein translocase	CPLX2R0Y-228
+SUBUNIT-OF-CPLX	Protein translocase membrane subunit SecG	G2R0Y-671-MONOMER
+SUBUNIT-OF-CPLX	Protein translocase membrane subunit SecG	G2R0Y-672-MONOMER
+##	
+CPLX-BY-CORE-STRINGS	Protein translocase	CPLX2R0Y-227
+SUBUNIT-OF-CPLX	Protein translocase subunit SecY	G2R0Y-463-MONOMER
+SUBUNIT-OF-CPLX	Protein translocase subunit SecY	G2R0Y-464-MONOMER
+##	
+CPLX-BY-CORE-STRINGS	Protein translocase	CPLX2R0Y-226
+SUBUNIT-OF-CPLX	Protein translocase subunit SecE	G2R0Y-395-MONOMER
+SUBUNIT-OF-CPLX	Protein translocase subunit SecE	G2R0Y-396-MONOMER
+##	
+CPLX-BY-CORE-STRINGS	Protein-methionine-sulfoxide reductase	CPLX2R0Y-210
+SUBUNIT-OF-CPLX	Protein-methionine-sulfoxide reductase catalytic subunit MsrP	G2R0Y-1509-MONOMER
+SUBUNIT-OF-CPLX	Protein-methionine-sulfoxide reductase catalytic subunit MsrP	G2R0Y-1510-MONOMER
+SUBUNIT-OF-CPLX	Protein-methionine-sulfoxide reductase heme-binding subunit MsrQ	G2R0Y-1507-MONOMER
+SUBUNIT-OF-CPLX	Protein-methionine-sulfoxide reductase heme-binding subunit MsrQ	G2R0Y-1508-MONOMER
+##	
+CPLX-BY-CORE-STRINGS	Succinate dehydrogenase	CPLX2R0Y-208
+SUBUNIT-OF-CPLX	Succinate dehydrogenase cytochrome b-556 subunit	G2R0Y-4481-MONOMER
+SUBUNIT-OF-CPLX	Succinate dehydrogenase cytochrome b-556 subunit	G2R0Y-4482-MONOMER
+SUBUNIT-OF-CPLX	Succinate dehydrogenase flavoprotein subunit	G2R0Y-4477-MONOMER
+SUBUNIT-OF-CPLX	Succinate dehydrogenase flavoprotein subunit	G2R0Y-4478-MONOMER
+##	
+CPLX-BY-CORE-STRINGS	TAM transport system	CPLX2R0Y-209
+SUBUNIT-OF-CPLX	Inner membrane component of TAM transport system	G2R0Y-3289-MONOMER
+SUBUNIT-OF-CPLX	Inner membrane component of TAM transport system	G2R0Y-3290-MONOMER
+SUBUNIT-OF-CPLX	Outer membrane component of TAM transport system	G2R0Y-3287-MONOMER
+SUBUNIT-OF-CPLX	Outer membrane component of TAM transport system	G2R0Y-3288-MONOMER
+##	
+CPLX-BY-CORE-STRINGS	TRAP dicarboxylate transporter, DctM subunit, unknown	CPLX2R0Y-221
+SUBUNIT-OF-CPLX	TRAP dicarboxylate transporter, DctM subunit, unknown substrate 3	G2R0Y-6687-MONOMER
+SUBUNIT-OF-CPLX	TRAP dicarboxylate transporter, DctM subunit, unknown substrate 3	G2R0Y-6688-MONOMER
+##	
+CPLX-BY-CORE-STRINGS	TRAP dicarboxylate transporter, DctM subunit, unknown	CPLX2R0Y-220
+SUBUNIT-OF-CPLX	TRAP dicarboxylate transporter, DctM subunit, unknown substrate 3	G2R0Y-6511-MONOMER
+SUBUNIT-OF-CPLX	TRAP dicarboxylate transporter, DctM subunit, unknown substrate 3	G2R0Y-6512-MONOMER
+##	
+CPLX-BY-CORE-STRINGS	TRAP dicarboxylate transporter, DctM subunit, unknown	CPLX2R0Y-219
+SUBUNIT-OF-CPLX	TRAP dicarboxylate transporter, DctM subunit, unknown substrate 3	G2R0Y-6499-MONOMER
+SUBUNIT-OF-CPLX	TRAP dicarboxylate transporter, DctM subunit, unknown substrate 3	G2R0Y-6500-MONOMER
+##	
+CPLX-BY-CORE-STRINGS	TRAP dicarboxylate transporter, DctM subunit, unknown	CPLX2R0Y-218
+SUBUNIT-OF-CPLX	TRAP dicarboxylate transporter, DctM subunit, unknown substrate 6	G2R0Y-6453-MONOMER
+SUBUNIT-OF-CPLX	TRAP dicarboxylate transporter, DctM subunit, unknown substrate 6	G2R0Y-6454-MONOMER
+##	
+CPLX-BY-CORE-STRINGS	TRAP dicarboxylate transporter, DctM subunit, unknown	CPLX2R0Y-217
+SUBUNIT-OF-CPLX	TRAP dicarboxylate transporter, DctM subunit, unknown substrate 5	G2R0Y-6021-MONOMER
+SUBUNIT-OF-CPLX	TRAP dicarboxylate transporter, DctM subunit, unknown substrate 5	G2R0Y-6022-MONOMER
+##	
+CPLX-BY-CORE-STRINGS	TRAP dicarboxylate transporter, DctM subunit, unknown	CPLX2R0Y-216
+SUBUNIT-OF-CPLX	TRAP dicarboxylate transporter, DctM subunit, unknown substrate 4	G2R0Y-5815-MONOMER
+SUBUNIT-OF-CPLX	TRAP dicarboxylate transporter, DctM subunit, unknown substrate 4	G2R0Y-5816-MONOMER
+##	
+CPLX-BY-CORE-STRINGS	TRAP dicarboxylate transporter, DctM subunit, unknown	CPLX2R0Y-215
+SUBUNIT-OF-CPLX	TRAP dicarboxylate transporter, DctM subunit, unknown substrate 6	G2R0Y-2265-MONOMER
+SUBUNIT-OF-CPLX	TRAP dicarboxylate transporter, DctM subunit, unknown substrate 6	G2R0Y-2266-MONOMER
+##	
+CPLX-BY-CORE-STRINGS	TRAP dicarboxylate transporter, DctM subunit, unknown	CPLX2R0Y-214
+SUBUNIT-OF-CPLX	TRAP dicarboxylate transporter, DctM subunit, unknown substrate 5	G2R0Y-1323-MONOMER
+SUBUNIT-OF-CPLX	TRAP dicarboxylate transporter, DctM subunit, unknown substrate 5	G2R0Y-1324-MONOMER
+##	
+CPLX-BY-CORE-STRINGS	TRAP dicarboxylate transporter, DctQ subunit, unknown	CPLX2R0Y-207
+SUBUNIT-OF-CPLX	TRAP dicarboxylate transporter, DctQ subunit, unknown substrate 3	G2R0Y-6513-MONOMER
+SUBUNIT-OF-CPLX	TRAP dicarboxylate transporter, DctQ subunit, unknown substrate 3	G2R0Y-6514-MONOMER
+##	
+CPLX-BY-CORE-STRINGS	TRAP dicarboxylate transporter, DctQ subunit, unknown	CPLX2R0Y-206
+SUBUNIT-OF-CPLX	TRAP dicarboxylate transporter, DctQ subunit, unknown substrate 3	G2R0Y-6501-MONOMER
+SUBUNIT-OF-CPLX	TRAP dicarboxylate transporter, DctQ subunit, unknown substrate 3	G2R0Y-6502-MONOMER
+##	
+CPLX-BY-CORE-STRINGS	TRAP dicarboxylate transporter, DctQ subunit, unknown	CPLX2R0Y-205
+SUBUNIT-OF-CPLX	TRAP dicarboxylate transporter, DctQ subunit, unknown substrate 6	G2R0Y-6455-MONOMER
+SUBUNIT-OF-CPLX	TRAP dicarboxylate transporter, DctQ subunit, unknown substrate 6	G2R0Y-6456-MONOMER
+##	
+CPLX-BY-CORE-STRINGS	TRAP dicarboxylate transporter, DctQ subunit, unknown	CPLX2R0Y-204
+SUBUNIT-OF-CPLX	TRAP dicarboxylate transporter, DctQ subunit, unknown substrate 5	G2R0Y-6023-MONOMER
+SUBUNIT-OF-CPLX	TRAP dicarboxylate transporter, DctQ subunit, unknown substrate 5	G2R0Y-6024-MONOMER
+##	
+CPLX-BY-CORE-STRINGS	TRAP dicarboxylate transporter, DctQ subunit, unknown	CPLX2R0Y-203
+SUBUNIT-OF-CPLX	TRAP dicarboxylate transporter, DctQ subunit, unknown substrate 4	G2R0Y-5813-MONOMER
+SUBUNIT-OF-CPLX	TRAP dicarboxylate transporter, DctQ subunit, unknown substrate 4	G2R0Y-5814-MONOMER
+##	
+CPLX-BY-CORE-STRINGS	TRAP dicarboxylate transporter, DctQ subunit, unknown	CPLX2R0Y-202
+SUBUNIT-OF-CPLX	TRAP dicarboxylate transporter, DctQ subunit, unknown substrate 5	G2R0Y-1321-MONOMER
+SUBUNIT-OF-CPLX	TRAP dicarboxylate transporter, DctQ subunit, unknown substrate 5	G2R0Y-1322-MONOMER
+##	
+CPLX-BY-CORE-STRINGS	TRAP-type C4-dicarboxylate transport system	CPLX2R0Y-200
+SUBUNIT-OF-CPLX	TRAP-type C4-dicarboxylate transport system, large permease component	G2R0Y-6553-MONOMER
+SUBUNIT-OF-CPLX	TRAP-type C4-dicarboxylate transport system, large permease component	G2R0Y-6554-MONOMER
+##	
+CPLX-BY-CORE-STRINGS	TRAP-type C4-dicarboxylate transport system	CPLX2R0Y-199
+SUBUNIT-OF-CPLX	TRAP-type C4-dicarboxylate transport system, large permease component	G2R0Y-6241-MONOMER
+SUBUNIT-OF-CPLX	TRAP-type C4-dicarboxylate transport system, large permease component	G2R0Y-6242-MONOMER
+SUBUNIT-OF-CPLX	TRAP-type C4-dicarboxylate transport system, periplasmic component	G2R0Y-6237-MONOMER
+SUBUNIT-OF-CPLX	TRAP-type C4-dicarboxylate transport system, periplasmic component	G2R0Y-6238-MONOMER
+##	
+CPLX-BY-CORE-STRINGS	TRAP-type C4-dicarboxylate transport system	CPLX2R0Y-198
+SUBUNIT-OF-CPLX	TRAP-type C4-dicarboxylate transport system, large permease component	G2R0Y-5599-MONOMER
+SUBUNIT-OF-CPLX	TRAP-type C4-dicarboxylate transport system, large permease component	G2R0Y-5600-MONOMER
+SUBUNIT-OF-CPLX	TRAP-type C4-dicarboxylate transport system, periplasmic component	G2R0Y-5595-MONOMER
+SUBUNIT-OF-CPLX	TRAP-type C4-dicarboxylate transport system, periplasmic component	G2R0Y-5596-MONOMER
+SUBUNIT-OF-CPLX	TRAP-type C4-dicarboxylate transport system, small permease component	G2R0Y-5597-MONOMER
+SUBUNIT-OF-CPLX	TRAP-type C4-dicarboxylate transport system, small permease component	G2R0Y-5598-MONOMER
+##	
+CPLX-BY-CORE-STRINGS	TRAP-type C4-dicarboxylate transport system	CPLX2R0Y-197
+SUBUNIT-OF-CPLX	TRAP-type C4-dicarboxylate transport system, large permease component	G2R0Y-5345-MONOMER
+SUBUNIT-OF-CPLX	TRAP-type C4-dicarboxylate transport system, large permease component	G2R0Y-5346-MONOMER
+SUBUNIT-OF-CPLX	TRAP-type C4-dicarboxylate transport system, periplasmic component	G2R0Y-5349-MONOMER
+SUBUNIT-OF-CPLX	TRAP-type C4-dicarboxylate transport system, periplasmic component	G2R0Y-5350-MONOMER
+##	
+CPLX-BY-CORE-STRINGS	TRAP-type C4-dicarboxylate transport system	CPLX2R0Y-196
+SUBUNIT-OF-CPLX	TRAP-type C4-dicarboxylate transport system, large permease component	G2R0Y-4681-MONOMER
+SUBUNIT-OF-CPLX	TRAP-type C4-dicarboxylate transport system, large permease component	G2R0Y-4682-MONOMER
+SUBUNIT-OF-CPLX	TRAP-type C4-dicarboxylate transport system, periplasmic component	G2R0Y-4685-MONOMER
+SUBUNIT-OF-CPLX	TRAP-type C4-dicarboxylate transport system, periplasmic component	G2R0Y-4686-MONOMER
+##	
+CPLX-BY-CORE-STRINGS	TRAP-type C4-dicarboxylate transport system	CPLX2R0Y-195
+SUBUNIT-OF-CPLX	TRAP-type C4-dicarboxylate transport system, large permease component	G2R0Y-2985-MONOMER
+SUBUNIT-OF-CPLX	TRAP-type C4-dicarboxylate transport system, large permease component	G2R0Y-2986-MONOMER
+##	
+CPLX-BY-CORE-STRINGS	TRAP-type C4-dicarboxylate transport system	CPLX2R0Y-194
+SUBUNIT-OF-CPLX	TRAP-type C4-dicarboxylate transport system, large permease component	G2R0Y-2403-MONOMER
+SUBUNIT-OF-CPLX	TRAP-type C4-dicarboxylate transport system, large permease component	G2R0Y-2404-MONOMER
+SUBUNIT-OF-CPLX	TRAP-type C4-dicarboxylate transport system, periplasmic component	G2R0Y-2399-MONOMER
+SUBUNIT-OF-CPLX	TRAP-type C4-dicarboxylate transport system, periplasmic component	G2R0Y-2400-MONOMER
+##	
+CPLX-BY-CORE-STRINGS	TRAP-type C4-dicarboxylate transport system	CPLX2R0Y-193
+SUBUNIT-OF-CPLX	TRAP-type C4-dicarboxylate transport system, large permease component	G2R0Y-2141-MONOMER
+SUBUNIT-OF-CPLX	TRAP-type C4-dicarboxylate transport system, large permease component	G2R0Y-2142-MONOMER
+##	
+CPLX-BY-CORE-STRINGS	TRAP-type C4-dicarboxylate transport system	CPLX2R0Y-192
+SUBUNIT-OF-CPLX	TRAP-type C4-dicarboxylate transport system, large permease component	G2R0Y-2083-MONOMER
+SUBUNIT-OF-CPLX	TRAP-type C4-dicarboxylate transport system, large permease component	G2R0Y-2084-MONOMER
+##	
+CPLX-BY-CORE-STRINGS	TRAP-type C4-dicarboxylate transport system	CPLX2R0Y-191
+SUBUNIT-OF-CPLX	TRAP-type C4-dicarboxylate transport system, large permease component	G2R0Y-2065-MONOMER
+SUBUNIT-OF-CPLX	TRAP-type C4-dicarboxylate transport system, large permease component	G2R0Y-2066-MONOMER
+SUBUNIT-OF-CPLX	TRAP-type C4-dicarboxylate transport system, periplasmic component	G2R0Y-2061-MONOMER
+SUBUNIT-OF-CPLX	TRAP-type C4-dicarboxylate transport system, periplasmic component	G2R0Y-2062-MONOMER
+SUBUNIT-OF-CPLX	TRAP-type C4-dicarboxylate transport system, small permease component	G2R0Y-2063-MONOMER
+SUBUNIT-OF-CPLX	TRAP-type C4-dicarboxylate transport system, small permease component	G2R0Y-2064-MONOMER
+##	
+CPLX-BY-CORE-STRINGS	Tungsten-containing formate dehydrogenase	CPLX2R0Y-223
+SUBUNIT-OF-CPLX	Tungsten-containing formate dehydrogenase alpha subunit	G2R0Y-6075-MONOMER
+SUBUNIT-OF-CPLX	Tungsten-containing formate dehydrogenase alpha subunit	G2R0Y-6076-MONOMER
+SUBUNIT-OF-CPLX	Tungsten-containing formate dehydrogenase beta subunit	G2R0Y-6077-MONOMER
+SUBUNIT-OF-CPLX	Tungsten-containing formate dehydrogenase beta subunit	G2R0Y-6078-MONOMER
+##	
+##	
+####	Complexes created, inferred by ABC TRANSPORTER ANALYSIS
+##	
+##	This specialized protein complex inference mechanism analyzes the subunits
+##	in one operon, of which some subunits contain the substring 'ABC transport'.
+##	Other subunits in the operon are added to the complex, if they contain words like
+##	'permease', 'ATP-binding', 'substrate binding', or 'periplasmic binding'.
+##	
+CPLX-ABC-TRANSPORT	ABC transporter	CPLX2R0Y-176
+SUBUNIT-OF-CPLX	ABC transporter, permease protein YnjC	G2R0Y-1049-MONOMER
+SUBUNIT-OF-CPLX	ABC transporter, substrate-binding protein YnjB	G2R0Y-1052-MONOMER
+##	
+CPLX-ABC-TRANSPORT	ABC transporter	CPLX2R0Y-175
+SUBUNIT-OF-CPLX	ABC transporter, ATP-binding protein YnjD	G2R0Y-1047-MONOMER
+SUBUNIT-OF-CPLX	ABC transporter, permease protein YnjC	G2R0Y-1050-MONOMER
+##	
+CPLX-ABC-TRANSPORT	ABC transporter	CPLX2R0Y-174
+SUBUNIT-OF-CPLX	ABC transporter, ATP-binding protein YnjD	G2R0Y-1048-MONOMER
+SUBUNIT-OF-CPLX	ABC transporter, substrate-binding protein YnjB	G2R0Y-1051-MONOMER
+##	
+CPLX-ABC-TRANSPORT	ABC transporter	CPLX2R0Y-32
+SUBUNIT-OF-CPLX	ABC transporter, ATP-binding protein	G2R0Y-497-MONOMER
+SUBUNIT-OF-CPLX	Zinc ABC transporter, permease protein ZnuB	G2R0Y-495-MONOMER
+SUBUNIT-OF-CPLX	Zinc ABC transporter, permease protein ZnuB	G2R0Y-496-MONOMER
+SUBUNIT-OF-CPLX	Zinc ABC transporter, substrate-binding protein ZnuA	G2R0Y-493-MONOMER
+SUBUNIT-OF-CPLX	Zinc ABC transporter, substrate-binding protein ZnuA	G2R0Y-494-MONOMER
+##	
+CPLX-ABC-TRANSPORT	ABC transporter, ATP-binding protein (cluster 1, maltose/g3p/polyamine/iron); ABC transporter, ATP-binding protein (cluster 10, nitrate/sulfonate/bicarbonate	CPLX2R0Y-177
+SUBUNIT-OF-CPLX	ABC transporter, ATP-binding protein (cluster 1, maltose/g3p/polyamine/iron); ABC transporter, ATP-binding protein (cluster 10, nitrate/sulfonate/bicarbonate)	G2R0Y-3991-MONOMER
+SUBUNIT-OF-CPLX	Maltodextrin ABC transporter, permease protein MdxG	G2R0Y-3988-MONOMER
+##	
+CPLX-ABC-TRANSPORT	ABC transporter, ATP-binding protein (cluster 1, maltose/g3p/polyamine/iron); ABC transporter, ATP-binding protein (cluster 10, nitrate/sulfonate/bicarbonate	CPLX2R0Y-187
+SUBUNIT-OF-CPLX	ABC transporter, ATP-binding protein (cluster 1, maltose/g3p/polyamine/iron); ABC transporter, ATP-binding protein (cluster 10, nitrate/sulfonate/bicarbonate)	G2R0Y-4007-MONOMER
+SUBUNIT-OF-CPLX	Maltodextrin ABC transporter, permease protein MdxG	G2R0Y-4003-MONOMER
+##	
+CPLX-ABC-TRANSPORT	ABC transporter, ATP-binding protein (cluster 12, methionine/phosphonates	CPLX2R0Y-27
+SUBUNIT-OF-CPLX	ABC transporter, ATP-binding protein (cluster 12, methionine/phosphonates)	G2R0Y-6348-MONOMER
+SUBUNIT-OF-CPLX	ABC transporter, ATP-binding protein (cluster 12, methionine/phosphonates)	G2R0Y-6347-MONOMER
+SUBUNIT-OF-CPLX	ABC transporter, permease protein (cluster 12, methionine/phosphonates)	G2R0Y-6349-MONOMER
+SUBUNIT-OF-CPLX	ABC transporter, permease protein (cluster 12, methionine/phosphonates)	G2R0Y-6350-MONOMER
+SUBUNIT-OF-CPLX	ABC transporter, permease protein (cluster 12, methionine/phosphonates)	G2R0Y-6351-MONOMER
+SUBUNIT-OF-CPLX	ABC transporter, permease protein (cluster 12, methionine/phosphonates)	G2R0Y-6352-MONOMER
+SUBUNIT-OF-CPLX	ABC transporter, substrate-binding protein (cluster 12, methionine/phosphonates)	G2R0Y-6345-MONOMER
+SUBUNIT-OF-CPLX	ABC transporter, substrate-binding protein (cluster 12, methionine/phosphonates)	G2R0Y-6346-MONOMER
+##	
+CPLX-ABC-TRANSPORT	ABC transporter, ATP-binding protein (cluster 12, methionine/phosphonates	CPLX2R0Y-28
+SUBUNIT-OF-CPLX	ABC transporter, ATP-binding protein (cluster 12, methionine/phosphonates)	G2R0Y-586-MONOMER
+SUBUNIT-OF-CPLX	ABC transporter, ATP-binding protein (cluster 12, methionine/phosphonates)	G2R0Y-585-MONOMER
+SUBUNIT-OF-CPLX	ABC transporter, permease protein (cluster 12, methionine/phosphonates)	G2R0Y-587-MONOMER
+SUBUNIT-OF-CPLX	ABC transporter, permease protein (cluster 12, methionine/phosphonates)	G2R0Y-588-MONOMER
+SUBUNIT-OF-CPLX	ABC transporter, permease protein (cluster 12, methionine/phosphonates)	G2R0Y-589-MONOMER
+SUBUNIT-OF-CPLX	ABC transporter, permease protein (cluster 12, methionine/phosphonates)	G2R0Y-590-MONOMER
+SUBUNIT-OF-CPLX	ABC transporter, substrate-binding protein (cluster 12, methionine/phosphonates)	G2R0Y-583-MONOMER
+SUBUNIT-OF-CPLX	ABC transporter, substrate-binding protein (cluster 12, methionine/phosphonates)	G2R0Y-584-MONOMER
+##	
+CPLX-ABC-TRANSPORT	ABC transporter, ATP-binding protein (cluster 2, ribose/xylose/arabinose/galactose); ABC transporter, ATP-binding protein (cluster 2, ribose/xylose/arabinose/galactose	CPLX2R0Y-33
+SUBUNIT-OF-CPLX	ABC transporter, ATP-binding protein (cluster 2, ribose/xylose/arabinose/galactose); ABC transporter, ATP-binding protein (cluster 2, ribose/xylose/arabinose/galactose)	G2R0Y-6230-MONOMER
+SUBUNIT-OF-CPLX	ABC transporter, ATP-binding protein (cluster 2, ribose/xylose/arabinose/galactose); ABC transporter, ATP-binding protein (cluster 2, ribose/xylose/arabinose/galactose)	G2R0Y-6229-MONOMER
+SUBUNIT-OF-CPLX	ABC transporter, permease protein (cluster 2, ribose/xylose/arabinose/galactose)	G2R0Y-6231-MONOMER
+SUBUNIT-OF-CPLX	ABC transporter, permease protein (cluster 2, ribose/xylose/arabinose/galactose)	G2R0Y-6232-MONOMER
+SUBUNIT-OF-CPLX	ABC transporter, permease protein (cluster 2, ribose/xylose/arabinose/galactose)	G2R0Y-6233-MONOMER
+SUBUNIT-OF-CPLX	ABC transporter, permease protein (cluster 2, ribose/xylose/arabinose/galactose)	G2R0Y-6234-MONOMER
+SUBUNIT-OF-CPLX	ABC transporter, substrate-binding protein (cluster 2, ribose/xylose/arabinose/galactose)	G2R0Y-6235-MONOMER
+SUBUNIT-OF-CPLX	ABC transporter, substrate-binding protein (cluster 2, ribose/xylose/arabinose/galactose)	G2R0Y-6236-MONOMER
+##	
+CPLX-ABC-TRANSPORT	ABC transporter, ATP-binding protein (cluster 3, basic aa/glutamine/opines	CPLX2R0Y-16
+SUBUNIT-OF-CPLX	ABC transporter, ATP-binding protein (cluster 3, basic aa/glutamine/opines)	G2R0Y-2120-MONOMER
+SUBUNIT-OF-CPLX	ABC transporter, ATP-binding protein (cluster 3, basic aa/glutamine/opines)	G2R0Y-2119-MONOMER
+SUBUNIT-OF-CPLX	ABC transporter, permease protein (cluster 3, basic aa/glutamine/opines)	G2R0Y-2117-MONOMER
+SUBUNIT-OF-CPLX	ABC transporter, permease protein (cluster 3, basic aa/glutamine/opines)	G2R0Y-2118-MONOMER
+SUBUNIT-OF-CPLX	ABC transporter, permease protein (cluster 3, basic aa/glutamine/opines)	G2R0Y-2121-MONOMER
+SUBUNIT-OF-CPLX	ABC transporter, permease protein (cluster 3, basic aa/glutamine/opines)	G2R0Y-2122-MONOMER
+##	
+CPLX-ABC-TRANSPORT	ABC transporter, ATP-binding protein (cluster 5, nickel/peptides/opines	CPLX2R0Y-5
+SUBUNIT-OF-CPLX	ABC transporter, ATP-binding protein (cluster 5, nickel/peptides/opines)	G2R0Y-3798-MONOMER
+SUBUNIT-OF-CPLX	Dipeptide ABC transporter, ATP-binding protein DppF (TC 3.A.1.5.2)	G2R0Y-3799-MONOMER
+SUBUNIT-OF-CPLX	Dipeptide ABC transporter, permease protein DppC (TC 3.A.1.5.2)	G2R0Y-3795-MONOMER
+SUBUNIT-OF-CPLX	Dipeptide ABC transporter, permease protein DppC (TC 3.A.1.5.2)	G2R0Y-3796-MONOMER
+SUBUNIT-OF-CPLX	Dipeptide ABC transporter, substrate-binding protein DppA (TC 3.A.1.5.2)	G2R0Y-3791-MONOMER
+SUBUNIT-OF-CPLX	Dipeptide ABC transporter, substrate-binding protein DppA (TC 3.A.1.5.2)	G2R0Y-3792-MONOMER
+##	
+CPLX-ABC-TRANSPORT	ABC transporter, ATP-binding protein (cluster 5, nickel/peptides/opines); ABC transporter, ATP-binding protein (cluster 5, nickel/peptides/opines	CPLX2R0Y-6
+SUBUNIT-OF-CPLX	ABC transporter, ATP-binding protein (cluster 5, nickel/peptides/opines); ABC transporter, ATP-binding protein (cluster 5, nickel/peptides/opines)	G2R0Y-3410-MONOMER
+SUBUNIT-OF-CPLX	Prephenate dehydratase-associated ABC transporter, permease protein 2	G2R0Y-3407-MONOMER
+SUBUNIT-OF-CPLX	Prephenate dehydratase-associated ABC transporter, permease protein 2	G2R0Y-3408-MONOMER
+##	
+CPLX-ABC-TRANSPORT	ABC-type Fe3+-siderophore transport system	CPLX2R0Y-43
+SUBUNIT-OF-CPLX	ABC-type Fe3+-siderophore transport system, permease 2 component	G2R0Y-5063-MONOMER
+SUBUNIT-OF-CPLX	ABC-type Fe3+-siderophore transport system, permease 2 component	G2R0Y-5064-MONOMER
+SUBUNIT-OF-CPLX	ABC-type Fe3+-siderophore transport system, permease component	G2R0Y-5061-MONOMER
+SUBUNIT-OF-CPLX	ABC-type Fe3+-siderophore transport system, permease component	G2R0Y-5062-MONOMER
+SUBUNIT-OF-CPLX	Siderophore staphylobactin ABC transporter, substrate-binding protein SirA, putative; ABC-type Fe3+-siderophore transport system, periplasmic iron-binding component	G2R0Y-5059-MONOMER
+##	
+CPLX-ABC-TRANSPORT	Arginine/ornithine ABC transporter	CPLX2R0Y-19
+SUBUNIT-OF-CPLX	Arginine/ornithine ABC transporter, ATP-binding protein AotP	G2R0Y-1831-MONOMER
+SUBUNIT-OF-CPLX	Arginine/ornithine ABC transporter, permease protein AotQ	G2R0Y-1829-MONOMER
+SUBUNIT-OF-CPLX	Arginine/ornithine ABC transporter, permease protein AotQ	G2R0Y-1830-MONOMER
+##	
+CPLX-ABC-TRANSPORT	Branched-chain amino acid ABC transporter, ATP-binding protein LivF (TC 3.A.1.4.1	CPLX2R0Y-182
+SUBUNIT-OF-CPLX	Branched-chain amino acid ABC transporter, ATP-binding protein LivF (TC 3.A.1.4.1)	G2R0Y-386-MONOMER
+SUBUNIT-OF-CPLX	Branched-chain amino acid ABC transporter, permease protein LivH (TC 3.A.1.4.1)	G2R0Y-383-MONOMER
+##	
+CPLX-ABC-TRANSPORT	Branched-chain amino acid ABC transporter, permease protein LivH (TC 3.A.1.4.1	CPLX2R0Y-35
+SUBUNIT-OF-CPLX	ABC transporter, substrate-binding protein (cluster 4, leucine/isoleucine/valine/benzoate)	G2R0Y-379-MONOMER
+SUBUNIT-OF-CPLX	ABC transporter, substrate-binding protein (cluster 4, leucine/isoleucine/valine/benzoate)	G2R0Y-380-MONOMER
+SUBUNIT-OF-CPLX	Branched-chain amino acid ABC transporter, permease protein LivH (TC 3.A.1.4.1)	G2R0Y-384-MONOMER
+SUBUNIT-OF-CPLX	Branched-chain amino acid ABC transporter, permease protein LivM (TC 3.A.1.4.1)	G2R0Y-381-MONOMER
+##	
+CPLX-ABC-TRANSPORT	Cobalt ABC transporter	CPLX2R0Y-169
+SUBUNIT-OF-CPLX	ABC transporter, permease protein (cluster 8, B12/iron complex)	G2R0Y-3939-MONOMER
+SUBUNIT-OF-CPLX	Cobalt ABC transporter, ATP-binding protein CbtL	G2R0Y-3936-MONOMER
+SUBUNIT-OF-CPLX	Vitamin B12 ABC transporter, substrate-binding protein BtuF	G2R0Y-3942-MONOMER
+##	
+CPLX-ABC-TRANSPORT	Dipeptide ABC transporter, ATP-binding protein DppF (TC 3.A.1.5.2	CPLX2R0Y-189
+SUBUNIT-OF-CPLX	ABC transporter, ATP-binding protein (cluster 5, nickel/peptides/opines)	G2R0Y-3797-MONOMER
+SUBUNIT-OF-CPLX	Dipeptide ABC transporter, ATP-binding protein DppF (TC 3.A.1.5.2)	G2R0Y-3800-MONOMER
+##	
+CPLX-ABC-TRANSPORT	Efflux ABC transporter	CPLX2R0Y-171
+SUBUNIT-OF-CPLX	Efflux ABC transporter, ATP-binding protein	G2R0Y-5738-MONOMER
+SUBUNIT-OF-CPLX	Efflux ABC transporter, permease protein	G2R0Y-5735-MONOMER
+##	
+CPLX-ABC-TRANSPORT	Ferric iron ABC transporter	CPLX2R0Y-48
+SUBUNIT-OF-CPLX	Ferric iron ABC transporter, ATP-binding protein	G2R0Y-5609-MONOMER
+SUBUNIT-OF-CPLX	Ferric iron ABC transporter, iron-binding protein	G2R0Y-5611-MONOMER
+SUBUNIT-OF-CPLX	Ferric iron ABC transporter, iron-binding protein	G2R0Y-5612-MONOMER
+SUBUNIT-OF-CPLX	Ferric iron ABC transporter, permease protein	G2R0Y-5607-MONOMER
+SUBUNIT-OF-CPLX	Ferric iron ABC transporter, permease protein	G2R0Y-5608-MONOMER
+##	
+CPLX-ABC-TRANSPORT	Ferrichrome transport	CPLX2R0Y-190
+SUBUNIT-OF-CPLX	ABC transporter, permease protein (cluster 8, B12/iron complex)	G2R0Y-3940-MONOMER
+SUBUNIT-OF-CPLX	Ferrichrome transport ATP-binding protein FhuC	G2R0Y-3937-MONOMER
+##	
+CPLX-ABC-TRANSPORT	Glutamine ABC transporter	CPLX2R0Y-49
+SUBUNIT-OF-CPLX	ABC transporter, ATP-binding protein (cluster 3, basic aa/glutamine/opines)	G2R0Y-74-MONOMER
+SUBUNIT-OF-CPLX	ABC transporter, ATP-binding protein (cluster 3, basic aa/glutamine/opines)	G2R0Y-73-MONOMER
+SUBUNIT-OF-CPLX	Glutamine ABC transporter, permease protein GlnP	G2R0Y-75-MONOMER
+SUBUNIT-OF-CPLX	Glutamine ABC transporter, permease protein GlnP	G2R0Y-76-MONOMER
+SUBUNIT-OF-CPLX	Glutamine ABC transporter, substrate-binding protein GlnH	G2R0Y-77-MONOMER
+SUBUNIT-OF-CPLX	Glutamine ABC transporter, substrate-binding protein GlnH	G2R0Y-78-MONOMER
+##	
+CPLX-ABC-TRANSPORT	Glycerol ABC transporter	CPLX2R0Y-10
+SUBUNIT-OF-CPLX	Glycerol ABC transporter, ATP-binding protein GlpS	G2R0Y-3018-MONOMER
+SUBUNIT-OF-CPLX	Glycerol ABC transporter, ATP-binding protein GlpS	G2R0Y-3017-MONOMER
+SUBUNIT-OF-CPLX	Glycerol ABC transporter, ATP-binding protein GlpT	G2R0Y-3015-MONOMER
+SUBUNIT-OF-CPLX	Glycerol ABC transporter, ATP-binding protein GlpT	G2R0Y-3016-MONOMER
+SUBUNIT-OF-CPLX	Glycerol ABC transporter, permease protein GlpP	G2R0Y-3013-MONOMER
+SUBUNIT-OF-CPLX	Glycerol ABC transporter, permease protein GlpP	G2R0Y-3014-MONOMER
+SUBUNIT-OF-CPLX	Glycerol ABC transporter, permease protein GlpQ	G2R0Y-3011-MONOMER
+SUBUNIT-OF-CPLX	Glycerol ABC transporter, permease protein GlpQ	G2R0Y-3012-MONOMER
+SUBUNIT-OF-CPLX	Glycerol ABC transporter, substrate-binding protein GlpV	G2R0Y-3007-MONOMER
+SUBUNIT-OF-CPLX	Glycerol ABC transporter, substrate-binding protein GlpV	G2R0Y-3008-MONOMER
+##	
+CPLX-ABC-TRANSPORT	Glycerol-3-phosphate ABC transporter, ATP-binding protein UgpC (TC 3.A.1.1.3	CPLX2R0Y-40
+SUBUNIT-OF-CPLX	Glycerol-3-phosphate ABC transporter, ATP-binding protein UgpC (TC 3.A.1.1.3)	G2R0Y-530-MONOMER
+SUBUNIT-OF-CPLX	Glycerol-3-phosphate ABC transporter, ATP-binding protein UgpC (TC 3.A.1.1.3)	G2R0Y-529-MONOMER
+SUBUNIT-OF-CPLX	Glycerol-3-phosphate ABC transporter, permease protein UgpA (TC 3.A.1.1.3)	G2R0Y-533-MONOMER
+SUBUNIT-OF-CPLX	Glycerol-3-phosphate ABC transporter, permease protein UgpA (TC 3.A.1.1.3)	G2R0Y-534-MONOMER
+SUBUNIT-OF-CPLX	Glycerol-3-phosphate ABC transporter, permease protein UgpE (TC 3.A.1.1.3)	G2R0Y-531-MONOMER
+SUBUNIT-OF-CPLX	Glycerol-3-phosphate ABC transporter, permease protein UgpE (TC 3.A.1.1.3)	G2R0Y-532-MONOMER
+SUBUNIT-OF-CPLX	Glycerol-3-phosphate ABC transporter, substrate-binding protein UgpB	G2R0Y-535-MONOMER
+SUBUNIT-OF-CPLX	Glycerol-3-phosphate ABC transporter, substrate-binding protein UgpB	G2R0Y-536-MONOMER
+##	
+CPLX-ABC-TRANSPORT	Glycerol-3-phosphate ABC transporter, ATP-binding protein UgpC (TC 3.A.1.1.3	CPLX2R0Y-41
+SUBUNIT-OF-CPLX	ABC transporter, permease protein 1 (cluster 1, maltose/g3p/polyamine/iron)	G2R0Y-5791-MONOMER
+SUBUNIT-OF-CPLX	Glycerol-3-phosphate ABC transporter, ATP-binding protein UgpC (TC 3.A.1.1.3)	G2R0Y-5788-MONOMER
+SUBUNIT-OF-CPLX	Glycerol-3-phosphate ABC transporter, ATP-binding protein UgpC (TC 3.A.1.1.3)	G2R0Y-5787-MONOMER
+SUBUNIT-OF-CPLX	Glycerol-3-phosphate ABC transporter, substrate-binding protein UgpB	G2R0Y-5789-MONOMER
+SUBUNIT-OF-CPLX	Glycerol-3-phosphate ABC transporter, substrate-binding protein UgpB	G2R0Y-5790-MONOMER
+##	
+CPLX-ABC-TRANSPORT	Glycerol-3-phosphate ABC transporter, ATP-binding protein UgpC (TC 3.A.1.1.3	CPLX2R0Y-39
+SUBUNIT-OF-CPLX	ABC transporter, permease protein 1 (cluster 1, maltose/g3p/polyamine/iron)	G2R0Y-5791-MONOMER
+SUBUNIT-OF-CPLX	ABC transporter, permease protein 1 (cluster 1, maltose/g3p/polyamine/iron)	G2R0Y-5792-MONOMER
+SUBUNIT-OF-CPLX	ABC transporter, permease protein 2 (cluster 1, maltose/g3p/polyamine/iron)	G2R0Y-5793-MONOMER
+SUBUNIT-OF-CPLX	ABC transporter, permease protein 2 (cluster 1, maltose/g3p/polyamine/iron)	G2R0Y-5794-MONOMER
+##	
+CPLX-ABC-TRANSPORT	Iron(III) dicitrate transport system permease protein FecD (TC 3.A.1.14.1	CPLX2R0Y-24
+SUBUNIT-OF-CPLX	ABC transporter, substrate-binding protein (cluster 8, B12/iron complex)	G2R0Y-646-MONOMER
+SUBUNIT-OF-CPLX	Iron(III) dicitrate transport system permease protein FecD (TC 3.A.1.14.1)	G2R0Y-643-MONOMER
+SUBUNIT-OF-CPLX	Iron(III) dicitrate transport system permease protein FecD (TC 3.A.1.14.1)	G2R0Y-644-MONOMER
+##	
+CPLX-ABC-TRANSPORT	L-amino acid ABC transporter (Glu/Asp/His/...)	CPLX2R0Y-181
+SUBUNIT-OF-CPLX	L-amino acid ABC transporter (Glu/Asp/His/...), ATP-binding protein AapP	G2R0Y-6340-MONOMER
+SUBUNIT-OF-CPLX	L-amino acid ABC transporter (Glu/Asp/His/...), permease protein 2 AapM	G2R0Y-6338-MONOMER
+##	
+CPLX-ABC-TRANSPORT	L-amino acid ABC transporter (Glu/Asp/His/...)	CPLX2R0Y-180
+SUBUNIT-OF-CPLX	L-amino acid ABC transporter (Glu/Asp/His/...), ATP-binding protein AapP	G2R0Y-6339-MONOMER
+SUBUNIT-OF-CPLX	L-amino acid ABC transporter (Glu/Asp/His/...), permease protein 2 AapM	G2R0Y-6337-MONOMER
+##	
+CPLX-ABC-TRANSPORT	L-amino acid ABC transporter (Glu/Asp/His/...)	CPLX2R0Y-179
+SUBUNIT-OF-CPLX	L-amino acid ABC transporter (Glu/Asp/His/...), permease protein 1 AapQ	G2R0Y-6336-MONOMER
+SUBUNIT-OF-CPLX	L-amino acid ABC transporter (Glu/Asp/His/...), substrate-binding protein AapJ	G2R0Y-6334-MONOMER
+##	
+CPLX-ABC-TRANSPORT	L-amino acid ABC transporter (Glu/Asp/His/...)	CPLX2R0Y-178
+SUBUNIT-OF-CPLX	L-amino acid ABC transporter (Glu/Asp/His/...), permease protein 1 AapQ	G2R0Y-6335-MONOMER
+SUBUNIT-OF-CPLX	L-amino acid ABC transporter (Glu/Asp/His/...), substrate-binding protein AapJ	G2R0Y-6333-MONOMER
+##	
+CPLX-ABC-TRANSPORT	L-arabinose ABC transporter	CPLX2R0Y-173
+SUBUNIT-OF-CPLX	L-arabinose ABC transporter, ATP-binding protein AraG	G2R0Y-5750-MONOMER
+SUBUNIT-OF-CPLX	L-arabinose ABC transporter, permease protein AraH	G2R0Y-5748-MONOMER
+##	
+CPLX-ABC-TRANSPORT	L-arabinose ABC transporter	CPLX2R0Y-172
+SUBUNIT-OF-CPLX	L-arabinose ABC transporter, ATP-binding protein AraG	G2R0Y-5749-MONOMER
+SUBUNIT-OF-CPLX	L-arabinose ABC transporter, permease protein AraH	G2R0Y-5747-MONOMER
+##	
+CPLX-ABC-TRANSPORT	Maltodextrin ABC transporter	CPLX2R0Y-186
+SUBUNIT-OF-CPLX	Maltodextrin ABC transporter, permease protein MdxF	G2R0Y-4002-MONOMER
+SUBUNIT-OF-CPLX	Maltodextrin ABC transporter, substrate-binding protein MdxE	G2R0Y-3999-MONOMER
+##	
+CPLX-ABC-TRANSPORT	Maltodextrin ABC transporter	CPLX2R0Y-185
+SUBUNIT-OF-CPLX	Maltodextrin ABC transporter, permease protein MdxF	G2R0Y-4001-MONOMER
+SUBUNIT-OF-CPLX	Maltodextrin ABC transporter, substrate-binding protein MdxE	G2R0Y-4000-MONOMER
+##	
+CPLX-ABC-TRANSPORT	Maltodextrin ABC transporter	CPLX2R0Y-184
+SUBUNIT-OF-CPLX	Maltodextrin ABC transporter, permease protein MdxF	G2R0Y-3986-MONOMER
+SUBUNIT-OF-CPLX	Maltodextrin ABC transporter, substrate-binding protein MdxE	G2R0Y-3984-MONOMER
+##	
+CPLX-ABC-TRANSPORT	Maltodextrin ABC transporter	CPLX2R0Y-183
+SUBUNIT-OF-CPLX	Maltodextrin ABC transporter, permease protein MdxF	G2R0Y-3985-MONOMER
+SUBUNIT-OF-CPLX	Maltodextrin ABC transporter, substrate-binding protein MdxE	G2R0Y-3983-MONOMER
+##	
+CPLX-ABC-TRANSPORT	Manganese ABC transporter	CPLX2R0Y-30
+SUBUNIT-OF-CPLX	Manganese ABC transporter, ATP-binding protein SitB	G2R0Y-6262-MONOMER
+SUBUNIT-OF-CPLX	Manganese ABC transporter, inner membrane permease protein SitC	G2R0Y-6263-MONOMER
+SUBUNIT-OF-CPLX	Manganese ABC transporter, inner membrane permease protein SitC	G2R0Y-6264-MONOMER
+SUBUNIT-OF-CPLX	Manganese ABC transporter, inner membrane permease protein SitD	G2R0Y-6265-MONOMER
+SUBUNIT-OF-CPLX	Manganese ABC transporter, inner membrane permease protein SitD	G2R0Y-6266-MONOMER
+SUBUNIT-OF-CPLX	Manganese ABC transporter, periplasmic-binding protein SitA	G2R0Y-6259-MONOMER
+##	
+CPLX-ABC-TRANSPORT	Manganese ABC transporter	CPLX2R0Y-170
+SUBUNIT-OF-CPLX	Manganese ABC transporter, ATP-binding protein SitB	G2R0Y-6261-MONOMER
+SUBUNIT-OF-CPLX	Manganese ABC transporter, periplasmic-binding protein SitA	G2R0Y-6260-MONOMER
+##	
+CPLX-ABC-TRANSPORT	Methionine ABC transporter	CPLX2R0Y-26
+SUBUNIT-OF-CPLX	Methionine ABC transporter ATP-binding protein	G2R0Y-3609-MONOMER
+SUBUNIT-OF-CPLX	Methionine ABC transporter permease protein	G2R0Y-3611-MONOMER
+SUBUNIT-OF-CPLX	Methionine ABC transporter permease protein	G2R0Y-3612-MONOMER
+SUBUNIT-OF-CPLX	Methionine ABC transporter substrate-binding protein	G2R0Y-3613-MONOMER
+SUBUNIT-OF-CPLX	Methionine ABC transporter substrate-binding protein	G2R0Y-3614-MONOMER
+##	
+CPLX-ABC-TRANSPORT	Molybdenum ABC transporter	CPLX2R0Y-50
+SUBUNIT-OF-CPLX	Molybdenum ABC transporter ATP-binding protein ModC	G2R0Y-5355-MONOMER
+SUBUNIT-OF-CPLX	Molybdenum ABC transporter permease protein ModB	G2R0Y-5357-MONOMER
+SUBUNIT-OF-CPLX	Molybdenum ABC transporter permease protein ModB	G2R0Y-5358-MONOMER
+SUBUNIT-OF-CPLX	Molybdenum ABC transporter, substrate-binding protein ModA	G2R0Y-5359-MONOMER
+SUBUNIT-OF-CPLX	Molybdenum ABC transporter, substrate-binding protein ModA	G2R0Y-5360-MONOMER
+##	
+CPLX-ABC-TRANSPORT	Nickel ABC transporter, ATP-binding protein NikD2 (TC 3.A.1.5.3	CPLX2R0Y-15
+SUBUNIT-OF-CPLX	Nickel ABC transporter, ATP-binding protein NikD2 (TC 3.A.1.5.3)	G2R0Y-2156-MONOMER
+SUBUNIT-OF-CPLX	Nickel ABC transporter, ATP-binding protein NikD2 (TC 3.A.1.5.3)	G2R0Y-2155-MONOMER
+SUBUNIT-OF-CPLX	Nickel ABC transporter, permease protein NikB2 (TC 3.A.1.5.3)	G2R0Y-2159-MONOMER
+SUBUNIT-OF-CPLX	Nickel ABC transporter, permease protein NikB2 (TC 3.A.1.5.3)	G2R0Y-2160-MONOMER
+SUBUNIT-OF-CPLX	Nickel ABC transporter, permease protein NikC2 (TC 3.A.1.5.3)	G2R0Y-2157-MONOMER
+SUBUNIT-OF-CPLX	Nickel ABC transporter, permease protein NikC2 (TC 3.A.1.5.3)	G2R0Y-2158-MONOMER
+SUBUNIT-OF-CPLX	Nickel ABC transporter, substrate-binding protein NikA2 (TC 3.A.1.5.3)	G2R0Y-2161-MONOMER
+SUBUNIT-OF-CPLX	Nickel ABC transporter, substrate-binding protein NikA2 (TC 3.A.1.5.3)	G2R0Y-2162-MONOMER
+##	
+CPLX-ABC-TRANSPORT	Osmoprotectant ABC transporter	CPLX2R0Y-167
+SUBUNIT-OF-CPLX	Osmoprotectant ABC transporter ATP-binding subunit YehX	G2R0Y-3433-MONOMER
+SUBUNIT-OF-CPLX	Osmoprotectant ABC transporter permease protein YehY	G2R0Y-3436-MONOMER
+##	
+CPLX-ABC-TRANSPORT	Outer membrane vitamin B12 receptor	CPLX2R0Y-168
+SUBUNIT-OF-CPLX	Outer membrane vitamin B12 receptor BtuB	G2R0Y-3944-MONOMER
+SUBUNIT-OF-CPLX	Vitamin B12 ABC transporter, substrate-binding protein BtuF	G2R0Y-3941-MONOMER
+##	
+CPLX-ABC-TRANSPORT	Phosphate ABC transporter, ATP-binding protein PstB (TC 3.A.1.7.1	CPLX2R0Y-22
+SUBUNIT-OF-CPLX	Phosphate ABC transporter, ATP-binding protein PstB (TC 3.A.1.7.1)	G2R0Y-4152-MONOMER
+SUBUNIT-OF-CPLX	Phosphate ABC transporter, ATP-binding protein PstB (TC 3.A.1.7.1)	G2R0Y-4151-MONOMER
+SUBUNIT-OF-CPLX	Phosphate ABC transporter, permease protein PstA (TC 3.A.1.7.1)	G2R0Y-4153-MONOMER
+SUBUNIT-OF-CPLX	Phosphate ABC transporter, permease protein PstA (TC 3.A.1.7.1)	G2R0Y-4154-MONOMER
+SUBUNIT-OF-CPLX	Phosphate ABC transporter, permease protein PstC (TC 3.A.1.7.1)	G2R0Y-4155-MONOMER
+SUBUNIT-OF-CPLX	Phosphate ABC transporter, permease protein PstC (TC 3.A.1.7.1)	G2R0Y-4156-MONOMER
+SUBUNIT-OF-CPLX	Phosphate ABC transporter, substrate-binding protein PstS (TC 3.A.1.7.1)	G2R0Y-4157-MONOMER
+SUBUNIT-OF-CPLX	Phosphate ABC transporter, substrate-binding protein PstS (TC 3.A.1.7.1)	G2R0Y-4158-MONOMER
+##	
+CPLX-ABC-TRANSPORT	Phosphate ABC transporter, ATP-binding protein PstB (TC 3.A.1.7.1	CPLX2R0Y-23
+SUBUNIT-OF-CPLX	Phosphate ABC transporter, ATP-binding protein PstB (TC 3.A.1.7.1)	G2R0Y-6588-MONOMER
+SUBUNIT-OF-CPLX	Phosphate ABC transporter, ATP-binding protein PstB (TC 3.A.1.7.1)	G2R0Y-6587-MONOMER
+SUBUNIT-OF-CPLX	Phosphate ABC transporter, permease protein PstA (TC 3.A.1.7.1)	G2R0Y-6585-MONOMER
+SUBUNIT-OF-CPLX	Phosphate ABC transporter, permease protein PstA (TC 3.A.1.7.1)	G2R0Y-6586-MONOMER
+SUBUNIT-OF-CPLX	Phosphate ABC transporter, permease protein PstC (TC 3.A.1.7.1)	G2R0Y-6583-MONOMER
+SUBUNIT-OF-CPLX	Phosphate ABC transporter, permease protein PstC (TC 3.A.1.7.1)	G2R0Y-6584-MONOMER
+SUBUNIT-OF-CPLX	Phosphate ABC transporter, substrate-binding protein PstS (TC 3.A.1.7.1)	G2R0Y-6581-MONOMER
+SUBUNIT-OF-CPLX	Phosphate ABC transporter, substrate-binding protein PstS (TC 3.A.1.7.1)	G2R0Y-6582-MONOMER
+##	
+CPLX-ABC-TRANSPORT	Phospholipid ABC transporter	CPLX2R0Y-166
+SUBUNIT-OF-CPLX	Phospholipid ABC transporter permease protein MlaE	G2R0Y-2601-MONOMER
+SUBUNIT-OF-CPLX	Phospholipid ABC transporter substrate-binding protein MlaD	G2R0Y-2604-MONOMER
+##	
+CPLX-ABC-TRANSPORT	Phospholipid ABC transporter	CPLX2R0Y-165
+SUBUNIT-OF-CPLX	Phospholipid ABC transporter ATP-binding protein MlaF	G2R0Y-2599-MONOMER
+SUBUNIT-OF-CPLX	Phospholipid ABC transporter permease protein MlaE	G2R0Y-2602-MONOMER
+##	
+CPLX-ABC-TRANSPORT	Phospholipid ABC transporter	CPLX2R0Y-164
+SUBUNIT-OF-CPLX	Phospholipid ABC transporter ATP-binding protein MlaF	G2R0Y-2600-MONOMER
+SUBUNIT-OF-CPLX	Phospholipid ABC transporter substrate-binding protein MlaD	G2R0Y-2603-MONOMER
+##	
+CPLX-ABC-TRANSPORT	Spermidine/putrescine import ABC transporter permease protein PotB (TC 3.A.1.11.1	CPLX2R0Y-36
+SUBUNIT-OF-CPLX	Polyamine ABC transporter, permease protein	G2R0Y-6067-MONOMER
+SUBUNIT-OF-CPLX	Spermidine/putrescine import ABC transporter permease protein PotB (TC 3.A.1.11.1)	G2R0Y-6069-MONOMER
+SUBUNIT-OF-CPLX	Spermidine/putrescine import ABC transporter permease protein PotB (TC 3.A.1.11.1)	G2R0Y-6070-MONOMER
+##	
+CPLX-ABC-TRANSPORT	Tungstate ABC transporter	CPLX2R0Y-12
+SUBUNIT-OF-CPLX	Tungstate ABC transporter, ATP-binding protein	G2R0Y-2443-MONOMER
+SUBUNIT-OF-CPLX	Tungstate ABC transporter, permease protein	G2R0Y-2445-MONOMER
+SUBUNIT-OF-CPLX	Tungstate ABC transporter, permease protein	G2R0Y-2446-MONOMER
+##	
+CPLX-ABC-TRANSPORT	Uncharacterized efflux ABC transporter	CPLX2R0Y-188
+SUBUNIT-OF-CPLX	Uncharacterized efflux ABC transporter, ATP-binding protein YadG	G2R0Y-2271-MONOMER
+SUBUNIT-OF-CPLX	Uncharacterized efflux ABC transporter, permease protein YadH	G2R0Y-2274-MONOMER
+##	
+CPLX-ABC-TRANSPORT	Various polyols ABC transporter	CPLX2R0Y-163
+SUBUNIT-OF-CPLX	Various polyols ABC transporter, permease protein 1	G2R0Y-4658-MONOMER
+SUBUNIT-OF-CPLX	Various polyols ABC transporter, substrate-binding protein	G2R0Y-4660-MONOMER
+##	
+CPLX-ABC-TRANSPORT	Various polyols ABC transporter	CPLX2R0Y-162
+SUBUNIT-OF-CPLX	Various polyols ABC transporter, permease protein 1	G2R0Y-4657-MONOMER
+SUBUNIT-OF-CPLX	Various polyols ABC transporter, substrate-binding protein	G2R0Y-4659-MONOMER
+##	
+CPLX-ABC-TRANSPORT	Various polyols ABC transporter	CPLX2R0Y-161
+SUBUNIT-OF-CPLX	Various polyols ABC transporter, ATP-binding component	G2R0Y-4653-MONOMER
+SUBUNIT-OF-CPLX	Various polyols ABC transporter, permease protein 2	G2R0Y-4656-MONOMER
+##	
+CPLX-ABC-TRANSPORT	Various polyols ABC transporter	CPLX2R0Y-160
+SUBUNIT-OF-CPLX	Various polyols ABC transporter, ATP-binding component	G2R0Y-4654-MONOMER
+SUBUNIT-OF-CPLX	Various polyols ABC transporter, permease protein 2	G2R0Y-4655-MONOMER
+##	
+CPLX-ABC-TRANSPORT	Zinc ABC transporter	CPLX2R0Y-31
+SUBUNIT-OF-CPLX	Ferric hydroxamate ABC transporter (TC 3.A.1.14.3), ATP-binding protein FhuC	G2R0Y-5013-MONOMER
+SUBUNIT-OF-CPLX	Zinc ABC transporter, ATP-binding protein ZnuC	G2R0Y-5017-MONOMER
+SUBUNIT-OF-CPLX	Zinc ABC transporter, permease protein ZnuB	G2R0Y-5019-MONOMER
+SUBUNIT-OF-CPLX	Zinc ABC transporter, permease protein ZnuB	G2R0Y-5020-MONOMER
+SUBUNIT-OF-CPLX	Zinc ABC transporter, substrate-binding protein ZnuA	G2R0Y-5015-MONOMER
+SUBUNIT-OF-CPLX	Zinc ABC transporter, substrate-binding protein ZnuA	G2R0Y-5016-MONOMER
+##	
+##	
+####	Complexes that pre-existed in the PGDB
+##	
+CPLX-PRE-EXISTING	putative 4-amino-2-methyl-5-pyrimidinemethanol ABC transporter	CPLX2R0Y-8
+SUBUNIT-OF-CPLX	Hydroxymethylpyrimidine ABC transporter, substrate-binding component	G2R0Y-3373-MONOMER
+SUBUNIT-OF-CPLX	Hydroxymethylpyrimidine ABC transporter, substrate-binding component	G2R0Y-3374-MONOMER
+##	
+CPLX-PRE-EXISTING	putative Co2+ ABC transporter	CPLX2R0Y-4
+SUBUNIT-OF-CPLX	Cobalt ABC transporter, permease protein CbtK	G2R0Y-3931-MONOMER
+SUBUNIT-OF-CPLX	Cobalt ABC transporter, permease protein CbtK	G2R0Y-3932-MONOMER
+SUBUNIT-OF-CPLX	Cobalt ABC transporter, substrate-binding protein CbtJ	G2R0Y-3929-MONOMER
+SUBUNIT-OF-CPLX	Cobalt ABC transporter, substrate-binding protein CbtJ	G2R0Y-3930-MONOMER
+##	
+CPLX-PRE-EXISTING	putative D-glucose ABC transporter	CPLX2R0Y-1
+SUBUNIT-OF-CPLX	Glucose ABC transporter, ATP-binding subunit	G2R0Y-4435-MONOMER
+SUBUNIT-OF-CPLX	Glucose ABC transporter, ATP-binding subunit	G2R0Y-4436-MONOMER
+##	
+CPLX-PRE-EXISTING	putative Fe3+ ABC transporter	CPLX2R0Y-45
+SUBUNIT-OF-CPLX	Ferric hydroxamate ABC transporter (TC 3.A.1.14.3), permease component FhuB	G2R0Y-4967-MONOMER
+SUBUNIT-OF-CPLX	Ferric hydroxamate ABC transporter (TC 3.A.1.14.3), permease component FhuB	G2R0Y-4968-MONOMER
+##	
+CPLX-PRE-EXISTING	putative Fe3+ ABC transporter	CPLX2R0Y-44
+SUBUNIT-OF-CPLX	Ferric hydroxamate ABC transporter (TC 3.A.1.14.3), periplasmic substrate binding protein FhuD	G2R0Y-5009-MONOMER
+SUBUNIT-OF-CPLX	Ferric hydroxamate ABC transporter (TC 3.A.1.14.3), periplasmic substrate binding protein FhuD	G2R0Y-5010-MONOMER
+##	
+CPLX-PRE-EXISTING	putative Fe3+ ABC transporter	CPLX2R0Y-42
+SUBUNIT-OF-CPLX	ABC-type Fe3+-siderophore transport system, ATPase component	G2R0Y-5097-MONOMER
+SUBUNIT-OF-CPLX	ABC-type Fe3+-siderophore transport system, ATPase component	G2R0Y-5098-MONOMER
+SUBUNIT-OF-CPLX	ABC-type Fe3+-siderophore transport system, periplasmic iron-binding component	G2R0Y-5103-MONOMER
+SUBUNIT-OF-CPLX	ABC-type Fe3+-siderophore transport system, periplasmic iron-binding component	G2R0Y-5104-MONOMER
+SUBUNIT-OF-CPLX	ABC-type Fe3+-siderophore transport system, permease 2 component	G2R0Y-5099-MONOMER
+SUBUNIT-OF-CPLX	ABC-type Fe3+-siderophore transport system, permease 2 component	G2R0Y-5100-MONOMER
+SUBUNIT-OF-CPLX	ABC-type Fe3+-siderophore transport system, permease component	G2R0Y-5101-MONOMER
+SUBUNIT-OF-CPLX	ABC-type Fe3+-siderophore transport system, permease component	G2R0Y-5102-MONOMER
+##	
+CPLX-PRE-EXISTING	putative Fe3+ ABC transporter	CPLX2R0Y-47
+SUBUNIT-OF-CPLX	Ferric hydroxamate ABC transporter (TC 3.A.1.14.3), periplasmic substrate binding protein FhuD	G2R0Y-6375-MONOMER
+SUBUNIT-OF-CPLX	Ferric hydroxamate ABC transporter (TC 3.A.1.14.3), periplasmic substrate binding protein FhuD	G2R0Y-6376-MONOMER
+##	
+CPLX-PRE-EXISTING	putative Fe3+ ABC transporter	CPLX2R0Y-46
+SUBUNIT-OF-CPLX	Ferric hydroxamate ABC transporter (TC 3.A.1.14.3), periplasmic substrate binding protein FhuD	G2R0Y-4939-MONOMER
+SUBUNIT-OF-CPLX	Ferric hydroxamate ABC transporter (TC 3.A.1.14.3), periplasmic substrate binding protein FhuD	G2R0Y-4940-MONOMER
+SUBUNIT-OF-CPLX	Ferric hydroxamate ABC transporter (TC 3.A.1.14.3), periplasmic substrate binding protein FhuD	G2R0Y-4947-MONOMER
+SUBUNIT-OF-CPLX	Ferric hydroxamate ABC transporter (TC 3.A.1.14.3), periplasmic substrate binding protein FhuD	G2R0Y-4948-MONOMER
+##	
+CPLX-PRE-EXISTING	putative L-histidine ABC transporter	CPLX2R0Y-20
+SUBUNIT-OF-CPLX	Histidine ABC transporter, permease protein HisM (TC 3.A.1.3.1)	G2R0Y-1827-MONOMER
+SUBUNIT-OF-CPLX	Histidine ABC transporter, permease protein HisM (TC 3.A.1.3.1)	G2R0Y-1828-MONOMER
+##	
+CPLX-PRE-EXISTING	putative L-leucine/L-isoleucine/L-valine/benzoate ABC transporter	CPLX2R0Y-34
+SUBUNIT-OF-CPLX	ABC transporter, substrate-binding protein (cluster 4, leucine/isoleucine/valine/benzoate)	G2R0Y-1681-MONOMER
+SUBUNIT-OF-CPLX	ABC transporter, substrate-binding protein (cluster 4, leucine/isoleucine/valine/benzoate)	G2R0Y-1682-MONOMER
+##	
+CPLX-PRE-EXISTING	putative L-lysine/L-arginine/ornithine ABC transporter	CPLX2R0Y-21
+SUBUNIT-OF-CPLX	Arginine/ornithine ABC transporter, ATP-binding protein AotP	G2R0Y-1832-MONOMER
+SUBUNIT-OF-CPLX	Arginine/ornithine ABC transporter, permease protein AotQ	G2R0Y-1829-MONOMER
+SUBUNIT-OF-CPLX	Lysine-arginine-ornithine-binding ABC transporter, substrate-binding protein ArgT (TC 3.A.1.3.1)	G2R0Y-1825-MONOMER
+SUBUNIT-OF-CPLX	Lysine-arginine-ornithine-binding ABC transporter, substrate-binding protein ArgT (TC 3.A.1.3.1)	G2R0Y-1826-MONOMER
+##	
+CPLX-PRE-EXISTING	putative N2 PEP-driven transporter	CPLX2R0Y-51
+SUBUNIT-OF-CPLX	PTS IIA-like nitrogen-regulatory protein PtsN	G2R0Y-2583-MONOMER
+SUBUNIT-OF-CPLX	PTS IIA-like nitrogen-regulatory protein PtsN	G2R0Y-2584-MONOMER
+##	
+CPLX-PRE-EXISTING	putative Ni2+ ABC transporter	CPLX2R0Y-13
+SUBUNIT-OF-CPLX	ABC transporter, permease protein 1 (cluster 5, nickel/peptides/opines)	G2R0Y-3793-MONOMER
+SUBUNIT-OF-CPLX	ABC transporter, permease protein 1 (cluster 5, nickel/peptides/opines)	G2R0Y-3794-MONOMER
+##	
+CPLX-PRE-EXISTING	putative Ni2+ ABC transporter	CPLX2R0Y-14
+SUBUNIT-OF-CPLX	ABC transporter, substrate-binding protein (cluster 5, nickel/peptides/opines)	G2R0Y-3403-MONOMER
+SUBUNIT-OF-CPLX	ABC transporter, substrate-binding protein (cluster 5, nickel/peptides/opines)	G2R0Y-3404-MONOMER
+##	
+CPLX-PRE-EXISTING	putative an oligopeptide ATP-driven transporter	CPLX2R0Y-7
+SUBUNIT-OF-CPLX	Oligopeptide transport system permease protein OppB (TC 3.A.1.5.1)	G2R0Y-3405-MONOMER
+SUBUNIT-OF-CPLX	Oligopeptide transport system permease protein OppB (TC 3.A.1.5.1)	G2R0Y-3406-MONOMER
+##	
+CPLX-PRE-EXISTING	putative choline ABC transporter	CPLX2R0Y-9
+SUBUNIT-OF-CPLX	Choline binding ABC transport system substrate-binding protein ChoX	G2R0Y-3027-MONOMER
+SUBUNIT-OF-CPLX	Choline binding ABC transport system substrate-binding protein ChoX	G2R0Y-3028-MONOMER
+##	
+CPLX-PRE-EXISTING	putative glycine betaine ABC transporter	CPLX2R0Y-17
+SUBUNIT-OF-CPLX	Glycine betaine ABC transporter, permease protein OtaB	G2R0Y-5125-MONOMER
+SUBUNIT-OF-CPLX	Glycine betaine ABC transporter, permease protein OtaB	G2R0Y-5126-MONOMER
+SUBUNIT-OF-CPLX	Glycine betaine ABC transporter, substrate-binding protein OtaC	G2R0Y-5127-MONOMER
+SUBUNIT-OF-CPLX	Glycine betaine ABC transporter, substrate-binding protein OtaC	G2R0Y-5128-MONOMER
+##	
+CPLX-PRE-EXISTING	putative glycine betaine ABC transporter	CPLX2R0Y-18
+SUBUNIT-OF-CPLX	Glycine betaine ABC transport system, glycine betaine-binding protein OpuAC	G2R0Y-2103-MONOMER
+SUBUNIT-OF-CPLX	Glycine betaine ABC transport system, glycine betaine-binding protein OpuAC	G2R0Y-2104-MONOMER
+##	
+CPLX-PRE-EXISTING	putative hemin ABC transporter	CPLX2R0Y-25
+SUBUNIT-OF-CPLX	ABC-type hemin transport system, ATPase component	G2R0Y-641-MONOMER
+SUBUNIT-OF-CPLX	ABC-type hemin transport system, ATPase component	G2R0Y-642-MONOMER
+##	
+CPLX-PRE-EXISTING	putative maltose/3-phospho-D-glycerate ABC transporter	CPLX2R0Y-38
+SUBUNIT-OF-CPLX	Domain of unknown function; ABC transporter, substrate-binding protein (cluster 1, maltose/g3p/polyamine/iron)	G2R0Y-6215-MONOMER
+SUBUNIT-OF-CPLX	Domain of unknown function; ABC transporter, substrate-binding protein (cluster 1, maltose/g3p/polyamine/iron)	G2R0Y-6216-MONOMER
+##	
+CPLX-PRE-EXISTING	putative maltose/3-phospho-D-glycerate ABC transporter	CPLX2R0Y-37
+SUBUNIT-OF-CPLX	ABC transporter, permease protein 1 (cluster 1, maltose/g3p/polyamine/iron)	G2R0Y-4439-MONOMER
+SUBUNIT-OF-CPLX	ABC transporter, permease protein 1 (cluster 1, maltose/g3p/polyamine/iron)	G2R0Y-4440-MONOMER
+SUBUNIT-OF-CPLX	ABC transporter, permease protein 2 (cluster 1, maltose/g3p/polyamine/iron)	G2R0Y-4437-MONOMER
+SUBUNIT-OF-CPLX	ABC transporter, permease protein 2 (cluster 1, maltose/g3p/polyamine/iron)	G2R0Y-4438-MONOMER
+SUBUNIT-OF-CPLX	ABC transporter, substrate-binding protein (cluster 1, maltose/g3p/polyamine/iron)	G2R0Y-4441-MONOMER
+SUBUNIT-OF-CPLX	ABC transporter, substrate-binding protein (cluster 1, maltose/g3p/polyamine/iron)	G2R0Y-4442-MONOMER
+##	
+CPLX-PRE-EXISTING	putative putrescine ABC transporter	CPLX2R0Y-2
+SUBUNIT-OF-CPLX	Putrescine ABC transporter putrescine-binding protein PotF (TC 3.A.1.11.2)	G2R0Y-4321-MONOMER
+SUBUNIT-OF-CPLX	Putrescine ABC transporter putrescine-binding protein PotF (TC 3.A.1.11.2)	G2R0Y-4322-MONOMER
+SUBUNIT-OF-CPLX	Putrescine transport system permease protein PotH (TC 3.A.1.11.2)	G2R0Y-4317-MONOMER
+SUBUNIT-OF-CPLX	Putrescine transport system permease protein PotH (TC 3.A.1.11.2)	G2R0Y-4318-MONOMER
+SUBUNIT-OF-CPLX	Putrescine transport system permease protein PotI (TC 3.A.1.11.2)	G2R0Y-4315-MONOMER
+SUBUNIT-OF-CPLX	Putrescine transport system permease protein PotI (TC 3.A.1.11.2)	G2R0Y-4316-MONOMER
+##	
+CPLX-PRE-EXISTING	putative sulfate ATP-driven transporter	CPLX2R0Y-3
+SUBUNIT-OF-CPLX	Sulfate transport system permease protein CysT	G2R0Y-4277-MONOMER
+SUBUNIT-OF-CPLX	Sulfate transport system permease protein CysT	G2R0Y-4278-MONOMER
+SUBUNIT-OF-CPLX	Sulfate transport system permease protein CysW	G2R0Y-4279-MONOMER
+SUBUNIT-OF-CPLX	Sulfate transport system permease protein CysW	G2R0Y-4280-MONOMER
+##	
+CPLX-PRE-EXISTING	putative tungstate ABC transporter	CPLX2R0Y-11
+SUBUNIT-OF-CPLX	Tungstate ABC transporter, substrate-binding protein	G2R0Y-2901-MONOMER
+SUBUNIT-OF-CPLX	Tungstate ABC transporter, substrate-binding protein	G2R0Y-2902-MONOMER
+##	
+CPLX-PRE-EXISTING	putative urea ABC transporter	CPLX2R0Y-29
+SUBUNIT-OF-CPLX	Urea ABC transporter, ATPase protein UrtD	G2R0Y-6269-MONOMER
+SUBUNIT-OF-CPLX	Urea ABC transporter, ATPase protein UrtD	G2R0Y-6270-MONOMER
+SUBUNIT-OF-CPLX	Urea ABC transporter, ATPase protein UrtE	G2R0Y-6267-MONOMER
+SUBUNIT-OF-CPLX	Urea ABC transporter, ATPase protein UrtE	G2R0Y-6268-MONOMER
+SUBUNIT-OF-CPLX	Urea ABC transporter, permease protein UrtB	G2R0Y-6273-MONOMER
+SUBUNIT-OF-CPLX	Urea ABC transporter, permease protein UrtB	G2R0Y-6274-MONOMER
+SUBUNIT-OF-CPLX	Urea ABC transporter, permease protein UrtC	G2R0Y-6271-MONOMER
+SUBUNIT-OF-CPLX	Urea ABC transporter, permease protein UrtC	G2R0Y-6272-MONOMER
+SUBUNIT-OF-CPLX	Urea ABC transporter, substrate-binding protein UrtA	G2R0Y-6275-MONOMER
+SUBUNIT-OF-CPLX	Urea ABC transporter, substrate-binding protein UrtA	G2R0Y-6276-MONOMER
+##	
+##	
+####	 0 Polypeptides containing subunit-related words, but with no matching sibling subunits.
+##	The columns are:
+## Protein ID	Canonicalized core string used for matching	Common Name
+##	

@@ -1,0 +1,1135 @@
+Unreviewed CPLX2R0Y-51         N2                       PTS       
+           putative N2 PEP-driven transporter
+           No reaction
+Unreviewed CPLX2R0Y-1          D-glucose                ATP       
+           putative D-glucose ABC transporter
+           D-glucose[periplasm] + ATP + H2O  ->  D-glucose[cytosol] + ADP + phosphate + H+
+Unreviewed CPLX2R0Y-2          putrescine               ATP       
+           putative putrescine ABC transporter
+           ATP + putrescine[periplasm] + H2O  ->  ADP + putrescine[cytosol] + phosphate + H+
+Unreviewed CPLX2R0Y-3          sulfate                  ATP       
+           putative sulfate ATP-driven transporter
+           ATP + sulfate[periplasm] + H2O  ->  ADP + sulfate[cytosol] + phosphate + H+
+Unreviewed CPLX2R0Y-4          Co2+                     ATP       
+           putative Co2+ ABC transporter
+           Co2+[periplasm] + ATP + H2O  ->  Co2+[cytosol] + ADP + phosphate + H+
+Unreviewed CPLX2R0Y-5          a dipeptide              ATP       
+           putative a dipeptide ABC transporter
+           ATP + a dipeptide[periplasm] + H2O  ->  ADP + a dipeptide[cytosol] + phosphate + H+
+Unreviewed CPLX2R0Y-6          prephenate               ATP       
+           putative prephenate ABC transporter
+           prephenate[periplasm] + ATP + H2O  ->  prephenate[cytosol] + ADP + phosphate + H+
+Unreviewed CPLX2R0Y-7          an oligopeptide          ATP       
+           putative an oligopeptide ATP-driven transporter
+           an oligopeptide[periplasm] + ATP + H2O  ->  an oligopeptide[cytosol] + ADP + phosphate + H+
+Unreviewed CPLX2R0Y-8          4-amino-2-methyl-5-pyrimidinemethanol ATP       
+           putative 4-amino-2-methyl-5-pyrimidinemethanol ABC transporter
+           4-amino-2-methyl-5-pyrimidinemethanol[periplasm] + ATP + H2O  ->  4-amino-2-methyl-5-pyrimidinemethanol[cytosol] + ADP + phosphate + H+
+Unreviewed CPLX2R0Y-9          choline                  ATP       
+           putative choline ABC transporter
+           choline[periplasm] + ATP + H2O  ->  choline[cytosol] + ADP + phosphate + H+
+Unreviewed CPLX2R0Y-10         glycerol                 ATP       
+           putative glycerol ABC transporter
+           glycerol[periplasm] + ATP + H2O  ->  glycerol[cytosol] + ADP + phosphate + H+
+Unreviewed CPLX2R0Y-11         tungstate                ATP       
+           putative tungstate ABC transporter
+           tungstate[periplasm] + ATP + H2O  ->  tungstate[cytosol] + ADP + phosphate + H+
+Unreviewed CPLX2R0Y-12         tungstate                ATP       
+           putative tungstate ABC transporter
+           tungstate[periplasm] + ATP + H2O  ->  tungstate[cytosol] + ADP + phosphate + H+
+Unreviewed CPLX2R0Y-13         Ni2+                     ATP       
+           putative Ni2+ ABC transporter
+           Ni2+[periplasm] + ATP + H2O  ->  Ni2+[cytosol] + ADP + phosphate + H+
+Unreviewed CPLX2R0Y-14         Ni2+                     ATP       
+           putative Ni2+ ABC transporter
+           Ni2+[periplasm] + ATP + H2O  ->  Ni2+[cytosol] + ADP + phosphate + H+
+Unreviewed CPLX2R0Y-15         Ni2+                     ATP       
+           putative Ni2+ ABC transporter
+           Ni2+[periplasm] + ATP + H2O  ->  Ni2+[cytosol] + ADP + phosphate + H+
+Unreviewed CPLX2R0Y-16      1  alpha-allenylagmatine    ATP       
+           putative alpha-allenylagmatine/L-glutamine ABC transporter
+           alpha-allenylagmatine[periplasm] + ATP + H2O  ->  alpha-allenylagmatine[cytosol] + ADP + phosphate + H+
+Unreviewed CPLX2R0Y-16      2  L-glutamine              ATP       
+           putative alpha-allenylagmatine/L-glutamine ABC transporter
+           ATP + L-glutamine[periplasm] + H2O  ->  ADP + L-glutamine[cytosol] + phosphate + H+
+Unreviewed CPLX2R0Y-17         glycine betaine          ATP       
+           putative glycine betaine ABC transporter
+           glycine betaine[periplasm] + ATP + H2O  ->  glycine betaine[cytosol] + ADP + phosphate + H+
+Unreviewed CPLX2R0Y-18         glycine betaine          ATP       
+           putative glycine betaine ABC transporter
+           glycine betaine[periplasm] + ATP + H2O  ->  glycine betaine[cytosol] + ADP + phosphate + H+
+Unreviewed CPLX2R0Y-19      1  L-arginine               ATP       
+           putative L-arginine/ornithine ABC transporter
+           ATP + L-arginine[periplasm] + H2O  ->  ADP + L-arginine[cytosol] + phosphate + H+
+Unreviewed CPLX2R0Y-19      2  ornithine                ATP       
+           putative L-arginine/ornithine ABC transporter
+           ornithine[periplasm] + ATP + H2O  ->  ornithine[cytosol] + ADP + phosphate + H+
+Unreviewed CPLX2R0Y-20         L-histidine              ATP       
+           putative L-histidine ABC transporter
+           ATP + L-histidine[periplasm] + H2O  ->  ADP + L-histidine[cytosol] + phosphate + H+
+Unreviewed CPLX2R0Y-21      1  L-lysine                 ATP       
+           putative L-lysine/L-arginine/ornithine ABC transporter
+           ATP + L-lysine[periplasm] + H2O  ->  ADP + L-lysine[cytosol] + phosphate + H+
+Unreviewed CPLX2R0Y-21      2  L-arginine               ATP       
+           putative L-lysine/L-arginine/ornithine ABC transporter
+           ATP + L-arginine[periplasm] + H2O  ->  ADP + L-arginine[cytosol] + phosphate + H+
+Unreviewed CPLX2R0Y-21      3  ornithine                ATP       
+           putative L-lysine/L-arginine/ornithine ABC transporter
+           ornithine[periplasm] + ATP + H2O  ->  ornithine[cytosol] + ADP + phosphate + H+
+Unreviewed CPLX2R0Y-22         phosphate                ATP       
+           putative phosphate ABC transporter
+           ATP + phosphate[periplasm] + H2O  ->  ADP + phosphate[cytosol] + phosphate[cytosol] + H+
+Unreviewed CPLX2R0Y-23         phosphate                ATP       
+           putative phosphate ABC transporter
+           ATP + phosphate[periplasm] + H2O  ->  ADP + phosphate[cytosol] + phosphate[cytosol] + H+
+Unreviewed CPLX2R0Y-24         iron(III) dicitrate      ATP       
+           putative iron(III) dicitrate ATP-driven transporter
+           ATP + iron(III) dicitrate[periplasm] + H2O  ->  ADP + iron(III) dicitrate[cytosol] + phosphate + H+
+Unreviewed CPLX2R0Y-25         hemin                    ATP       
+           putative hemin ABC transporter
+           hemin[periplasm] + ATP + H2O  ->  hemin[cytosol] + ADP + phosphate + H+
+Unreviewed CPLX2R0Y-26         L-methionine             ATP       
+           putative L-methionine ABC transporter
+           ATP + L-methionine[periplasm] + H2O  ->  ADP + L-methionine[cytosol] + phosphate + H+
+Unreviewed CPLX2R0Y-27         L-methionine             ATP       
+           putative L-methionine ABC transporter
+           ATP + L-methionine[periplasm] + H2O  ->  ADP + L-methionine[cytosol] + phosphate + H+
+Unreviewed CPLX2R0Y-28         L-methionine             ATP       
+           putative L-methionine ABC transporter
+           ATP + L-methionine[periplasm] + H2O  ->  ADP + L-methionine[cytosol] + phosphate + H+
+Unreviewed CPLX2R0Y-29         urea                     ATP       
+           putative urea ABC transporter
+           urea[periplasm] + ATP + H2O  ->  urea[cytosol] + ADP + phosphate + H+
+Unreviewed CPLX2R0Y-30         Mn2+                     ATP       
+           putative Mn2+ ABC transporter
+           Several possible reactions available for import
+Unreviewed CPLX2R0Y-31         Zn2+                     ATP       
+           putative Zn2+ ABC transporter
+           Zn2+[periplasm] + ATP + H2O  ->  Zn2+[cytosol] + ADP + phosphate + H+
+Unreviewed CPLX2R0Y-32         Zn2+                     ATP       
+           putative Zn2+ ABC transporter
+           Zn2+[periplasm] + ATP + H2O  ->  Zn2+[cytosol] + ADP + phosphate + H+
+Unreviewed CPLX2R0Y-33      1  D-ribose                 ATP       
+           putative D-ribose/D-xylose/alpha-L-arabinopyranose ABC transporter
+           D-ribose[periplasm] + ATP + H2O  ->  D-ribose[cytosol] + ADP + phosphate + H+
+Unreviewed CPLX2R0Y-33      2  D-xylose                 ATP       
+           putative D-ribose/D-xylose/alpha-L-arabinopyranose ABC transporter
+           ATP + D-xylose[periplasm] + H2O  ->  ADP + D-xylose[cytosol] + phosphate + H+
+Unreviewed CPLX2R0Y-33      3  alpha-L-arabinopyranose  ATP       
+           putative D-ribose/D-xylose/alpha-L-arabinopyranose ABC transporter
+           alpha-L-arabinopyranose[periplasm] + ATP + H2O  ->  alpha-L-arabinopyranose[cytosol] + ADP + phosphate + H+
+Unreviewed CPLX2R0Y-34      1  L-leucine                ATP       
+           putative L-leucine/L-isoleucine/L-valine/benzoate ABC transporter
+           ATP + L-leucine[periplasm] + H2O  ->  ADP + L-leucine[cytosol] + phosphate + H+
+Unreviewed CPLX2R0Y-34      2  L-isoleucine             ATP       
+           putative L-leucine/L-isoleucine/L-valine/benzoate ABC transporter
+           ATP + L-isoleucine[periplasm] + H2O  ->  ADP + L-isoleucine[cytosol] + phosphate + H+
+Unreviewed CPLX2R0Y-34      3  L-valine                 ATP       
+           putative L-leucine/L-isoleucine/L-valine/benzoate ABC transporter
+           ATP + L-valine[periplasm] + H2O  ->  ADP + L-valine[cytosol] + phosphate + H+
+Unreviewed CPLX2R0Y-34      4  benzoate                 ATP       
+           putative L-leucine/L-isoleucine/L-valine/benzoate ABC transporter
+           benzoate[periplasm] + ATP + H2O  ->  benzoate[cytosol] + ADP + phosphate + H+
+Unreviewed CPLX2R0Y-35      1  L-leucine                ATP       
+           putative L-leucine/L-isoleucine/L-valine/benzoate ABC transporter
+           ATP + L-leucine[periplasm] + H2O  ->  ADP + L-leucine[cytosol] + phosphate + H+
+Unreviewed CPLX2R0Y-35      2  L-isoleucine             ATP       
+           putative L-leucine/L-isoleucine/L-valine/benzoate ABC transporter
+           ATP + L-isoleucine[periplasm] + H2O  ->  ADP + L-isoleucine[cytosol] + phosphate + H+
+Unreviewed CPLX2R0Y-35      3  L-valine                 ATP       
+           putative L-leucine/L-isoleucine/L-valine/benzoate ABC transporter
+           ATP + L-valine[periplasm] + H2O  ->  ADP + L-valine[cytosol] + phosphate + H+
+Unreviewed CPLX2R0Y-35      4  benzoate                 ATP       
+           putative L-leucine/L-isoleucine/L-valine/benzoate ABC transporter
+           benzoate[periplasm] + ATP + H2O  ->  benzoate[cytosol] + ADP + phosphate + H+
+Unreviewed CPLX2R0Y-36      1  spermidine               ATP       
+           putative spermidine/putrescine ABC transporter
+           ATP + spermidine[periplasm] + H2O  ->  ADP + spermidine[cytosol] + phosphate + H+
+Unreviewed CPLX2R0Y-36      2  putrescine               ATP       
+           putative spermidine/putrescine ABC transporter
+           ATP + putrescine[periplasm] + H2O  ->  ADP + putrescine[cytosol] + phosphate + H+
+Unreviewed CPLX2R0Y-37      1  maltose                  ATP       
+           putative maltose/3-phospho-D-glycerate ABC transporter
+           maltose[periplasm] + ATP + H2O  ->  maltose[cytosol] + ADP + phosphate + H+
+Unreviewed CPLX2R0Y-37      2  3-phospho-D-glycerate    ATP       
+           putative maltose/3-phospho-D-glycerate ABC transporter
+           3-phospho-D-glycerate[periplasm] + ATP + H2O  ->  3-phospho-D-glycerate[cytosol] + ADP + phosphate + H+
+Unreviewed CPLX2R0Y-38      1  maltose                  ATP       
+           putative maltose/3-phospho-D-glycerate ABC transporter
+           maltose[periplasm] + ATP + H2O  ->  maltose[cytosol] + ADP + phosphate + H+
+Unreviewed CPLX2R0Y-38      2  3-phospho-D-glycerate    ATP       
+           putative maltose/3-phospho-D-glycerate ABC transporter
+           3-phospho-D-glycerate[periplasm] + ATP + H2O  ->  3-phospho-D-glycerate[cytosol] + ADP + phosphate + H+
+Unreviewed CPLX2R0Y-39      1  maltose                  ATP       
+           putative maltose/3-phospho-D-glycerate ABC transporter
+           maltose[periplasm] + ATP + H2O  ->  maltose[cytosol] + ADP + phosphate + H+
+Unreviewed CPLX2R0Y-39      2  3-phospho-D-glycerate    ATP       
+           putative maltose/3-phospho-D-glycerate ABC transporter
+           3-phospho-D-glycerate[periplasm] + ATP + H2O  ->  3-phospho-D-glycerate[cytosol] + ADP + phosphate + H+
+Unreviewed CPLX2R0Y-40         sn-glycerol 3-phosphate  ATP       
+           putative sn-glycerol 3-phosphate ABC transporter
+           ATP + sn-glycerol 3-phosphate[periplasm] + H2O  ->  ADP + sn-glycerol 3-phosphate[cytosol] + phosphate + H+
+Unreviewed CPLX2R0Y-41         sn-glycerol 3-phosphate  ATP       
+           putative sn-glycerol 3-phosphate ABC transporter
+           ATP + sn-glycerol 3-phosphate[periplasm] + H2O  ->  ADP + sn-glycerol 3-phosphate[cytosol] + phosphate + H+
+Unreviewed CPLX2R0Y-42         Fe3+                     ATP       
+           putative Fe3+ ABC transporter
+           Fe3+[periplasm] + ATP + H2O  ->  Fe3+[cytosol] + ADP + phosphate + H+
+Unreviewed CPLX2R0Y-43         Fe3+                     ATP       
+           putative Fe3+ ABC transporter
+           Fe3+[periplasm] + ATP + H2O  ->  Fe3+[cytosol] + ADP + phosphate + H+
+Unreviewed CPLX2R0Y-44         Fe3+                     ATP       
+           putative Fe3+ ABC transporter
+           Fe3+[periplasm] + ATP + H2O  ->  Fe3+[cytosol] + ADP + phosphate + H+
+Unreviewed CPLX2R0Y-45         Fe3+                     ATP       
+           putative Fe3+ ABC transporter
+           Fe3+[periplasm] + ATP + H2O  ->  Fe3+[cytosol] + ADP + phosphate + H+
+Unreviewed CPLX2R0Y-46         Fe3+                     ATP       
+           putative Fe3+ ABC transporter
+           Fe3+[periplasm] + ATP + H2O  ->  Fe3+[cytosol] + ADP + phosphate + H+
+Unreviewed CPLX2R0Y-47         Fe3+                     ATP       
+           putative Fe3+ ABC transporter
+           Fe3+[periplasm] + ATP + H2O  ->  Fe3+[cytosol] + ADP + phosphate + H+
+Unreviewed CPLX2R0Y-48         Fe3+                     ATP       
+           putative Fe3+ ABC transporter
+           Fe3+[periplasm] + ATP + H2O  ->  Fe3+[cytosol] + ADP + phosphate + H+
+Unreviewed CPLX2R0Y-49         L-glutamine              ATP       
+           putative L-glutamine ABC transporter
+           ATP + L-glutamine[periplasm] + H2O  ->  ADP + L-glutamine[cytosol] + phosphate + H+
+Unreviewed CPLX2R0Y-50         Mo2+                     ATP       
+           putative Mo2+ ABC transporter
+           Mo2+[periplasm] + ATP + H2O  ->  Mo2+[cytosol] + ADP + phosphate + H+
+Unreviewed G2R0Y-6786-MONOMER 1  Mg2+                     UNKNOWN   
+           mg/co/ni transporter mgte, cbs domain-containing
+           Mg2+[periplasm]  <-->  Mg2+[cytosol]
+Unreviewed G2R0Y-6786-MONOMER 2  Co2+                     UNKNOWN   
+           mg/co/ni transporter mgte, cbs domain-containing
+           Several possible reactions available for import
+Unreviewed G2R0Y-6786-MONOMER 3  Ni2+                     UNKNOWN   
+           mg/co/ni transporter mgte, cbs domain-containing
+           Several possible reactions available for import
+Unreviewed G2R0Y-6785-MONOMER 1  Mg2+                     UNKNOWN   
+           mg/co/ni transporter mgte, cbs domain-containing
+           Mg2+[periplasm]  <-->  Mg2+[cytosol]
+Unreviewed G2R0Y-6785-MONOMER 2  Co2+                     UNKNOWN   
+           mg/co/ni transporter mgte, cbs domain-containing
+           Several possible reactions available for import
+Unreviewed G2R0Y-6785-MONOMER 3  Ni2+                     UNKNOWN   
+           mg/co/ni transporter mgte, cbs domain-containing
+           Several possible reactions available for import
+Unreviewed G2R0Y-5132-MONOMER    choline                  UNKNOWN   
+           high-affinity choline uptake protein bett
+           choline[periplasm]  ->  choline[cytosol]
+Unreviewed G2R0Y-5131-MONOMER    choline                  UNKNOWN   
+           high-affinity choline uptake protein bett
+           choline[periplasm]  ->  choline[cytosol]
+Unreviewed G2R0Y-4938-MONOMER    L-arginine               UNKNOWN   
+           arginine exporter protein argo
+           L-arginine[cytosol]  <-->  L-arginine[periplasm]
+Unreviewed G2R0Y-4937-MONOMER    L-arginine               UNKNOWN   
+           arginine exporter protein argo
+           L-arginine[cytosol]  <-->  L-arginine[periplasm]
+Unreviewed G2R0Y-4910-MONOMER 1  L-serine                 UNKNOWN   
+           nitrite transporter-associated serine/threonine protein kinase
+           L-serine[periplasm]  ->  L-serine[cytosol]
+Unreviewed G2R0Y-4910-MONOMER 2  L-threonine              UNKNOWN   
+           nitrite transporter-associated serine/threonine protein kinase
+           L-threonine[periplasm]  <-->  L-threonine[cytosol]
+Unreviewed G2R0Y-4909-MONOMER 1  L-serine                 UNKNOWN   
+           nitrite transporter-associated serine/threonine protein kinase
+           L-serine[periplasm]  ->  L-serine[cytosol]
+Unreviewed G2R0Y-4909-MONOMER 2  L-threonine              UNKNOWN   
+           nitrite transporter-associated serine/threonine protein kinase
+           L-threonine[periplasm]  <-->  L-threonine[cytosol]
+Unreviewed G2R0Y-4896-MONOMER    chromate                 UNKNOWN   
+           chromate transporter
+           chromate[periplasm]  ->  chromate[cytosol]
+Unreviewed G2R0Y-4895-MONOMER    chromate                 UNKNOWN   
+           chromate transporter
+           chromate[periplasm]  ->  chromate[cytosol]
+Unreviewed G2R0Y-4894-MONOMER    chromate                 UNKNOWN   
+           chromate transporter
+           chromate[periplasm]  ->  chromate[cytosol]
+Unreviewed G2R0Y-4893-MONOMER    chromate                 UNKNOWN   
+           chromate transporter
+           chromate[periplasm]  ->  chromate[cytosol]
+Unreviewed G2R0Y-4882-MONOMER 1  nitrate                  UNKNOWN   
+           nitrate/nitrite transporter chu_1319, nark/u family
+           nitrate[periplasm]  ->  nitrate[cytosol]
+Unreviewed G2R0Y-4882-MONOMER 2  nitrite                  UNKNOWN   
+           nitrate/nitrite transporter chu_1319, nark/u family
+           nitrite[periplasm]  <-  nitrite[cytosol]
+Unreviewed G2R0Y-4881-MONOMER 1  nitrate                  UNKNOWN   
+           nitrate/nitrite transporter chu_1319, nark/u family
+           nitrate[periplasm]  ->  nitrate[cytosol]
+Unreviewed G2R0Y-4881-MONOMER 2  nitrite                  UNKNOWN   
+           nitrate/nitrite transporter chu_1319, nark/u family
+           nitrite[periplasm]  <-  nitrite[cytosol]
+Unreviewed G2R0Y-4852-MONOMER    K+                       CHANNEL   
+           potassium efflux system kefa protein; small-conductance mechanosensitive channel
+           Several possible reactions available for import
+Unreviewed G2R0Y-4851-MONOMER    K+                       CHANNEL   
+           potassium efflux system kefa protein; small-conductance mechanosensitive channel
+           Several possible reactions available for import
+Unreviewed G2R0Y-4832-MONOMER    a nucleoside             SECONDARY 
+           nucleoside permease nupc
+           a nucleoside[periplasm] + H+[periplasm]  <-->  a nucleoside[cytosol] + H+[cytosol]
+Unreviewed G2R0Y-4831-MONOMER    a nucleoside             SECONDARY 
+           nucleoside permease nupc
+           a nucleoside[periplasm] + H+[periplasm]  <-->  a nucleoside[cytosol] + H+[cytosol]
+Unreviewed G2R0Y-4636-MONOMER 1  formate                  UNKNOWN   
+           nitrite transporter from formate/nitrite family
+           formate[periplasm]  <-->  formate[cytosol]
+Unreviewed G2R0Y-4636-MONOMER 2  nitrite                  UNKNOWN   
+           nitrite transporter from formate/nitrite family
+           nitrite[periplasm]  <-  nitrite[cytosol]
+Unreviewed G2R0Y-4635-MONOMER 1  formate                  UNKNOWN   
+           nitrite transporter from formate/nitrite family
+           formate[periplasm]  <-->  formate[cytosol]
+Unreviewed G2R0Y-4635-MONOMER 2  nitrite                  UNKNOWN   
+           nitrite transporter from formate/nitrite family
+           nitrite[periplasm]  <-  nitrite[cytosol]
+Unreviewed G2R0Y-4374-MONOMER    Mg2+                     UNKNOWN   
+           magnesium and cobalt efflux protein corc
+           Mg2+[cytosol]  <-->  Mg2+[periplasm]
+Unreviewed G2R0Y-4373-MONOMER    Mg2+                     UNKNOWN   
+           magnesium and cobalt efflux protein corc
+           Mg2+[cytosol]  <-->  Mg2+[periplasm]
+Unreviewed G2R0Y-4308-MONOMER 1  Zn2+                     UNKNOWN   
+           probable co/zn/cd efflux system membrane fusion protein
+           Zn2+[cytosol]  <-  Zn2+[periplasm]
+Unreviewed G2R0Y-4308-MONOMER 2  Cd2+                     UNKNOWN   
+           probable co/zn/cd efflux system membrane fusion protein
+           Cd2+[cytosol]  <-  Cd2+[periplasm]
+Unreviewed G2R0Y-4307-MONOMER 1  Zn2+                     UNKNOWN   
+           probable co/zn/cd efflux system membrane fusion protein
+           Zn2+[cytosol]  <-  Zn2+[periplasm]
+Unreviewed G2R0Y-4307-MONOMER 2  Cd2+                     UNKNOWN   
+           probable co/zn/cd efflux system membrane fusion protein
+           Cd2+[cytosol]  <-  Cd2+[periplasm]
+Unreviewed G2R0Y-4054-MONOMER    (R)-pantothenate         SECONDARY 
+           pantothenate:na+ symporter (tc 2.a.21.1.1)
+           Na+[periplasm] + (R)-pantothenate[periplasm]  <-->  Na+[cytosol] + (R)-pantothenate[cytosol]
+Unreviewed G2R0Y-4053-MONOMER    (R)-pantothenate         SECONDARY 
+           pantothenate:na+ symporter (tc 2.a.21.1.1)
+           Na+[periplasm] + (R)-pantothenate[periplasm]  <-->  Na+[cytosol] + (R)-pantothenate[cytosol]
+Unreviewed G2R0Y-4042-MONOMER    acetate                  UNKNOWN   
+           putative acetate efflux pump, madn
+           acetate[cytosol]  <-->  acetate[periplasm]
+Unreviewed G2R0Y-4041-MONOMER    acetate                  UNKNOWN   
+           putative acetate efflux pump, madn
+           acetate[cytosol]  <-->  acetate[periplasm]
+Unreviewed G2R0Y-3990-MONOMER    K+                       UNKNOWN   
+           trk potassium uptake system protein trkh
+           Several possible reactions available for import
+Unreviewed G2R0Y-3989-MONOMER    K+                       UNKNOWN   
+           trk potassium uptake system protein trkh
+           Several possible reactions available for import
+Unreviewed G2R0Y-3646-MONOMER 1  xanthine                 SECONDARY 
+           xanthine-uracil permease
+           Several possible reactions available for import
+Unreviewed G2R0Y-3646-MONOMER 2  uracil                   SECONDARY 
+           xanthine-uracil permease
+           uracil[periplasm] + H+[periplasm]  <-->  uracil[cytosol] + H+[cytosol]
+Unreviewed G2R0Y-3645-MONOMER 1  xanthine                 SECONDARY 
+           xanthine-uracil permease
+           Several possible reactions available for import
+Unreviewed G2R0Y-3645-MONOMER 2  uracil                   SECONDARY 
+           xanthine-uracil permease
+           uracil[periplasm] + H+[periplasm]  <-->  uracil[cytosol] + H+[cytosol]
+Unreviewed G2R0Y-3530-MONOMER    Ca2+                     SECONDARY 
+           inner membrane protein yrbg, predicted calcium/sodium:proton antiporter
+           Ca2+[periplasm] + Na+[cytosol]  ->  Ca2+[cytosol] + Na+[periplasm]
+Unreviewed G2R0Y-3529-MONOMER    Ca2+                     SECONDARY 
+           inner membrane protein yrbg, predicted calcium/sodium:proton antiporter
+           Ca2+[periplasm] + Na+[cytosol]  ->  Ca2+[cytosol] + Na+[periplasm]
+Unreviewed G2R0Y-3422-MONOMER    sulfate                  SECONDARY 
+           sulfate permease
+           sulfate[periplasm] + H+[periplasm]  <-->  sulfate[cytosol] + H+[cytosol]
+Unreviewed G2R0Y-3421-MONOMER    sulfate                  SECONDARY 
+           sulfate permease
+           sulfate[periplasm] + H+[periplasm]  <-->  sulfate[cytosol] + H+[cytosol]
+Unreviewed G2R0Y-3380-MONOMER    preQ0                    UNKNOWN   
+           putative preq0 transporter yhhq
+           preQ0[periplasm]  ->  preQ0[cytosol]
+Unreviewed G2R0Y-3379-MONOMER    preQ0                    UNKNOWN   
+           putative preq0 transporter yhhq
+           preQ0[periplasm]  ->  preQ0[cytosol]
+Unreviewed G2R0Y-3182-MONOMER    glycine                  SECONDARY 
+           sodium/glycine symporter glyp
+           glycine[periplasm] + Na+[periplasm]  ->  glycine[cytosol] + Na+[cytosol]
+Unreviewed G2R0Y-3181-MONOMER    glycine                  SECONDARY 
+           sodium/glycine symporter glyp
+           glycine[periplasm] + Na+[periplasm]  ->  glycine[cytosol] + Na+[cytosol]
+Unreviewed G2R0Y-3044-MONOMER    (R)-3-hydroxybutanoate   SECONDARY 
+           d-beta-hydroxybutyrate permease
+           (R)-3-hydroxybutanoate[periplasm] + H+[periplasm]  ->  (R)-3-hydroxybutanoate[cytosol] + H+[cytosol]
+Unreviewed G2R0Y-3043-MONOMER    (R)-3-hydroxybutanoate   SECONDARY 
+           d-beta-hydroxybutyrate permease
+           (R)-3-hydroxybutanoate[periplasm] + H+[periplasm]  ->  (R)-3-hydroxybutanoate[cytosol] + H+[cytosol]
+Unreviewed G2R0Y-3040-MONOMER 1  glutathione              UNKNOWN   
+           putative glutathione-regulated potassium-efflux system protein kefb
+           glutathione[cytosol]  ->  glutathione[periplasm]
+Unreviewed G2R0Y-3040-MONOMER 2  K+                       UNKNOWN   
+           putative glutathione-regulated potassium-efflux system protein kefb
+           Several possible reactions available for import
+Unreviewed G2R0Y-3039-MONOMER 1  glutathione              UNKNOWN   
+           putative glutathione-regulated potassium-efflux system protein kefb
+           glutathione[cytosol]  ->  glutathione[periplasm]
+Unreviewed G2R0Y-3039-MONOMER 2  K+                       UNKNOWN   
+           putative glutathione-regulated potassium-efflux system protein kefb
+           Several possible reactions available for import
+Unreviewed G2R0Y-3010-MONOMER    glycerol                 CHANNEL   
+           glycerol transport-related protein glpu
+           glycerol[periplasm]  ->  glycerol[cytosol]
+Unreviewed G2R0Y-3009-MONOMER    glycerol                 CHANNEL   
+           glycerol transport-related protein glpu
+           glycerol[periplasm]  ->  glycerol[cytosol]
+Unreviewed G2R0Y-2998-MONOMER    sulfate                  SECONDARY 
+           transporter, sodium/sulfate symporter family
+           sulfate[periplasm] + Na+[periplasm]  ->  sulfate[cytosol] + Na+[cytosol]
+Unreviewed G2R0Y-2997-MONOMER    sulfate                  SECONDARY 
+           transporter, sodium/sulfate symporter family
+           sulfate[periplasm] + Na+[periplasm]  ->  sulfate[cytosol] + Na+[cytosol]
+Unreviewed G2R0Y-2970-MONOMER    benzoate                 UNKNOWN   
+           benzoate transport protein
+           benzoate[periplasm]  ->  benzoate[cytosol]
+Unreviewed G2R0Y-2969-MONOMER    benzoate                 UNKNOWN   
+           benzoate transport protein
+           benzoate[periplasm]  ->  benzoate[cytosol]
+Unreviewed G2R0Y-2924-MONOMER    Mg2+                     UNKNOWN   
+           mg(2+)-transport-atpase-associated protein mgtc
+           Mg2+[periplasm]  <-->  Mg2+[cytosol]
+Unreviewed G2R0Y-2923-MONOMER    Mg2+                     UNKNOWN   
+           mg(2+)-transport-atpase-associated protein mgtc
+           Mg2+[periplasm]  <-->  Mg2+[cytosol]
+Unreviewed G2R0Y-2900-MONOMER    Ca2+                     SECONDARY 
+           inner membrane protein yrbg, predicted calcium/sodium:proton antiporter
+           Ca2+[periplasm] + Na+[cytosol]  ->  Ca2+[cytosol] + Na+[periplasm]
+Unreviewed G2R0Y-2899-MONOMER    Ca2+                     SECONDARY 
+           inner membrane protein yrbg, predicted calcium/sodium:proton antiporter
+           Ca2+[periplasm] + Na+[cytosol]  ->  Ca2+[cytosol] + Na+[periplasm]
+Unreviewed G2R0Y-2840-MONOMER 1  glutathione              UNKNOWN   
+           glutathione-regulated potassium-efflux system protein kefb/c
+           glutathione[cytosol]  ->  glutathione[periplasm]
+Unreviewed G2R0Y-2840-MONOMER 2  K+                       UNKNOWN   
+           glutathione-regulated potassium-efflux system protein kefb/c
+           Several possible reactions available for import
+Unreviewed G2R0Y-2839-MONOMER 1  glutathione              UNKNOWN   
+           glutathione-regulated potassium-efflux system protein kefb/c
+           glutathione[cytosol]  ->  glutathione[periplasm]
+Unreviewed G2R0Y-2839-MONOMER 2  K+                       UNKNOWN   
+           glutathione-regulated potassium-efflux system protein kefb/c
+           Several possible reactions available for import
+Unreviewed G2R0Y-2776-MONOMER    Fe3+                     UNKNOWN   
+           ferric siderophore transport system, biopolymer transport protein exbb
+           Fe3+[periplasm]  ->  Fe3+[cytosol]
+Unreviewed G2R0Y-2775-MONOMER    Fe3+                     UNKNOWN   
+           ferric siderophore transport system, biopolymer transport protein exbb
+           Fe3+[periplasm]  ->  Fe3+[cytosol]
+Unreviewed G2R0Y-2480-MONOMER    Na+                      SECONDARY 
+           na(+) h(+) antiporter subunit a; na(+) h(+) antiporter subunit b
+           Na+[periplasm] + 2 H+[cytosol]  <-->  Na+[cytosol] + 2 H+[periplasm]
+Unreviewed G2R0Y-2479-MONOMER    Na+                      SECONDARY 
+           na(+) h(+) antiporter subunit a; na(+) h(+) antiporter subunit b
+           Na+[periplasm] + 2 H+[cytosol]  <-->  Na+[cytosol] + 2 H+[periplasm]
+Unreviewed G2R0Y-2384-MONOMER 1  glycine betaine          UNKNOWN   
+           glycine betaine/l-proline transport substrate-binding protein prox (tc 3.a.1.12.1)
+           glycine betaine[periplasm]  <-->  glycine betaine[cytosol]
+Unreviewed G2R0Y-2384-MONOMER 2  L-proline                UNKNOWN   
+           glycine betaine/l-proline transport substrate-binding protein prox (tc 3.a.1.12.1)
+           L-proline[periplasm]  ->  L-proline[cytosol]
+Unreviewed G2R0Y-2383-MONOMER 1  glycine betaine          UNKNOWN   
+           glycine betaine/l-proline transport substrate-binding protein prox (tc 3.a.1.12.1)
+           glycine betaine[periplasm]  <-->  glycine betaine[cytosol]
+Unreviewed G2R0Y-2383-MONOMER 2  L-proline                UNKNOWN   
+           glycine betaine/l-proline transport substrate-binding protein prox (tc 3.a.1.12.1)
+           L-proline[periplasm]  ->  L-proline[cytosol]
+Unreviewed G2R0Y-2332-MONOMER 1  Zn2+                     UNKNOWN   
+           probable co/zn/cd efflux system membrane fusion protein
+           Zn2+[cytosol]  <-  Zn2+[periplasm]
+Unreviewed G2R0Y-2332-MONOMER 2  Cd2+                     UNKNOWN   
+           probable co/zn/cd efflux system membrane fusion protein
+           Cd2+[cytosol]  <-  Cd2+[periplasm]
+Unreviewed G2R0Y-2331-MONOMER 1  Zn2+                     UNKNOWN   
+           probable co/zn/cd efflux system membrane fusion protein
+           Zn2+[cytosol]  <-  Zn2+[periplasm]
+Unreviewed G2R0Y-2331-MONOMER 2  Cd2+                     UNKNOWN   
+           probable co/zn/cd efflux system membrane fusion protein
+           Cd2+[cytosol]  <-  Cd2+[periplasm]
+Unreviewed G2R0Y-2010-MONOMER    sulfate                  SECONDARY 
+           sulfate permease, trk-type
+           sulfate[periplasm] + H+[periplasm]  <-->  sulfate[cytosol] + H+[cytosol]
+Unreviewed G2R0Y-2009-MONOMER    sulfate                  SECONDARY 
+           sulfate permease, trk-type
+           sulfate[periplasm] + H+[periplasm]  <-->  sulfate[cytosol] + H+[cytosol]
+Unreviewed G2R0Y-2008-MONOMER    sulfate                  SECONDARY 
+           sulfate permease, trk-type
+           sulfate[periplasm] + H+[periplasm]  <-->  sulfate[cytosol] + H+[cytosol]
+Unreviewed G2R0Y-2007-MONOMER    sulfate                  SECONDARY 
+           sulfate permease, trk-type
+           sulfate[periplasm] + H+[periplasm]  <-->  sulfate[cytosol] + H+[cytosol]
+Unreviewed G2R0Y-1968-MONOMER    sulfate                  SECONDARY 
+           sulfate permease, trk-type
+           sulfate[periplasm] + H+[periplasm]  <-->  sulfate[cytosol] + H+[cytosol]
+Unreviewed G2R0Y-1967-MONOMER    sulfate                  SECONDARY 
+           sulfate permease, trk-type
+           sulfate[periplasm] + H+[periplasm]  <-->  sulfate[cytosol] + H+[cytosol]
+Unreviewed G2R0Y-1852-MONOMER 1  glycine betaine          UNKNOWN   
+           glycine betaine/l-proline transport substrate-binding protein prox (tc 3.a.1.12.1)
+           glycine betaine[periplasm]  <-->  glycine betaine[cytosol]
+Unreviewed G2R0Y-1852-MONOMER 2  L-proline                UNKNOWN   
+           glycine betaine/l-proline transport substrate-binding protein prox (tc 3.a.1.12.1)
+           L-proline[periplasm]  ->  L-proline[cytosol]
+Unreviewed G2R0Y-1851-MONOMER 1  glycine betaine          UNKNOWN   
+           glycine betaine/l-proline transport substrate-binding protein prox (tc 3.a.1.12.1)
+           glycine betaine[periplasm]  <-->  glycine betaine[cytosol]
+Unreviewed G2R0Y-1851-MONOMER 2  L-proline                UNKNOWN   
+           glycine betaine/l-proline transport substrate-binding protein prox (tc 3.a.1.12.1)
+           L-proline[periplasm]  ->  L-proline[cytosol]
+Unreviewed G2R0Y-1812-MONOMER    chromate                 UNKNOWN   
+           chromate transport protein chra
+           chromate[periplasm]  ->  chromate[cytosol]
+Unreviewed G2R0Y-1811-MONOMER    chromate                 UNKNOWN   
+           chromate transport protein chra
+           chromate[periplasm]  ->  chromate[cytosol]
+Unreviewed G2R0Y-1674-MONOMER    Mg2+                     UNKNOWN   
+           magnesium and cobalt transport protein cora
+           Mg2+[periplasm]  <-->  Mg2+[cytosol]
+Unreviewed G2R0Y-1673-MONOMER    Mg2+                     UNKNOWN   
+           magnesium and cobalt transport protein cora
+           Mg2+[periplasm]  <-->  Mg2+[cytosol]
+Unreviewed G2R0Y-1670-MONOMER    thiamine                 UNKNOWN   
+           predicted thiamin transporter thiv, sss family
+           thiamine[periplasm]  ->  thiamine[cytosol]
+Unreviewed G2R0Y-1669-MONOMER    thiamine                 UNKNOWN   
+           predicted thiamin transporter thiv, sss family
+           thiamine[periplasm]  ->  thiamine[cytosol]
+Unreviewed G2R0Y-1602-MONOMER    L-lysine                 UNKNOWN   
+           lysine exporter protein lyse/ygga
+           L-lysine[cytosol]  ->  L-lysine[periplasm]
+Unreviewed G2R0Y-1601-MONOMER    L-lysine                 UNKNOWN   
+           lysine exporter protein lyse/ygga
+           L-lysine[cytosol]  ->  L-lysine[periplasm]
+Unreviewed G2R0Y-1444-MONOMER    phosphate                UNKNOWN   
+           probable low-affinity inorganic phosphate transporter
+           phosphate[periplasm]  <-  phosphate[cytosol]
+Unreviewed G2R0Y-1443-MONOMER    phosphate                UNKNOWN   
+           probable low-affinity inorganic phosphate transporter
+           phosphate[periplasm]  <-  phosphate[cytosol]
+Unreviewed G2R0Y-1438-MONOMER    K+                       CHANNEL   
+           potassium voltage-gated channel subfamily kqt; possible potassium channel, vic family
+           Several possible reactions available for import
+Unreviewed G2R0Y-1437-MONOMER    K+                       CHANNEL   
+           potassium voltage-gated channel subfamily kqt; possible potassium channel, vic family
+           Several possible reactions available for import
+Unreviewed G2R0Y-1180-MONOMER    K+                       UNKNOWN   
+           trk potassium uptake system protein trka
+           Several possible reactions available for import
+Unreviewed G2R0Y-1179-MONOMER    K+                       UNKNOWN   
+           trk potassium uptake system protein trka
+           Several possible reactions available for import
+Unreviewed G2R0Y-1178-MONOMER    K+                       UNKNOWN   
+           trk potassium uptake system protein trkh
+           Several possible reactions available for import
+Unreviewed G2R0Y-1177-MONOMER    K+                       UNKNOWN   
+           trk potassium uptake system protein trkh
+           Several possible reactions available for import
+Unreviewed G2R0Y-1144-MONOMER    ethanolamine             SECONDARY 
+           ethanolamine permease
+           ethanolamine[periplasm] + H+[periplasm]  ->  ethanolamine[cytosol] + H+[cytosol]
+Unreviewed G2R0Y-1143-MONOMER    ethanolamine             SECONDARY 
+           ethanolamine permease
+           ethanolamine[periplasm] + H+[periplasm]  ->  ethanolamine[cytosol] + H+[cytosol]
+Unreviewed G2R0Y-6592-MONOMER    sulfate                  UNKNOWN   
+           sulfate transporter, cysz-type
+           sulfate[periplasm]  ->  sulfate[cytosol]
+Unreviewed G2R0Y-6591-MONOMER    sulfate                  UNKNOWN   
+           sulfate transporter, cysz-type
+           sulfate[periplasm]  ->  sulfate[cytosol]
+Unreviewed G2R0Y-782-MONOMER    L-histidine              UNKNOWN   
+           signal transduction histidine kinase regulating c4-dicarboxylate transport system
+           L-histidine[periplasm]  ->  L-histidine[cytosol]
+Unreviewed G2R0Y-781-MONOMER    L-histidine              UNKNOWN   
+           signal transduction histidine kinase regulating c4-dicarboxylate transport system
+           L-histidine[periplasm]  ->  L-histidine[cytosol]
+Unreviewed G2R0Y-760-MONOMER    (indol-3-yl)acetate      SECONDARY 
+           auxin efflux carrier
+           (indol-3-yl)acetate[cytosol] + H+[cytosol]  ->  (indol-3-yl)acetate[periplasm] + H+[periplasm]
+Unreviewed G2R0Y-759-MONOMER    (indol-3-yl)acetate      SECONDARY 
+           auxin efflux carrier
+           (indol-3-yl)acetate[cytosol] + H+[cytosol]  ->  (indol-3-yl)acetate[periplasm] + H+[periplasm]
+Unreviewed G2R0Y-6438-MONOMER    ectoine                  UNKNOWN   
+           ectoine/hydroxyectoine trap transporter substrate-binding periplasmic protein teaa
+           ectoine[periplasm]  ->  ectoine[cytosol]
+Unreviewed G2R0Y-6437-MONOMER    ectoine                  UNKNOWN   
+           ectoine/hydroxyectoine trap transporter substrate-binding periplasmic protein teaa
+           ectoine[periplasm]  ->  ectoine[cytosol]
+Unreviewed G2R0Y-6436-MONOMER    ectoine                  SECONDARY 
+           ectoine/hydroxyectoine trap transporter small permease protein teab
+           ectoine[periplasm] + H+[periplasm]  ->  ectoine[cytosol] + H+[cytosol]
+Unreviewed G2R0Y-6435-MONOMER    ectoine                  SECONDARY 
+           ectoine/hydroxyectoine trap transporter small permease protein teab
+           ectoine[periplasm] + H+[periplasm]  ->  ectoine[cytosol] + H+[cytosol]
+Unreviewed G2R0Y-6434-MONOMER    ectoine                  SECONDARY 
+           ectoine/hydroxyectoine trap transporter large permease protein teac
+           ectoine[periplasm] + H+[periplasm]  ->  ectoine[cytosol] + H+[cytosol]
+Unreviewed G2R0Y-6433-MONOMER    ectoine                  SECONDARY 
+           ectoine/hydroxyectoine trap transporter large permease protein teac
+           ectoine[periplasm] + H+[periplasm]  ->  ectoine[cytosol] + H+[cytosol]
+Unreviewed G2R0Y-616-MONOMER    sodium bicarbonate       UNKNOWN   
+           putative sodium-dependent bicarbonate transporter
+           sodium bicarbonate[periplasm]  ->  sodium bicarbonate[cytosol]
+Unreviewed G2R0Y-615-MONOMER    sodium bicarbonate       UNKNOWN   
+           putative sodium-dependent bicarbonate transporter
+           sodium bicarbonate[periplasm]  ->  sodium bicarbonate[cytosol]
+Unreviewed G2R0Y-612-MONOMER    Ca2+                     SECONDARY 
+           inner membrane protein yrbg, predicted calcium/sodium:proton antiporter
+           Ca2+[periplasm] + Na+[cytosol]  ->  Ca2+[cytosol] + Na+[periplasm]
+Unreviewed G2R0Y-611-MONOMER    Ca2+                     SECONDARY 
+           inner membrane protein yrbg, predicted calcium/sodium:proton antiporter
+           Ca2+[periplasm] + Na+[cytosol]  ->  Ca2+[cytosol] + Na+[periplasm]
+Unreviewed G2R0Y-6302-MONOMER    K+                       CHANNEL   
+           potassium efflux system kefa protein; small-conductance mechanosensitive channel
+           Several possible reactions available for import
+Unreviewed G2R0Y-6301-MONOMER    K+                       CHANNEL   
+           potassium efflux system kefa protein; small-conductance mechanosensitive channel
+           Several possible reactions available for import
+Unreviewed G2R0Y-6290-MONOMER 1  glycine betaine          UNKNOWN   
+           betaine/carnitine/choline transporter (bcct) family
+           glycine betaine[periplasm]  <-->  glycine betaine[cytosol]
+Unreviewed G2R0Y-6290-MONOMER 2  L-carnitine              UNKNOWN   
+           betaine/carnitine/choline transporter (bcct) family
+           L-carnitine[periplasm]  ->  L-carnitine[cytosol]
+Unreviewed G2R0Y-6290-MONOMER 3  choline                  UNKNOWN   
+           betaine/carnitine/choline transporter (bcct) family
+           choline[periplasm]  ->  choline[cytosol]
+Unreviewed G2R0Y-6289-MONOMER 1  glycine betaine          UNKNOWN   
+           betaine/carnitine/choline transporter (bcct) family
+           glycine betaine[periplasm]  <-->  glycine betaine[cytosol]
+Unreviewed G2R0Y-6289-MONOMER 2  L-carnitine              UNKNOWN   
+           betaine/carnitine/choline transporter (bcct) family
+           L-carnitine[periplasm]  ->  L-carnitine[cytosol]
+Unreviewed G2R0Y-6289-MONOMER 3  choline                  UNKNOWN   
+           betaine/carnitine/choline transporter (bcct) family
+           choline[periplasm]  ->  choline[cytosol]
+Unreviewed G2R0Y-6190-MONOMER    sulfate                  SECONDARY 
+           sulfate permease
+           sulfate[periplasm] + H+[periplasm]  <-->  sulfate[cytosol] + H+[cytosol]
+Unreviewed G2R0Y-6189-MONOMER    sulfate                  SECONDARY 
+           sulfate permease
+           sulfate[periplasm] + H+[periplasm]  <-->  sulfate[cytosol] + H+[cytosol]
+Unreviewed G2R0Y-6082-MONOMER    choline                  UNKNOWN   
+           high-affinity choline uptake protein bett
+           choline[periplasm]  ->  choline[cytosol]
+Unreviewed G2R0Y-6081-MONOMER    choline                  UNKNOWN   
+           high-affinity choline uptake protein bett
+           choline[periplasm]  ->  choline[cytosol]
+Unreviewed G2R0Y-5990-MONOMER 1  Mg2+                     UNKNOWN   
+           mg/co/ni transporter mgte, cbs domain-containing
+           Mg2+[periplasm]  <-->  Mg2+[cytosol]
+Unreviewed G2R0Y-5990-MONOMER 2  Co2+                     UNKNOWN   
+           mg/co/ni transporter mgte, cbs domain-containing
+           Several possible reactions available for import
+Unreviewed G2R0Y-5990-MONOMER 3  Ni2+                     UNKNOWN   
+           mg/co/ni transporter mgte, cbs domain-containing
+           Several possible reactions available for import
+Unreviewed G2R0Y-5989-MONOMER 1  Mg2+                     UNKNOWN   
+           mg/co/ni transporter mgte, cbs domain-containing
+           Mg2+[periplasm]  <-->  Mg2+[cytosol]
+Unreviewed G2R0Y-5989-MONOMER 2  Co2+                     UNKNOWN   
+           mg/co/ni transporter mgte, cbs domain-containing
+           Several possible reactions available for import
+Unreviewed G2R0Y-5989-MONOMER 3  Ni2+                     UNKNOWN   
+           mg/co/ni transporter mgte, cbs domain-containing
+           Several possible reactions available for import
+Unreviewed G2R0Y-5980-MONOMER    phosphate                SECONDARY 
+           sodium-dependent phosphate transporter
+           Na+[periplasm] + phosphate[periplasm]  ->  Na+[cytosol] + phosphate[cytosol]
+Unreviewed G2R0Y-5979-MONOMER    phosphate                SECONDARY 
+           sodium-dependent phosphate transporter
+           Na+[periplasm] + phosphate[periplasm]  ->  Na+[cytosol] + phosphate[cytosol]
+Unreviewed G2R0Y-5958-MONOMER    L-arginine               SECONDARY 
+           arginine/ornithine antiporter arcd
+           L-arginine[periplasm] + ornithine[cytosol]  ->  L-arginine[cytosol] + ornithine[periplasm]
+Unreviewed G2R0Y-5957-MONOMER    L-arginine               SECONDARY 
+           arginine/ornithine antiporter arcd
+           L-arginine[periplasm] + ornithine[cytosol]  ->  L-arginine[cytosol] + ornithine[periplasm]
+Unreviewed G2R0Y-5912-MONOMER    L-threonine              UNKNOWN   
+           threonine efflux protein
+           L-threonine[cytosol]  <-->  L-threonine[periplasm]
+Unreviewed G2R0Y-5911-MONOMER    L-threonine              UNKNOWN   
+           threonine efflux protein
+           L-threonine[cytosol]  <-->  L-threonine[periplasm]
+Unreviewed G2R0Y-5804-MONOMER    L-arginine               SECONDARY 
+           arginine/ornithine antiporter arcd
+           L-arginine[periplasm] + ornithine[cytosol]  ->  L-arginine[cytosol] + ornithine[periplasm]
+Unreviewed G2R0Y-5803-MONOMER    L-arginine               SECONDARY 
+           arginine/ornithine antiporter arcd
+           L-arginine[periplasm] + ornithine[cytosol]  ->  L-arginine[cytosol] + ornithine[periplasm]
+Unreviewed G2R0Y-5782-MONOMER    L-arginine               UNKNOWN   
+           predicted arginine uptake transporter
+           L-arginine[periplasm]  <-->  L-arginine[cytosol]
+Unreviewed G2R0Y-5781-MONOMER    L-arginine               UNKNOWN   
+           predicted arginine uptake transporter
+           L-arginine[periplasm]  <-->  L-arginine[cytosol]
+Unreviewed G2R0Y-5778-MONOMER    4-amino-2-methyl-5-pyrimidinemethanol UNKNOWN   
+           predicted hydroxymethylpyrimidine transporter cytx
+           4-amino-2-methyl-5-pyrimidinemethanol[periplasm]  ->  4-amino-2-methyl-5-pyrimidinemethanol[cytosol]
+Unreviewed G2R0Y-5777-MONOMER    4-amino-2-methyl-5-pyrimidinemethanol UNKNOWN   
+           predicted hydroxymethylpyrimidine transporter cytx
+           4-amino-2-methyl-5-pyrimidinemethanol[periplasm]  ->  4-amino-2-methyl-5-pyrimidinemethanol[cytosol]
+Unreviewed G2R0Y-5546-MONOMER    glycine betaine          UNKNOWN   
+           glycine betaine transporter opud
+           glycine betaine[periplasm]  <-->  glycine betaine[cytosol]
+Unreviewed G2R0Y-5545-MONOMER    glycine betaine          UNKNOWN   
+           glycine betaine transporter opud
+           glycine betaine[periplasm]  <-->  glycine betaine[cytosol]
+Unreviewed G2R0Y-84-MONOMER    chloride                 CHANNEL   
+           chloride channel protein eric
+           chloride[periplasm]  ->  chloride[cytosol]
+Unreviewed G2R0Y-83-MONOMER    chloride                 CHANNEL   
+           chloride channel protein eric
+           chloride[periplasm]  ->  chloride[cytosol]
+Unreviewed G2R0Y-44-MONOMER 1  Mg2+                     UNKNOWN   
+           mg/co/ni transporter mgte, cbs domain-containing
+           Mg2+[periplasm]  <-->  Mg2+[cytosol]
+Unreviewed G2R0Y-44-MONOMER 2  Co2+                     UNKNOWN   
+           mg/co/ni transporter mgte, cbs domain-containing
+           Several possible reactions available for import
+Unreviewed G2R0Y-44-MONOMER 3  Ni2+                     UNKNOWN   
+           mg/co/ni transporter mgte, cbs domain-containing
+           Several possible reactions available for import
+Unreviewed G2R0Y-43-MONOMER 1  Mg2+                     UNKNOWN   
+           mg/co/ni transporter mgte, cbs domain-containing
+           Mg2+[periplasm]  <-->  Mg2+[cytosol]
+Unreviewed G2R0Y-43-MONOMER 2  Co2+                     UNKNOWN   
+           mg/co/ni transporter mgte, cbs domain-containing
+           Several possible reactions available for import
+Unreviewed G2R0Y-43-MONOMER 3  Ni2+                     UNKNOWN   
+           mg/co/ni transporter mgte, cbs domain-containing
+           Several possible reactions available for import
+Unreviewed G2R0Y-5418-MONOMER    acetate                  SECONDARY 
+           acetate permease actp (cation/acetate symporter)
+           acetate[periplasm]  <-->  acetate[cytosol]
+Unreviewed G2R0Y-5417-MONOMER    acetate                  SECONDARY 
+           acetate permease actp (cation/acetate symporter)
+           acetate[periplasm]  <-->  acetate[cytosol]
+Unreviewed G2R0Y-5392-MONOMER    (S)-lactate              SECONDARY 
+           l-lactate permease
+           (S)-lactate[periplasm] + H+[periplasm]  <-->  (S)-lactate[cytosol] + H+[cytosol]
+Unreviewed G2R0Y-5391-MONOMER    (S)-lactate              SECONDARY 
+           l-lactate permease
+           (S)-lactate[periplasm] + H+[periplasm]  <-->  (S)-lactate[cytosol] + H+[cytosol]
+Unreviewed G2R0Y-5324-MONOMER    sulfate                  SECONDARY 
+           putative sulfate permease
+           sulfate[periplasm] + H+[periplasm]  <-->  sulfate[cytosol] + H+[cytosol]
+Unreviewed G2R0Y-5323-MONOMER    sulfate                  SECONDARY 
+           putative sulfate permease
+           sulfate[periplasm] + H+[periplasm]  <-->  sulfate[cytosol] + H+[cytosol]
+Unreviewed G2R0Y-5322-MONOMER    choline                  UNKNOWN   
+           high-affinity choline uptake protein bett
+           choline[periplasm]  ->  choline[cytosol]
+Unreviewed G2R0Y-5321-MONOMER    choline                  UNKNOWN   
+           high-affinity choline uptake protein bett
+           choline[periplasm]  ->  choline[cytosol]
+Unreviewed G2R0Y-5304-MONOMER    L-lysine                 UNKNOWN   
+           lysine exporter lyso
+           L-lysine[cytosol]  ->  L-lysine[periplasm]
+Unreviewed G2R0Y-5303-MONOMER    L-lysine                 UNKNOWN   
+           lysine exporter lyso
+           L-lysine[cytosol]  ->  L-lysine[periplasm]
+Unreviewed G2R0Y-5240-MONOMER    sulfate                  SECONDARY 
+           sulfate permease
+           sulfate[periplasm] + H+[periplasm]  <-->  sulfate[cytosol] + H+[cytosol]
+Unreviewed G2R0Y-5239-MONOMER    sulfate                  SECONDARY 
+           sulfate permease
+           sulfate[periplasm] + H+[periplasm]  <-->  sulfate[cytosol] + H+[cytosol]
+Unreviewed G2R0Y-5232-MONOMER    fluoride                 UNKNOWN   
+           fluoride ion transporter crcb
+           fluoride[periplasm]  <-->  fluoride[cytosol]
+Unreviewed G2R0Y-5231-MONOMER    fluoride                 UNKNOWN   
+           fluoride ion transporter crcb
+           fluoride[periplasm]  <-->  fluoride[cytosol]
+Unreviewed G2R0Y-5230-MONOMER    fluoride                 UNKNOWN   
+           fluoride ion transporter crcb
+           fluoride[periplasm]  <-->  fluoride[cytosol]
+Unreviewed G2R0Y-5229-MONOMER    fluoride                 UNKNOWN   
+           fluoride ion transporter crcb
+           fluoride[periplasm]  <-->  fluoride[cytosol]
+
+
+Unreviewed G2R0Y-97-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-98-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-99-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-100-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-161-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-162-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-203-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-204-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-339-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-340-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-381-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-382-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-383-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-384-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-639-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-640-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-645-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-646-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-689-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-690-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-763-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-764-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-773-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-774-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-817-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-818-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-819-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-820-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-821-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-822-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-871-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-872-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-903-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-904-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-911-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-912-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-925-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-926-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-927-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-928-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-1049-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-1050-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-1051-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-1052-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-1071-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-1072-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-1073-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-1074-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-1129-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-1130-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-1191-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-1192-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-1321-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-1322-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-1323-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-1324-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-1345-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-1346-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-1397-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-1398-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-1401-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-1402-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-1403-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-1404-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-1511-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-1512-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-1531-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-1532-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-1545-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-1546-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-1555-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-1556-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-1627-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-1628-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-1637-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-1638-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-1747-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-1748-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-1783-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-1784-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-1865-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-1866-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-1935-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-1936-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-1939-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-1940-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-1959-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-1960-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-1961-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-1962-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-1991-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-1992-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-2061-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-2062-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-2063-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-2064-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-2065-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-2066-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-2083-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-2084-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-2105-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-2106-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-2109-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-2110-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-2137-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-2138-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-2141-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-2142-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-2153-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-2154-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-2265-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-2266-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-2273-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-2274-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-2329-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-2330-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-2399-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-2400-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-2401-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-2402-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-2403-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-2404-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-2543-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-2544-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-2601-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-2602-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-2603-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-2604-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-2605-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-2606-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-2771-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-2772-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-2777-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-2778-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-2853-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-2854-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-2881-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-2882-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-2933-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-2934-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-2985-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-2986-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-3147-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-3148-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-3263-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-3264-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-3287-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-3288-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-3289-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-3290-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-3355-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-3356-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-3431-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-3432-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-3433-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-3434-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-3435-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-3436-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-3437-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-3438-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-3521-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-3522-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-3523-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-3524-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-3543-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-3544-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-3595-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-3596-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-3625-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-3626-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-3707-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-3708-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-3783-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-3784-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-3833-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-3834-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-3939-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-3940-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-3941-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-3942-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-3983-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-3984-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-3985-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-3986-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-3987-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-3988-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-3999-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-4000-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-4001-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-4002-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-4003-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-4004-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-4093-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-4094-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-4113-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-4114-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-4147-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-4148-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-4161-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-4162-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-4259-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-4260-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-4295-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-4296-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-4309-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-4310-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-4327-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-4328-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-4405-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-4406-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-4407-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-4408-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-4411-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-4412-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-4623-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-4624-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-4625-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-4626-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-4627-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-4628-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-4655-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-4656-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-4657-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-4658-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-4659-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-4660-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-4673-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-4674-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-4681-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-4682-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-4685-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-4686-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-4715-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-4716-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-4777-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-4778-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-4805-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-4806-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-4963-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-4964-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-4977-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-4978-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-5037-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-5038-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-5059-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-5060-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-5069-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-5070-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-5139-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-5140-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-5233-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-5234-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-5247-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-5248-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-5309-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-5310-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-5341-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-5342-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-5345-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-5346-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-5347-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-5348-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-5349-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-5350-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-5351-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-5352-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-5415-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-5416-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-5459-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-5460-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-5535-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-5536-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-5537-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-5538-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-5569-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-5570-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-5595-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-5596-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-5597-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-5598-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-5599-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-5600-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-5651-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-5652-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-5677-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-5678-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-5707-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-5708-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-5735-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-5736-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-5747-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-5748-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-5751-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-5752-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-5805-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-5806-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-5813-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-5814-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-5815-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-5816-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-5821-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-5822-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-5871-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-5872-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-5947-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-5948-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-6003-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-6004-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-6005-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-6006-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-6021-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-6022-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-6023-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-6024-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-6067-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-6068-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-6083-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-6084-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-6129-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-6130-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-6163-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-6164-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-6177-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-6178-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-6185-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-6186-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-6237-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-6238-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-6241-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-6242-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-6277-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-6278-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-6279-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-6280-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-6281-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-6282-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-6285-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-6286-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-6333-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-6334-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-6335-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-6336-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-6337-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-6338-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-6413-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-6414-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-6415-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-6416-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-6417-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-6418-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-6453-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-6454-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-6455-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-6456-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-6499-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-6500-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-6501-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-6502-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-6511-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-6512-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-6513-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-6514-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-6549-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-6550-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-6553-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-6554-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-6567-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-6568-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-6625-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-6626-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-6657-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-6658-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-6687-MONOMER  (no substrate identified)
+Unreviewed G2R0Y-6688-MONOMER  (no substrate identified)
